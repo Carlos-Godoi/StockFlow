@@ -15,7 +15,7 @@ import reportRoutes from './routes/report.routes';
 connectDB();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware: Permitem que o Express receba JSON e dados de formulário
 app.use(express.json());

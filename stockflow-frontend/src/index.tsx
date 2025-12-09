@@ -3,7 +3,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-// import { ChakraProvider } from '@chakra-ui/react'; // Import do Chakra
+
+
+// Import do Chakra
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
