@@ -4,6 +4,7 @@ import { AuthProvider } from './context/AuthContext';
 import LoginPage from './pages/Login';
 import DashboardPage from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
+import ProductsPage from './pages/ProductsPage';
 
 
 
@@ -26,10 +27,18 @@ const App: React.FC = () => {
             }
           />
 
+          {/* ROTA protegida: Produtos */}
+          <Route
+            path='/products'
+            element={
+              <ProtectedRoute>
+                <ProductsPage />
+              </ProtectedRoute>
+            }
+          />
+
           {/* Rota Padrão: Redireciona para o Dashboard (se logado) ou login */}
           <Route path='/' element={<Navigate to='/dashboard' replace />} />
-
-          {/* Adicione outras rotas aqui: /products, /sales, etc. */}
 
 
         </Routes>
