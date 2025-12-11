@@ -1,14 +1,18 @@
-import { IUser } from '../models/User';
+// Importa o namespace express
+import { Request } from 'express';
 
+// Define a estrutura que queremos adicionar ao Request
+interface UserPayload {
+    id: string;
+    role: 'admin' | 'seller' | 'stocker';
+}
+
+// Estende a interface Request do Express
 declare global {
-    // Define o módulo express
     namespace Express {
-        // Estender a interface Request
-        export interface Request {
-            user?: {
-                id: string;
-                role: 'admin' | 'seller' | 'stocker';
-            };
+        interface Request {
+            // Adiciona a propriedade 'user' opcionalmente ao objeto de Requisição
+            user?: UserPayload; 
         }
     }
 }

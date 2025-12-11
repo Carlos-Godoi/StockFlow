@@ -10,16 +10,41 @@ import supplierRoutes from './routes/supplier.routes';
 import productRoutes from './routes/product.routes';
 import saleRoutes from './routes/sale.routes';
 import reportRoutes from './routes/report.routes';
+import cors from 'cors';
 
 // Conecta ao MongoDB
 connectDB();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware: Permitem que o Express receba JSON e dados de formulário
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Configuração CORS (aplicada a todas as rotas)
+const allowedOrigins = [
+    // CORREÇÃO: Usando HTTP, que é o padrão para localhost
+    'http://localhost:3000', 
+    // Se for implantado em produção, adicione a URL HTTPS aqui!
+    // 'https://sua-url-de-producao.com'
+];
+
+const corsOptions: cors.CorsOptions = { // <--- MELHORIA TS: Tipagem explícita para o objeto corsOptions
+    origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void) => {
+        // Permitir requisições sem 'origin' (Postman, mobile, etc.)
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Origem não permitida pela política CORS'), false);
+        }
+    },
+    // CORREÇÃO TIPOGRÁFICA: 'methods' em minúsculo
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'], 
+    // CORREÇÃO TIPOGRÁFICA: 'credentials'
+    credentials: true, 
+};
+
+app.use(cors(corsOptions));
 
 // Rotas para Teste Simples
 app.get('/', (req: Request, res: Response) => {
@@ -44,7 +69,8 @@ app.use('/api/sales', saleRoutes);
 // Rotas de Relatórios
 app.use('/api/reports', reportRoutes);
 
+
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
-

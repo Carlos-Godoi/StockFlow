@@ -1,13 +1,9 @@
 // seedAdmin.js
 import User from './src/models/User';
-const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
-
-// ⚠️ Mude o caminho abaixo para o seu arquivo de modelo de usuário!
-// const User = require('./src/models/User'); 
-
-// ⚠️ Se você usa o dotenv para variáveis de ambiente, garanta que ele está configurado
-// require('dotenv').config(); 
+import mongoose from 'mongoose';
+import bcrypt from 'bcryptjs';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const seedAdminUser = async () => {
   const ADMIN_EMAIL = 'admin@stockflow.com';

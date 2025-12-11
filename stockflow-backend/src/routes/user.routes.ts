@@ -1,7 +1,9 @@
 import { Router, Request, Response } from 'express';
-import { protect } from '../middlewares/auth.middleware';
+// Assumimos que a tipagem do usuário é anexada em 'protect'
+import { protect } from '../middlewares/auth.middleware'; 
 import { authorize } from '../middlewares/role.middleware';
-import User from '../models/User';
+// Certifique-se de que este modelo está tipado (ver Problema A)
+import User from '../models/User'; 
 
 const router = Router();
 
@@ -21,7 +23,12 @@ router.get(
             const users = await User.find({}).select('-password');
             res.json(users);
         } catch (error) {
-            return res.status(500).json({ message: 'Erro do servidor ao buscar usuários.' });
+            // Melhoria: Logar o erro antes de responder 500
+            console.error('Erro ao buscar usuários:', error); 
+            // Você pode enviar uma mensagem mais detalhada se o erro for do Mongoose (opcional)
+            return res.status(500).json({ 
+                message: 'Erro do servidor ao buscar usuários.' 
+            });
         }
     }
 );
