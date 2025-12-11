@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../api/api';
 import { Box, Heading, Button, Spinner, Text, Table, Thead, Tbody, Tr, Th, Td, TableContainer, Flex, useToast, IconButton } from '@chakra-ui/react';
 import { EditIcon, DeleteIcon, AddIcon } from '@chakra-ui/icons';
 import { AxiosError } from 'axios';
+import ProductModal from '../components/ProductModal';
 
 // Tipagem backend
 interface ISupplier {
@@ -29,7 +31,11 @@ const ProductsPage: React.FC = () => {
     const [loading, setLoading] = useState(true);
     const toast = useToast();
 
-    const fetchProducts = useCallback (async () => {
+    // Estados para o Modal
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [editingProduct, setEditingProduct] = useState<IProduct | null>(null);
+
+    const fetchProducts = useCallback(async () => {
         try {
             const response = await api.get('products');
             setProducts(response.data);
@@ -82,6 +88,27 @@ const ProductsPage: React.FC = () => {
         }
     };
 
+    // Funções para abrir/fechar Modal
+    const handleOpenCreate = () => {
+        setEditingProduct(null); // Modo criação
+        setIsModalOpen(true);
+    };
+
+    const handleOpenEdit = (product: IProduct) => {
+        // Garantir que o Supplier ID (string) está no objeto, manipulamos
+        const initialDataWithId = {
+            ...product,
+            supplier: product.supplier._id // Passa o ID, não o objeto inteiro, para o formulário    
+        };
+        setEditingProduct(initialDataWithId as any);
+        setIsModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+        setEditingProduct(null);
+    };
+
     if (loading) {
         return <Flex justify='center' align='center' h='50vh'><Spinner size='xl' /></Flex>;
     }
@@ -99,7 +126,7 @@ const ProductsPage: React.FC = () => {
                     <Button
                         leftIcon={<AddIcon />}
                         colorScheme='blue'
-                    // onClick={() => {setModalOpen(true); setEditingProduct(null); }} // Lógica de Modal
+                        onClick={handleOpenCreate}
                     >
                         Novo Produto
                     </Button>
@@ -139,7 +166,7 @@ const ProductsPage: React.FC = () => {
                                                 size='sm'
                                                 mr={2}
                                                 colorScheme='yellow'
-                                            // onClick={() => { setEditingProduct(product); setModalOpen(true); }} // Lógica de Modal
+                                                onClick={() => handleOpenEdit(product)}
                                             />
                                         )}
                                         {canDelete && (
@@ -157,11 +184,16 @@ const ProductsPage: React.FC = () => {
                         </Tbody>
                     </Table>
                 </TableContainer>
+
             )}
 
-            {/* Aqui seria o componente Modal (Create/Update)
-            <ProductModal isOpen={modalOpen} onClose={() => setModalOpen(false)} ... />
-            */}
+            {/* Componente Modal de Criação/Edição */}
+            <ProductModal
+                isOpen={isModalOpen}
+                onClose={handleCloseModal}
+                initialData={editingProduct}    // Passa o produto para edição ou null para criação
+                onSuccess={fetchProducts}       // Recarrega a lista após o sucesso
+            />
         </Box>
     );
 };
