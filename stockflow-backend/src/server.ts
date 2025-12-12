@@ -23,13 +23,18 @@ app.use(express.urlencoded({ extended: true }));
 
 // Configuração CORS (aplicada a todas as rotas)
 const allowedOrigins = [
-    // CORREÇÃO: Usando HTTP, que é o padrão para localhost
+
+    // URL do FRONTEND (VITE)
+    'http://localhost:4000',
+
+    // URL do BACKEND
     'http://localhost:3000', 
+
     // Se for implantado em produção, adicione a URL HTTPS aqui!
     // 'https://sua-url-de-producao.com'
 ];
 
-const corsOptions: cors.CorsOptions = { // <--- MELHORIA TS: Tipagem explícita para o objeto corsOptions
+const corsOptions: cors.CorsOptions = { 
     origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void) => {
         // Permitir requisições sem 'origin' (Postman, mobile, etc.)
         if (!origin || allowedOrigins.includes(origin)) {
@@ -70,7 +75,7 @@ app.use('/api/sales', saleRoutes);
 app.use('/api/reports', reportRoutes);
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });

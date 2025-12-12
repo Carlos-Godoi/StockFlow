@@ -1,14 +1,23 @@
 export type UserRole = 'admin' | 'seller' | 'stocker';
 
+
 /**
  * Dados do usuário armazenados no estado (State)
  */
 export interface AuthUser {
-    _id: string;
+    id: string;
     name: string;
     email: string;
     role: UserRole;
     token: string;
+}
+
+/**
+ * Dados de entrada para o login
+ */
+export interface UserCredentials {
+    email: string;
+    password: string;
 }
 
 /**
@@ -18,10 +27,9 @@ export interface AuthContextType {
     user: AuthUser | null;
     isAuthenticated: boolean;
     isLoading: boolean;
-    login: (Credentials: any) => Promise<boolean>;
+    login: (credentials: UserCredentials) => Promise<boolean>;
     logout: () => void;
     // Função auxiliar para verificar permissão (RBAC no Frontend)
     hasRole: (roles: UserRole[]) => boolean;
-
 }
 

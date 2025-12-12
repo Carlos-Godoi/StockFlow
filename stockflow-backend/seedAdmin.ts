@@ -1,47 +1,44 @@
-// seedAdmin.js
-import User from './src/models/User';
+// seedAdmin.ts
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
-import * as dotenv from 'dotenv';
+import dotenv from 'dotenv';
+import User from './src/models/User'; // ⚠️ usar .js mesmo em TS com ts-node
+
 dotenv.config();
 
 const seedAdminUser = async () => {
   const ADMIN_EMAIL = 'admin@stockflow.com';
-  const ADMIN_PASSWORD = '123456'; 
-  const SALT_ROUNDS = 10; // Fator de segurança para criptografia
+  const ADMIN_PASSWORD = '123456';
+  const SALT_ROUNDS = 10;
 
   try {
-    // 1. Conexão com o MongoDB
+    // 1️⃣ Conectar ao MongoDB
     const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/StockFlowDB';
     await mongoose.connect(mongoURI);
     console.log('✅ Conectado ao MongoDB.');
 
-    // 2. Checar se o Admin já existe
-    const existingAdmin = await User.findOne({ email: 'admin@stockflow.com' });
+    // 2️⃣ Deletar admin antigo, se existir
+    await User.findOneAndDelete({ email: ADMIN_EMAIL });
+    console.log(`🗑️ Admin antigo deletado (se existia).`);
 
-    if (existingAdmin) {
-      console.log(`⚠️ Usuário Admin (${ADMIN_EMAIL}) já existe. Pulando a criação.`);
-      return;
-    }
-
-    // 3. Criptografar a Senha
+    // 3️⃣ Criar hash da senha
     const hashedPassword = await bcrypt.hash(ADMIN_PASSWORD, SALT_ROUNDS);
-    
-    // 4. Criar e Salvar o novo Usuário Admin
+
+    // 4️⃣ Criar novo usuário admin
     const newAdminUser = new User({
       name: 'Super Admin',
       email: ADMIN_EMAIL,
       password: hashedPassword,
-      role: 'admin', // 🔑 Este é o campo crucial para permissão
+      role: 'admin',
     });
 
     await newAdminUser.save();
     console.log('✨ Usuário Admin criado com sucesso!');
+    console.log('Hash (BD):', hashedPassword);
 
   } catch (error) {
-    console.error('❌ Erro durante o processo de seed:', error);
+    console.error('❌ Erro durante o seed:', error);
   } finally {
-    // 5. Fechar a Conexão
     await mongoose.disconnect();
     console.log('🔌 Conexão com MongoDB fechada.');
   }
