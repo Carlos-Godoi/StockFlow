@@ -18,29 +18,35 @@ const generateToken = (id: string, role: string): string => {
  * @access  Public
  */
 export const registerUser = async (req: Request, res: Response) => {
-    const { name, email, password, role } = req.body;
+    // Pegue apenas os dados que o usuário pode inserir
+    const { name, email, password } = req.body; 
 
-    if (!name || !email || !password || !role ) {
-        return res.status(400).json({ message: 'Todos os campos são obrigatórios.' });
+    // O campo 'role' não é desestruturado do req.body para garantir que
+    // o usuário não possa se auto-atribuir uma role privilegiada.
+
+    if (!name || !email || !password) {
+        // Removido '|| !role' da validação, pois a role será definida internamente.
+        return res.status(400).json({ message: 'Nome, E-mail e Senha são obrigatórios.' });
     }
+    
     try {
-        // 1. Verificar se o usuário já está cadastrado
+        // ... (1. Verificar se o usuário já está cadastrado - Código mantido)
         const userExists = await User.findOne({ email });
-
         if (userExists) {
             return res.status(400).json({ message: 'E-mail já registrado em nosso sistema.' });
         }
 
-        // 2. Criar novo usuário (Senha hasheada pelo middleware)
+        // 2. Criar novo usuário
         const user = await User.create({
             name,
             email,
             password,
-            // Apenas admin pode definir role.
-            role: role ? role : 'seller',
+            // 🔒 SEGURANÇA: A role é definida como 'seller' (ou 'user') por padrão, 
+            // IGNORE qualquer 'role' que tenha vindo no req.body.
+            role: 'seller', 
         });
 
-        // 3. Responde com sucesso e token
+        // 3. Responde com sucesso e token (Código mantido)
         res.status(201).json({
             _id: user._id,
             name: user.name,
@@ -48,7 +54,9 @@ export const registerUser = async (req: Request, res: Response) => {
             role: user.role,
             token: generateToken(user._id.toString(), user.role),
         });
+        
     } catch (error) {
+        // ... (catch block mantido)
         return res.status(500).json({ message: 'Erro ao registrar usuário.', error });
     }
 };

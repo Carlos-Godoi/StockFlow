@@ -10,6 +10,7 @@ const api = axios.create({
     },
 });
 
+
 /**
  * Interceptor para adicionar o token de autenticação JWT a todas as requisições
  */
