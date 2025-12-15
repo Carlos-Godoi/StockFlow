@@ -5,6 +5,7 @@ import LoginPage from './pages/Login';
 import DashboardPage from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 import ProductsPage from './pages/ProductsPage';
+import SalesPage from './pages/SalesPage';
 
 
 
@@ -14,6 +15,7 @@ const App: React.FC = () => {
     <AuthProvider>
       <Router>
         <Routes>
+
           {/* Rota de Login (Pública) */}
           <Route path='/login' element={<LoginPage />} />
 
@@ -33,6 +35,16 @@ const App: React.FC = () => {
             element={
               <ProtectedRoute>
                 <ProductsPage />
+              </ProtectedRoute>
+            }
+          />
+
+          {/* NOVA ROTA PROTEGIDA: Vendas */}
+          <Route
+            path='/sales'
+            element={
+              <ProtectedRoute>
+                <SalesPage />
               </ProtectedRoute>
             }
           />
