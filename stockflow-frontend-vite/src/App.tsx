@@ -6,6 +6,8 @@ import DashboardPage from './pages/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 import ProductsPage from './pages/ProductsPage';
 import SalesPage from './pages/SalesPage';
+import SuppliersPage from './pages/SuppliersPage';
+import ReportsPage from './pages/ReportsPage';
 
 
 
@@ -19,7 +21,7 @@ const App: React.FC = () => {
           {/* Rota de Login (Pública) */}
           <Route path='/login' element={<LoginPage />} />
 
-          {/* Rota protegida: Apenas acessível se logado */}
+          {/* Rotas Protegidas (Agora envolvidas pelo ProtectedRoute/Sidebar) */}
           <Route
             path='/dashboard'
             element={
@@ -40,11 +42,25 @@ const App: React.FC = () => {
           />
 
           {/* NOVA ROTA PROTEGIDA: Vendas */}
-          <Route
-            path='/sales'
+          <Route path='/sales'
             element={
               <ProtectedRoute>
                 <SalesPage />
+              </ProtectedRoute>
+            }
+          />
+
+          <Route path="/suppliers"
+            element={
+              <ProtectedRoute>
+                <SuppliersPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route path="/reports"
+            element={
+              <ProtectedRoute>
+                <ReportsPage />
               </ProtectedRoute>
             }
           />

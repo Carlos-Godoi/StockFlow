@@ -22,9 +22,9 @@ import {
     Tbody
 } from '@chakra-ui/react';
 import { AddIcon } from '@chakra-ui/icons';
-import { UserRole } from '../types/auth';
 import { AxiosError } from 'axios';
 import { ModalFooter } from 'flowbite-react';
+import SaleCreationModal from '../components/SaleCreationModal';
 
 
 
