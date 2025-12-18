@@ -12,6 +12,7 @@ import saleRoutes from './routes/sale.routes';
 import reportRoutes from './routes/report.routes';
 import cors from 'cors';
 
+
 // Conecta ao MongoDB
 connectDB();
 

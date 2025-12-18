@@ -1,17 +1,142 @@
-import React from 'react';
-import { Box, Heading, Text, Tag } from '@chakra-ui/react';
+import React, { useState, useEffect, useCallback } from 'react';
+import api from '../api/api';
+import {
+    Box,
+    Heading,
+    Table,
+    Thead,
+    Tbody,
+    Tr,
+    Th,
+    Td, Button,
+    useToast,
+    IconButton,
+    Flex,
+    AlertIcon
+} from '@chakra-ui/react';
+import { DeleteIcon, EditIcon, AddIcon } from '@chakra-ui/icons';
 import { useAuth } from '../context/AuthContext';
+import { AxiosError } from 'axios';
+import { Alert, Spinner } from 'flowbite-react';
+
+interface Supplier {
+    _id: string;
+    name: string;
+    email: string;
+    phone: string;
+}
 
 const SuppliersPage: React.FC = () => {
-    const { user } = useAuth();
+    const [suppliers, setSuppliers] = useState<Supplier[]>([]);
+    const [loading, setLoading] = useState(true);
+    const { hasRole } = useAuth();
+    const toast = useToast();
+
+
+    const fetchSuppliers = useCallback(async () => {
+        try {
+            const response = await api.get('/suppliers');
+            setSuppliers(response.data);
+        } catch (error: unknown) {
+            if (error instanceof AxiosError) {
+                toast({
+                    title: 'Erro ao carregar fornecedores',
+                    status: 'error',
+                    duration: 3000,
+                    isClosable: true,
+                });
+            }
+        } finally {
+            setLoading(false);
+        }
+    }, [toast]);
+
+    useEffect(() => {
+        fetchSuppliers();
+    }, [fetchSuppliers]);
+
+    if (!hasRole(['admin']) && !hasRole(['stocker'])) {
+        return (
+            <Box p={8}>
+                <Alert>
+                    <AlertIcon />
+                    Acesso negado. Você não tem permissão para visualizar fornecedores.
+                </Alert>
+            </Box>
+        );
+    }
+
+    if (loading) {
+        return (
+            <Flex justify='center' align='center' height='100vh'>
+                <Spinner size='xl' /> {/* OU <p>Carregando...</p> */}
+            </Flex>
+        );
+    }
+
+    const handleDelete = async (id: string) => {
+        if (window.confirm('Remover este fornecedor?')) {
+            try {
+                await api.delete(`/suppliers/${id}`);
+                toast({
+                    title: 'Fornecedor removido!',
+                    status: 'success',
+                    duration: 2000,
+                    isClosable: true,
+                })
+                fetchSuppliers();
+            } catch (error) {
+                console.error('Erro ao remover fornecedor', error);
+                toast({
+                    title: 'Erro ao remover',
+                    status: 'error',
+                    duration: 2000,
+                    isClosable: true,
+                });
+            }
+        }
+    };
+
     return (
         <Box p={8}>
-            <Heading mb={4}>Gestão de Fornecedores</Heading>
-            <Text mb={4}>
-                Esta página será o CRUD completo de Fornecedores (apenas Admin pode criar/editar).
-            </Text>
-            <Tag colorScheme='yellow'>Em desenvolvimento</Tag>
-            <Text mt={4}>Seu papel atual: **{user?.role.toUpperCase()}**</Text>
+            <Heading mb={6}>Gestão de Fornecedores</Heading>
+
+            {hasRole(['admin']) && (
+                <Button leftIcon={<AddIcon />} colorScheme='blue' mb={4}>
+                    Novo Fornecedor
+                </Button>
+            )}
+
+            <Table variant='simple' bg='white' boxShadow='sm' borderRadius='lg'>
+                <Thead>
+                    <Tr>
+                        <Th>Nome</Th>
+                        <Th>E-mail</Th>
+                        <Th>Telefone</Th>
+                        {hasRole(['admin']) && <Th>Ações</Th>}
+                    </Tr>
+                </Thead>
+                <Tbody>
+                    {suppliers.map(s => (
+                        <Tr key={s._id}>
+                            <Td>{s.email}</Td>
+                            <Td>{s.phone}</Td>
+                            {hasRole(['admin']) && (
+                                <Td>
+                                    <IconButton aria-label='Edit' icon={<EditIcon />} mr={2} size='sm' />
+                                    <IconButton
+                                        aria-label='Delete'
+                                        icon={<DeleteIcon />}
+                                        colorScheme='red'
+                                        size='sm'
+                                        onClick={() => handleDelete(s._id)}
+                                    />
+                                </Td>
+                            )}
+                        </Tr>
+                    ))}
+                </Tbody>
+            </Table>
         </Box>
     );
 };

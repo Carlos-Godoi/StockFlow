@@ -1,8 +1,6 @@
 import { Router, Request, Response } from 'express';
-// Assumimos que a tipagem do usuário é anexada em 'protect'
 import { protect } from '../middlewares/auth.middleware'; 
 import { authorize } from '../middlewares/role.middleware';
-// Certifique-se de que este modelo está tipado (ver Problema A)
 import User from '../models/User'; 
 
 const router = Router();
