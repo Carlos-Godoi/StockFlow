@@ -1,0 +1,800 @@
+[{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d46"
+  },
+  "name": "TechCore Solutions",
+  "contact": "(11) 98888-0001",
+  "address": "Rua das Memórias, 100 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d47"
+  },
+  "name": "MicroChip Indústria",
+  "contact": "(21) 97777-1111",
+  "address": "Av. dos Processadores, 50 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d48"
+  },
+  "name": "GigaBoard Eletrônicos",
+  "contact": "(31) 3333-2222",
+  "address": "Distrito Industrial, 400 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d49"
+  },
+  "name": "PixelView Displays",
+  "contact": "(41) 3030-3030",
+  "address": "Rua dos Monitores, 15 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d4a"
+  },
+  "name": "NanoTech Systems",
+  "contact": "(51) 3222-4444",
+  "address": "Av. Inovação, 900 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d4b"
+  },
+  "name": "ArcticCool Coolers",
+  "contact": "(47) 3434-5555",
+  "address": "Rua do Gelo, 12 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d4c"
+  },
+  "name": "SpeedRAM Memories",
+  "contact": "(19) 3939-6666",
+  "address": "Parque Tecnológico, 33 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d4d"
+  },
+  "name": "HyperCase Gabinetes",
+  "contact": "(11) 2222-7777",
+  "address": "Rua Metalúrgica, 88 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d4e"
+  },
+  "name": "VoltSource Power",
+  "contact": "(21) 2525-8888",
+  "address": "Av. da Energia, 101 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d4f"
+  },
+  "name": "DataSafe Storage",
+  "contact": "(31) 3636-9999",
+  "address": "Rua dos Discos, 77 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d50"
+  },
+  "name": "NetLink Routers",
+  "contact": "(11) 4004-1010",
+  "address": "Av. das Antenas, 200 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d51"
+  },
+  "name": "OpticFiber Corp",
+  "contact": "(21) 3003-2020",
+  "address": "Rua da Luz, 5 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d52"
+  },
+  "name": "SiliconGate Semiconductors",
+  "contact": "(31) 3222-3030",
+  "address": "Vale do Silício Mineiro, 10 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d53"
+  },
+  "name": "MasterPrint Printers",
+  "contact": "(41) 3333-4040",
+  "address": "Rua do Papel, 88 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d54"
+  },
+  "name": "SoundWave Audio",
+  "contact": "(51) 3444-5050",
+  "address": "Av. Acústica, 12 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d55"
+  },
+  "name": "VisionGlow LED",
+  "contact": "(47) 3555-6060",
+  "address": "Rua dos Pixels, 44 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d56"
+  },
+  "name": "PowerUp Batteries",
+  "contact": "(19) 3666-7070",
+  "address": "Av. da Carga, 77 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d57"
+  },
+  "name": "KeyTouch Keyboards",
+  "contact": "(11) 3777-8080",
+  "address": "Rua das Teclas, 90 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d58"
+  },
+  "name": "LaserScan Peripherals",
+  "contact": "(21) 3888-9090",
+  "address": "Av. do Feixe, 22 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d59"
+  },
+  "name": "CloudNode Servers",
+  "contact": "(31) 3999-0000",
+  "address": "Estrada das Nuvens, 1000 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d5a"
+  },
+  "name": "LinkWay Switches",
+  "contact": "(11) 91111-2222",
+  "address": "Rua das Redes, 15 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d5b"
+  },
+  "name": "PrimeGrip Mice",
+  "contact": "(21) 92222-3333",
+  "address": "Av. do Clique, 40 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d5c"
+  },
+  "name": "BlueScreen Labs",
+  "contact": "(31) 93333-4444",
+  "address": "Rua do Bug, 404 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d5d"
+  },
+  "name": "AlphaCircuit Tech",
+  "contact": "(41) 94444-5555",
+  "address": "Parque da Eletrônica, 1 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d5e"
+  },
+  "name": "MegaSync Drives",
+  "contact": "(51) 95555-6666",
+  "address": "Av. da Velocidade, 80 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d5f"
+  },
+  "name": "TitanGPU Graphics",
+  "contact": "(47) 96666-7777",
+  "address": "Rua dos Frames, 60 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d60"
+  },
+  "name": "OmniBoard PCB",
+  "contact": "(19) 97777-8888",
+  "address": "Distrito do Cobre, 22 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d61"
+  },
+  "name": "DeltaThermal Solutions",
+  "contact": "(11) 98888-9999",
+  "address": "Av. do Calor, 33 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d62"
+  },
+  "name": "ZenithMonitor",
+  "contact": "(21) 99999-0000",
+  "address": "Rua da Nitidez, 12 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d63"
+  },
+  "name": "CoreX Inteligence",
+  "contact": "(31) 3000-1111",
+  "address": "Av. do Futuro, 1 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d64"
+  },
+  "name": "FlowControl Fans",
+  "contact": "(11) 3111-2222",
+  "address": "Rua da Ventilação, 8 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d65"
+  },
+  "name": "SolidState Tech",
+  "contact": "(21) 3222-3333",
+  "address": "Av. Flash, 99 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d66"
+  },
+  "name": "EtherFast Networks",
+  "contact": "(31) 3333-4444",
+  "address": "Rua do Cabo, 55 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d67"
+  },
+  "name": "LogicGate Designs",
+  "contact": "(41) 3444-5555",
+  "address": "Av. Boole, 10 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d68"
+  },
+  "name": "SmartChip BR",
+  "contact": "(51) 3555-6666",
+  "address": "Rua da Integração, 200 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d69"
+  },
+  "name": "UltraVision Cam",
+  "contact": "(47) 3666-7777",
+  "address": "Av. da Lente, 45 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d6a"
+  },
+  "name": "StreamLink Media",
+  "contact": "(19) 3777-8888",
+  "address": "Rua do Bit, 303 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d6b"
+  },
+  "name": "CopperWire Indústria",
+  "contact": "(11) 3888-9999",
+  "address": "Av. dos Condutores, 12 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d6c"
+  },
+  "name": "SafeData Backup",
+  "contact": "(21) 3999-0000",
+  "address": "Rua do Cofre, 7 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d6d"
+  },
+  "name": "GlobalServer Ltd",
+  "contact": "(31) 4000-1111",
+  "address": "Distrito do Cluster, 90 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d6e"
+  },
+  "name": "AeroCase Cooling",
+  "contact": "(11) 4111-2222",
+  "address": "Rua do Fluxo, 14 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d6f"
+  },
+  "name": "BinarySystems",
+  "contact": "(21) 4222-3333",
+  "address": "Av. Zero Um, 101 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d70"
+  },
+  "name": "VividPanel Co",
+  "contact": "(31) 4333-4444",
+  "address": "Rua das Cores, 22 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d71"
+  },
+  "name": "SecurePath Firewall",
+  "contact": "(41) 4444-5555",
+  "address": "Av. da Segurança, 50 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d72"
+  },
+  "name": "FastTrack SSD",
+  "contact": "(51) 4555-6666",
+  "address": "Rua do Acesso, 11 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d73"
+  },
+  "name": "IronShell Cases",
+  "contact": "(47) 4666-7777",
+  "address": "Av. da Proteção, 88 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d74"
+  },
+  "name": "WaveLength Antennas",
+  "contact": "(19) 4777-8888",
+  "address": "Rua da Frequência, 3 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d75"
+  },
+  "name": "CrystalClear Glass",
+  "contact": "(11) 4888-9999",
+  "address": "Rua do Vidro, 55 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d76"
+  },
+  "name": "MegaWatt PSU",
+  "contact": "(21) 4999-0000",
+  "address": "Av. da Potência, 400 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d77"
+  },
+  "name": "DuoCore processors",
+  "contact": "(31) 5000-1111",
+  "address": "Rua dos Núcleos, 12 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d78"
+  },
+  "name": "SoftTouch Pads",
+  "contact": "(11) 5111-2222",
+  "address": "Av. Sensível, 1 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d79"
+  },
+  "name": "NetGear Distribuidora",
+  "contact": "(21) 5222-3333",
+  "address": "Rua da Engrenagem, 77 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d7a"
+  },
+  "name": "PixelPerfect Labs",
+  "contact": "(31) 5333-4444",
+  "address": "Rua do Design, 10 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d7b"
+  },
+  "name": "HyperLink Cables",
+  "contact": "(41) 5444-5555",
+  "address": "Av. da Conexão, 999 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d7c"
+  },
+  "name": "SilentFan Tech",
+  "contact": "(51) 5555-6666",
+  "address": "Rua do Silêncio, 13 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d7d"
+  },
+  "name": "GigaStore Storage",
+  "contact": "(47) 5666-7777",
+  "address": "Av. do Terabyte, 2 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d7e"
+  },
+  "name": "MicroLogic BR",
+  "contact": "(19) 5777-8888",
+  "address": "Rua do Chip, 44 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d7f"
+  },
+  "name": "AlphaPower UPS",
+  "contact": "(11) 5888-9999",
+  "address": "Av. da Energia, 30 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d80"
+  },
+  "name": "StreamLine Peripherals",
+  "contact": "(21) 5999-0000",
+  "address": "Rua do Fluxo, 8 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d81"
+  },
+  "name": "VectorGraphics Cards",
+  "contact": "(31) 6000-1111",
+  "address": "Av. Vetorial, 500 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d82"
+  },
+  "name": "BlueRay Optical",
+  "contact": "(11) 6111-2222",
+  "address": "Rua do Disco, 22 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d83"
+  },
+  "name": "NextGen Hardware",
+  "contact": "(21) 6222-3333",
+  "address": "Av. da Evolução, 1 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d84"
+  },
+  "name": "DataFlow Networks",
+  "contact": "(31) 6333-4444",
+  "address": "Rua da Transmissão, 12 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d85"
+  },
+  "name": "CoolMaster Systems",
+  "contact": "(41) 6444-5555",
+  "address": "Av. Fria, 45 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d86"
+  },
+  "name": "TitanRAM",
+  "contact": "(51) 6555-6666",
+  "address": "Rua da Memória, 99 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d87"
+  },
+  "name": "SmartHome IoT",
+  "contact": "(47) 6666-7777",
+  "address": "Av. Conectada, 101 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d88"
+  },
+  "name": "PeakPerformance IT",
+  "contact": "(19) 6777-8888",
+  "address": "Rua do Ápice, 7 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d89"
+  },
+  "name": "SolidBase Racks",
+  "contact": "(11) 6888-9999",
+  "address": "Av. dos Servidores, 40 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d8a"
+  },
+  "name": "ClearTone Speakers",
+  "contact": "(21) 6999-0000",
+  "address": "Rua do Som, 33 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d8b"
+  },
+  "name": "NovaEletrônicos",
+  "contact": "(31) 7000-1111",
+  "address": "Av. das Estrelas, 90 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d8c"
+  },
+  "name": "RapidCharge Adapters",
+  "contact": "(11) 7111-2222",
+  "address": "Rua da Voltagem, 5 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d8d"
+  },
+  "name": "InfraRed Sensors",
+  "contact": "(21) 7222-3333",
+  "address": "Av. Invisível, 12 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d8e"
+  },
+  "name": "QuantumBits",
+  "contact": "(31) 7333-4444",
+  "address": "Rua Subatômica, 1 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d8f"
+  },
+  "name": "MatrixBoards",
+  "contact": "(41) 7444-5555",
+  "address": "Av. do Código, 101 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d90"
+  },
+  "name": "CloudNine Infra",
+  "contact": "(51) 7555-6666",
+  "address": "Rua do Céu, 9 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d91"
+  },
+  "name": "FlashPoint SSD",
+  "contact": "(47) 7666-7777",
+  "address": "Av. da Velocidade, 22 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d92"
+  },
+  "name": "GreenTech Energy",
+  "contact": "(19) 7777-8888",
+  "address": "Rua Sustentável, 10 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d93"
+  },
+  "name": "ProGamer Gear",
+  "contact": "(11) 7888-9999",
+  "address": "Av. do Play, 88 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d94"
+  },
+  "name": "SignalBoost",
+  "contact": "(21) 7999-0000",
+  "address": "Rua do Ganho, 4 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d95"
+  },
+  "name": "TotalStorage",
+  "contact": "(31) 8000-1111",
+  "address": "Av. do Dado, 555 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d96"
+  },
+  "name": "AuraRGB Lighting",
+  "contact": "(11) 8111-2222",
+  "address": "Rua das Cores, 12 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d97"
+  },
+  "name": "NanoCircuit",
+  "contact": "(21) 8222-3333",
+  "address": "Av. Microscópica, 7 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d98"
+  },
+  "name": "SkyNet Wireless",
+  "contact": "(31) 8333-4444",
+  "address": "Rua da Órbita, 10 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d99"
+  },
+  "name": "MegaHertz Peripherals",
+  "contact": "(41) 8444-5555",
+  "address": "Av. do Ciclo, 90 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d9a"
+  },
+  "name": "TrueColor Panels",
+  "contact": "(51) 8555-6666",
+  "address": "Rua do Brilho, 3 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d9b"
+  },
+  "name": "CoreValue Hardware",
+  "contact": "(47) 8666-7777",
+  "address": "Av. do Preço, 50 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d9c"
+  },
+  "name": "BaseLine Tech",
+  "contact": "(19) 8777-8888",
+  "address": "Rua Padrão, 1 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d9d"
+  },
+  "name": "InputMaster",
+  "contact": "(11) 8888-9999",
+  "address": "Av. da Entrada, 12 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d9e"
+  },
+  "name": "OutputLogic",
+  "contact": "(21) 8999-0000",
+  "address": "Rua da Saída, 15 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26d9f"
+  },
+  "name": "MaxCooler Ind",
+  "contact": "(31) 9000-1111",
+  "address": "Av. do Vento, 77 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da0"
+  },
+  "name": "CyberShell",
+  "contact": "(11) 9111-2222",
+  "address": "Rua da Fibra, 100 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da1"
+  },
+  "name": "DigitalOcean Gear",
+  "contact": "(21) 9222-3333",
+  "address": "Av. Atlântica, 500 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da2"
+  },
+  "name": "PixelArt Displays",
+  "contact": "(31) 9333-4444",
+  "address": "Rua do Desenho, 45 - MG"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da3"
+  },
+  "name": "TechSupport Spares",
+  "contact": "(41) 9444-5555",
+  "address": "Av. do Suporte, 12 - PR"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da4"
+  },
+  "name": "GigaWay",
+  "contact": "(51) 9555-6666",
+  "address": "Rua Larga, 90 - RS"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da5"
+  },
+  "name": "ByteSize Electronics",
+  "contact": "(47) 9666-7777",
+  "address": "Av. Pequena, 1 - SC"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da6"
+  },
+  "name": "CircuitBreaker",
+  "contact": "(19) 9777-8888",
+  "address": "Rua da Carga, 55 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da7"
+  },
+  "name": "PowerStation",
+  "contact": "(11) 9888-9999",
+  "address": "Av. Central, 10 - SP"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da8"
+  },
+  "name": "DataMining Equip",
+  "contact": "(21) 9999-0000",
+  "address": "Rua da Extração, 88 - RJ"
+},
+{
+  "_id": {
+    "$oid": "6944681d2f4a287183f26da9"
+  },
+  "name": "SiliconValley BR",
+  "contact": "(31) 3222-9999",
+  "address": "Av. da Inovação, 1000 - MG"
+}]
