@@ -27,4 +27,22 @@ api.interceptors.request.use((config) => {
     return Promise.reject(error);
 });
 
+
+/**
+ * Função auxiliar para fazer upload de imagem.
+ * Retorna a string com a URL da imagem salva no backend.
+ */
+export const uploadImageService = async (file: File): Promise<string> => {
+    const formData = new FormData();
+    formData.append('image', file);
+
+    const response = await api.post('/products/upload', formData, {
+        headers: {
+            'Content-Type': 'multipart/form-data',  //Sobrescreve o header padrão de JSON
+        }
+    });
+
+    return response.data.imageUrl;
+};
+
 export default api;

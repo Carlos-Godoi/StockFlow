@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../api/api';
-import { Box, Heading, Button, Spinner, Text, Table, Thead, Tbody, Tr, Th, Td, TableContainer, Flex, useToast, IconButton } from '@chakra-ui/react';
+import { Image, Box, Heading, Button, Spinner, Text, Table, Thead, Tbody, Tr, Th, Td, TableContainer, Flex, useToast, IconButton } from '@chakra-ui/react';
 import { EditIcon, DeleteIcon, AddIcon } from '@chakra-ui/icons';
 import { AxiosError } from 'axios';
 import ProductModal from '../components/ProductModal';
@@ -23,6 +23,7 @@ interface IProduct {
     stockQuantity: number;
     minimumStock: number;
     supplier: ISupplier; //Populado pelo backend
+    imageUrl?: string;
 }
 
 const ProductsPage: React.FC = () => {
@@ -34,6 +35,9 @@ const ProductsPage: React.FC = () => {
     // Estados para o Modal
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [editingProduct, setEditingProduct] = useState<IProduct | null>(null);
+
+    // URL base para imagens (idealmente viria de uma variável de ambiente)
+    const API_BASE_URL = 'http://localhost:3000';
 
     const fetchProducts = useCallback(async () => {
         try {
@@ -118,6 +122,8 @@ const ProductsPage: React.FC = () => {
     const canEdit = hasRole(['admin', 'stocker']);
     const canDelete = hasRole(['admin']);
 
+
+
     return (
         <Box p={8}>
             <Flex justify='space-between' align='center' mb={6}>
@@ -137,9 +143,10 @@ const ProductsPage: React.FC = () => {
                 <Text>Nenhum produto cadastrado.</Text>
             ) : (
                 <TableContainer borderWidth={1} borderRadius='lg'>
-                    <Table variant='simple'>
+                    <Table variant='simple' size='sm'> {/* size="sm" ajuda na visualização */}
                         <Thead>
                             <Tr bg='gray.50'>
+                                <Th>Img</Th>
                                 <Th>Nome</Th>
                                 <Th>Fornecedor</Th>
                                 <Th isNumeric>Preço Venda</Th>
@@ -151,6 +158,22 @@ const ProductsPage: React.FC = () => {
                         <Tbody>
                             {products.map((product) => (
                                 <Tr key={product._id}>
+                                    <Td>
+                                        {product.imageUrl ? (
+                                            <Image
+                                                src={`${API_BASE_URL}${product.imageUrl}`}
+                                                alt={product.name}
+                                                boxSize='50px'
+                                                objectFit='cover'
+                                                borderRadius='md'
+                                            />
+                                        ) : (
+                                            // Placeholder se não houver imagem
+                                            <Box boxSize='50px' bg='gray.100' borderRadius='md'></Box>
+                                        )}
+                                    </Td>
+
+                                    <Td fontWeight='medium'>{product.name}</Td>
                                     <Td fontWeight='medium'>{product.name}</Td>
                                     <Td>{product.supplier.name}</Td>
                                     <Td isNumeric>R$ {product.salePrice.toFixed(2)}</Td>

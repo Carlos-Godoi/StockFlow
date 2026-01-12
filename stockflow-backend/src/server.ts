@@ -11,6 +11,7 @@ import productRoutes from './routes/product.routes';
 import saleRoutes from './routes/sale.routes';
 import reportRoutes from './routes/report.routes';
 import cors from 'cors';
+import path from 'path';
 
 
 // Conecta ao MongoDB
@@ -57,6 +58,11 @@ app.get('/', (req: Request, res: Response) => {
     res.send('API StockFlow: Servidor Rodando!');
 });
 
+// Servir ficheiros estáticos
+// Pasta '/uploads' acessível publicamente na rota '/uploads'
+app.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')));
+
+
 // Rotas de autenticação
 app.use('/api/auth', authRoutes);
 
@@ -80,3 +86,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
+

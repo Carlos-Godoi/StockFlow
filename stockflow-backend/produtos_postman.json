@@ -1,0 +1,3502 @@
+[
+  {
+    "name": "Processador Intel Core i v1",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2701.53,
+    "salePrice": 3782.14,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v2",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 616.02,
+    "salePrice": 862.43,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Processador Intel Core i v3",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 813.49,
+    "salePrice": 1138.89,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v4",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 935.66,
+    "salePrice": 1309.92,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v5",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1740.66,
+    "salePrice": 2436.92,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Placa de Vídeo RTX v6",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6076.84,
+    "salePrice": 8507.58,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Placa de Vídeo RTX v7",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 2953.33,
+    "salePrice": 4134.66,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Memória RAM DDR5 v8",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 535.32,
+    "salePrice": 749.45,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Memória RAM DDR5 v9",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 760.77,
+    "salePrice": 1065.08,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v10",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 505.58,
+    "salePrice": 707.81,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v11",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 325.02,
+    "salePrice": 455.03,
+    "supplier": "6944681d2f4a287183f26d6a"
+  },
+  {
+    "name": "Placa de Vídeo RTX v12",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3416.06,
+    "salePrice": 4782.48,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Memória RAM DDR5 v13",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 918.88,
+    "salePrice": 1286.43,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Memória RAM DDR5 v14",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 823.93,
+    "salePrice": 1153.5,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Memória RAM DDR5 v15",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 525.03,
+    "salePrice": 735.04,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v16",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 731.18,
+    "salePrice": 1023.65,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v17",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2009.46,
+    "salePrice": 2813.24,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v18",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1128.97,
+    "salePrice": 1580.56,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v19",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1639.24,
+    "salePrice": 2294.94,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Placa de Vídeo RTX v20",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7840.85,
+    "salePrice": 10977.19,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v21",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1573.74,
+    "salePrice": 2203.24,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Processador Intel Core i v22",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2866.78,
+    "salePrice": 4013.49,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v23",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 359.13,
+    "salePrice": 502.78,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v24",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1932.1,
+    "salePrice": 2704.94,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v25",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 733.22,
+    "salePrice": 1026.51,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Processador Intel Core i v26",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2608.2,
+    "salePrice": 3651.48,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Placa de Vídeo RTX v27",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4971.07,
+    "salePrice": 6959.5,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v28",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1267.22,
+    "salePrice": 1774.11,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v29",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1241.49,
+    "salePrice": 1738.09,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "Processador Intel Core i v30",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1637.89,
+    "salePrice": 2293.05,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v31",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 782.63,
+    "salePrice": 1095.68,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Processador Intel Core i v32",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3605.52,
+    "salePrice": 5047.73,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Processador Intel Core i v33",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3243.28,
+    "salePrice": 4540.59,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Memória RAM DDR5 v34",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 691.37,
+    "salePrice": 967.92,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Placa de Vídeo RTX v35",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3792.53,
+    "salePrice": 5309.54,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v36",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 355.66,
+    "salePrice": 497.92,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Processador Intel Core i v37",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2966.66,
+    "salePrice": 4153.32,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Placa de Vídeo RTX v38",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5023.44,
+    "salePrice": 7032.82,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Memória RAM DDR5 v39",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 484.51,
+    "salePrice": 678.31,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Memória RAM DDR5 v40",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1065.7,
+    "salePrice": 1491.98,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Memória RAM DDR5 v41",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 803.06,
+    "salePrice": 1124.28,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v42",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1176.83,
+    "salePrice": 1647.56,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Placa de Vídeo RTX v43",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7063.77,
+    "salePrice": 9889.28,
+    "supplier": "6944681d2f4a287183f26d6a"
+  },
+  {
+    "name": "Memória RAM DDR5 v44",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 608.51,
+    "salePrice": 851.91,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v45",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1920.17,
+    "salePrice": 2688.24,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v46",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 470.18,
+    "salePrice": 658.25,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v47",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7419.12,
+    "salePrice": 10386.77,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v48",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 969.98,
+    "salePrice": 1357.97,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Placa de Vídeo RTX v49",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3525.95,
+    "salePrice": 4936.33,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v50",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 466.61,
+    "salePrice": 653.25,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Memória RAM DDR5 v51",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 739.78,
+    "salePrice": 1035.69,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "Processador Intel Core i v52",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3596.12,
+    "salePrice": 5034.57,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Memória RAM DDR5 v53",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 425.04,
+    "salePrice": 595.06,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Memória RAM DDR5 v54",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 367.47,
+    "salePrice": 514.46,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Memória RAM DDR5 v55",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1068.77,
+    "salePrice": 1496.28,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v56",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1890.76,
+    "salePrice": 2647.06,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Processador Intel Core i v57",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2304.09,
+    "salePrice": 3225.73,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Processador Intel Core i v58",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1539.94,
+    "salePrice": 2155.92,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Processador Intel Core i v59",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1832.44,
+    "salePrice": 2565.42,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v60",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7980.17,
+    "salePrice": 11172.24,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Processador Intel Core i v61",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3814.53,
+    "salePrice": 5340.34,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Memória RAM DDR5 v62",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 649.51,
+    "salePrice": 909.31,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Memória RAM DDR5 v63",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 456.97,
+    "salePrice": 639.76,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Memória RAM DDR5 v64",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 633.92,
+    "salePrice": 887.49,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v65",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 643.92,
+    "salePrice": 901.49,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "Processador Intel Core i v66",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1218.88,
+    "salePrice": 1706.43,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Processador Intel Core i v67",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1220.02,
+    "salePrice": 1708.03,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v68",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1035.08,
+    "salePrice": 1449.11,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v69",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 803.53,
+    "salePrice": 1124.94,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Memória RAM DDR5 v70",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 419.34,
+    "salePrice": 587.08,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v71",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 593.71,
+    "salePrice": 831.19,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Memória RAM DDR5 v72",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1066.43,
+    "salePrice": 1493,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Processador Intel Core i v73",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1117.93,
+    "salePrice": 1565.1,
+    "supplier": "6944681d2f4a287183f26d6a"
+  },
+  {
+    "name": "Processador Intel Core i v74",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1216.53,
+    "salePrice": 1703.14,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v75",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 920.98,
+    "salePrice": 1289.37,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Processador Intel Core i v76",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3888.54,
+    "salePrice": 5443.96,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v77",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2076.93,
+    "salePrice": 2907.7,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v78",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 936.58,
+    "salePrice": 1311.21,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Processador Intel Core i v79",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2844.13,
+    "salePrice": 3981.78,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Memória RAM DDR5 v80",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 801.5,
+    "salePrice": 1122.1,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Memória RAM DDR5 v81",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 656.29,
+    "salePrice": 918.81,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v82",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3323.09,
+    "salePrice": 4652.33,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Placa de Vídeo RTX v83",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4086.2,
+    "salePrice": 5720.68,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Memória RAM DDR5 v84",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 452.23,
+    "salePrice": 633.12,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v85",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1815.42,
+    "salePrice": 2541.59,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Processador Intel Core i v86",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3122.75,
+    "salePrice": 4371.85,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Memória RAM DDR5 v87",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 565.37,
+    "salePrice": 791.52,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v88",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6903.81,
+    "salePrice": 9665.33,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Placa de Vídeo RTX v89",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4316.91,
+    "salePrice": 6043.67,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v90",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 515.88,
+    "salePrice": 722.23,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Placa de Vídeo RTX v91",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3714.06,
+    "salePrice": 5199.68,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v92",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2077.76,
+    "salePrice": 2908.86,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Processador Intel Core i v93",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1049.18,
+    "salePrice": 1468.85,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v94",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 858.42,
+    "salePrice": 1201.79,
+    "supplier": "6944681d2f4a287183f26d6a"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v95",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1999.16,
+    "salePrice": 2798.82,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v96",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 832.1,
+    "salePrice": 1164.94,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v97",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1971.71,
+    "salePrice": 2760.39,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Placa de Vídeo RTX v98",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7236.7,
+    "salePrice": 10131.38,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Memória RAM DDR5 v99",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 997.72,
+    "salePrice": 1396.81,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v100",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 878.38,
+    "salePrice": 1229.73,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "Memória RAM DDR5 v101",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 514.56,
+    "salePrice": 720.38,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "Memória RAM DDR5 v102",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1076.74,
+    "salePrice": 1507.44,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v103",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 551.21,
+    "salePrice": 771.69,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Processador Intel Core i v104",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2725.15,
+    "salePrice": 3815.21,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v105",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 710.81,
+    "salePrice": 995.13,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Processador Intel Core i v106",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2962.49,
+    "salePrice": 4147.49,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Memória RAM DDR5 v107",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 971.4,
+    "salePrice": 1359.96,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Processador Intel Core i v108",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2135.46,
+    "salePrice": 2989.64,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v109",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1188.09,
+    "salePrice": 1663.33,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v110",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1999.44,
+    "salePrice": 2799.22,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Memória RAM DDR5 v111",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 878.02,
+    "salePrice": 1229.23,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Processador Intel Core i v112",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3413.8,
+    "salePrice": 4779.32,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Memória RAM DDR5 v113",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 657.96,
+    "salePrice": 921.14,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Memória RAM DDR5 v114",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 467.85,
+    "salePrice": 654.99,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Processador Intel Core i v115",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2947.23,
+    "salePrice": 4126.12,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Placa de Vídeo RTX v116",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7414.83,
+    "salePrice": 10380.76,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "Placa de Vídeo RTX v117",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7508.52,
+    "salePrice": 10511.93,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v118",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 897.3,
+    "salePrice": 1256.22,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Memória RAM DDR5 v119",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1016.63,
+    "salePrice": 1423.28,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Placa de Vídeo RTX v120",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3931.72,
+    "salePrice": 5504.41,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Processador Intel Core i v121",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1242.86,
+    "salePrice": 1740,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Processador Intel Core i v122",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3673.03,
+    "salePrice": 5142.24,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "Placa de Vídeo RTX v123",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7328.44,
+    "salePrice": 10259.82,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Processador Intel Core i v124",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2063.32,
+    "salePrice": 2888.65,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v125",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 761.23,
+    "salePrice": 1065.72,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Processador Intel Core i v126",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2429.45,
+    "salePrice": 3401.23,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v127",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 483.44,
+    "salePrice": 676.82,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Memória RAM DDR5 v128",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 968.26,
+    "salePrice": 1355.56,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "Processador Intel Core i v129",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2436.7,
+    "salePrice": 3411.38,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v130",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 863.91,
+    "salePrice": 1209.47,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Placa de Vídeo RTX v131",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5720.22,
+    "salePrice": 8008.31,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Processador Intel Core i v132",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 943.99,
+    "salePrice": 1321.59,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v133",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1202.24,
+    "salePrice": 1683.14,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v134",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 476.78,
+    "salePrice": 667.49,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v135",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 877.24,
+    "salePrice": 1228.14,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v136",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 865.74,
+    "salePrice": 1212.04,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v137",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2161.41,
+    "salePrice": 3025.97,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Memória RAM DDR5 v138",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 768.21,
+    "salePrice": 1075.49,
+    "supplier": "6944681d2f4a287183f26d66"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v139",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 626.77,
+    "salePrice": 877.48,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v140",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2089.48,
+    "salePrice": 2925.27,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v141",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1657.04,
+    "salePrice": 2319.86,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Processador Intel Core i v142",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2583.81,
+    "salePrice": 3617.33,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v143",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 647.5,
+    "salePrice": 906.5,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v144",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1126.9,
+    "salePrice": 1577.66,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Placa de Vídeo RTX v145",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5146.88,
+    "salePrice": 7205.63,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v146",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 982.58,
+    "salePrice": 1375.61,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v147",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 616.31,
+    "salePrice": 862.83,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Processador Intel Core i v148",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3528.71,
+    "salePrice": 4940.19,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Processador Intel Core i v149",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3257.26,
+    "salePrice": 4560.16,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Placa de Vídeo RTX v150",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6717.13,
+    "salePrice": 9403.98,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v151",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 870.02,
+    "salePrice": 1218.03,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v152",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3528,
+    "salePrice": 4939.2,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v153",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5926.18,
+    "salePrice": 8296.65,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Memória RAM DDR5 v154",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 364.12,
+    "salePrice": 509.77,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v155",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1458.17,
+    "salePrice": 2041.44,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Placa de Vídeo RTX v156",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7309.65,
+    "salePrice": 10233.51,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Processador Intel Core i v157",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1530.33,
+    "salePrice": 2142.46,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "Memória RAM DDR5 v158",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 490.39,
+    "salePrice": 686.55,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "Processador Intel Core i v159",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1774.78,
+    "salePrice": 2484.69,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v160",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1254.21,
+    "salePrice": 1755.89,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Memória RAM DDR5 v161",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 718.79,
+    "salePrice": 1006.31,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Placa de Vídeo RTX v162",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3383.95,
+    "salePrice": 4737.53,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "Placa de Vídeo RTX v163",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7801.41,
+    "salePrice": 10921.97,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v164",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2124.78,
+    "salePrice": 2974.69,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Placa de Vídeo RTX v165",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3186.9,
+    "salePrice": 4461.66,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v166",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 612.85,
+    "salePrice": 857.99,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v167",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 311.85,
+    "salePrice": 436.59,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v168",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 441.74,
+    "salePrice": 618.44,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v169",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 312.77,
+    "salePrice": 437.88,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v170",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 2525.8,
+    "salePrice": 3536.12,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v171",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 852.65,
+    "salePrice": 1193.71,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Memória RAM DDR5 v172",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 731.72,
+    "salePrice": 1024.41,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Memória RAM DDR5 v173",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 368.25,
+    "salePrice": 515.55,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Placa de Vídeo RTX v174",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5782.04,
+    "salePrice": 8094.86,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Memória RAM DDR5 v175",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1092.66,
+    "salePrice": 1529.72,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v176",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 735.84,
+    "salePrice": 1030.18,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Processador Intel Core i v177",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1696.36,
+    "salePrice": 2374.9,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v178",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1355.9,
+    "salePrice": 1898.26,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Processador Intel Core i v179",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2159.51,
+    "salePrice": 3023.31,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v180",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 465.92,
+    "salePrice": 652.29,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v181",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 869.12,
+    "salePrice": 1216.77,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v182",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 615.26,
+    "salePrice": 861.36,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v183",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 455.48,
+    "salePrice": 637.67,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v184",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 299.98,
+    "salePrice": 419.97,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Processador Intel Core i v185",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2135.17,
+    "salePrice": 2989.24,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Memória RAM DDR5 v186",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 471.25,
+    "salePrice": 659.75,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "Placa de Vídeo RTX v187",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7895.7,
+    "salePrice": 11053.98,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v188",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 333.14,
+    "salePrice": 466.4,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Processador Intel Core i v189",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1227.23,
+    "salePrice": 1718.12,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v190",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 365.9,
+    "salePrice": 512.26,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v191",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 286.98,
+    "salePrice": 401.77,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Processador Intel Core i v192",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3925.34,
+    "salePrice": 5495.48,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v193",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1560.09,
+    "salePrice": 2184.13,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v194",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2040.76,
+    "salePrice": 2857.06,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Placa de Vídeo RTX v195",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3223.51,
+    "salePrice": 4512.91,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v196",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1785.3,
+    "salePrice": 2499.42,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v197",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 692.82,
+    "salePrice": 969.95,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v198",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 894.16,
+    "salePrice": 1251.82,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Placa de Vídeo RTX v199",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5431.73,
+    "salePrice": 7604.42,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Memória RAM DDR5 v200",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 501.94,
+    "salePrice": 702.72,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v201",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 545.28,
+    "salePrice": 763.39,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "Placa de Vídeo RTX v202",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7861.08,
+    "salePrice": 11005.51,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v203",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 877.03,
+    "salePrice": 1227.84,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Processador Intel Core i v204",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3262.14,
+    "salePrice": 4567,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v205",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4614.16,
+    "salePrice": 6459.82,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v206",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 424.81,
+    "salePrice": 594.73,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Placa de Vídeo RTX v207",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4422.85,
+    "salePrice": 6191.99,
+    "supplier": "6944681d2f4a287183f26d66"
+  },
+  {
+    "name": "Memória RAM DDR5 v208",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 587.76,
+    "salePrice": 822.86,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v209",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 567.54,
+    "salePrice": 794.56,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "Memória RAM DDR5 v210",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1078.32,
+    "salePrice": 1509.65,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Memória RAM DDR5 v211",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 854.86,
+    "salePrice": 1196.8,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Memória RAM DDR5 v212",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 523.61,
+    "salePrice": 733.05,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Placa de Vídeo RTX v213",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6716.98,
+    "salePrice": 9403.77,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Memória RAM DDR5 v214",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 782.56,
+    "salePrice": 1095.58,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Processador Intel Core i v215",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2660.25,
+    "salePrice": 3724.35,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Memória RAM DDR5 v216",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 801.91,
+    "salePrice": 1122.67,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Processador Intel Core i v217",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2428.24,
+    "salePrice": 3399.54,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v218",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1096.74,
+    "salePrice": 1535.44,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Placa de Vídeo RTX v219",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7945.38,
+    "salePrice": 11123.53,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "Memória RAM DDR5 v220",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 355.21,
+    "salePrice": 497.29,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Placa de Vídeo RTX v221",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5378.47,
+    "salePrice": 7529.86,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Processador Intel Core i v222",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1200.21,
+    "salePrice": 1680.29,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Memória RAM DDR5 v223",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 379.72,
+    "salePrice": 531.61,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "Processador Intel Core i v224",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3405.35,
+    "salePrice": 4767.49,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v225",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1784.86,
+    "salePrice": 2498.8,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Processador Intel Core i v226",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1119.06,
+    "salePrice": 1566.68,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v227",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1181.32,
+    "salePrice": 1653.85,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v228",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 335.09,
+    "salePrice": 469.13,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Processador Intel Core i v229",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1779.93,
+    "salePrice": 2491.9,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v230",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 891.17,
+    "salePrice": 1247.64,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v231",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 829.92,
+    "salePrice": 1161.89,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Placa de Vídeo RTX v232",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5858.47,
+    "salePrice": 8201.86,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Processador Intel Core i v233",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3139.45,
+    "salePrice": 4395.23,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Processador Intel Core i v234",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3418.97,
+    "salePrice": 4786.56,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Memória RAM DDR5 v235",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 793.2,
+    "salePrice": 1110.48,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Placa de Vídeo RTX v236",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4183.26,
+    "salePrice": 5856.56,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v237",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3472.49,
+    "salePrice": 4861.49,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v238",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1081.04,
+    "salePrice": 1513.46,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v239",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 383.09,
+    "salePrice": 536.33,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Memória RAM DDR5 v240",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 966.16,
+    "salePrice": 1352.62,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Processador Intel Core i v241",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2160.46,
+    "salePrice": 3024.64,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Memória RAM DDR5 v242",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 651.48,
+    "salePrice": 912.07,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Processador Intel Core i v243",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1141.33,
+    "salePrice": 1597.86,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v244",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1193.1,
+    "salePrice": 1670.34,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Placa de Vídeo RTX v245",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4855.22,
+    "salePrice": 6797.31,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Processador Intel Core i v246",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1560.77,
+    "salePrice": 2185.08,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v247",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 619.25,
+    "salePrice": 866.95,
+    "supplier": "6944681d2f4a287183f26d66"
+  },
+  {
+    "name": "Placa de Vídeo RTX v248",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7084.48,
+    "salePrice": 9918.27,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v249",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1539.7,
+    "salePrice": 2155.58,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Memória RAM DDR5 v250",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 433.59,
+    "salePrice": 607.03,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v251",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 322.45,
+    "salePrice": 451.43,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Placa de Vídeo RTX v252",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4221.73,
+    "salePrice": 5910.42,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "Placa de Vídeo RTX v253",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5817.47,
+    "salePrice": 8144.46,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v254",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2102.79,
+    "salePrice": 2943.91,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Processador Intel Core i v255",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2119.59,
+    "salePrice": 2967.43,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Processador Intel Core i v256",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2903.92,
+    "salePrice": 4065.49,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "Processador Intel Core i v257",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1047.53,
+    "salePrice": 1466.54,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v258",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1131.04,
+    "salePrice": 1583.46,
+    "supplier": "6944681d2f4a287183f26d66"
+  },
+  {
+    "name": "Processador Intel Core i v259",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2582.83,
+    "salePrice": 3615.96,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Processador Intel Core i v260",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1137.16,
+    "salePrice": 1592.02,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v261",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 550.74,
+    "salePrice": 771.04,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v262",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1132.82,
+    "salePrice": 1585.95,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Placa de Vídeo RTX v263",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3578.63,
+    "salePrice": 5010.08,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v264",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2057.36,
+    "salePrice": 2880.3,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v265",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 441.75,
+    "salePrice": 618.45,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Memória RAM DDR5 v266",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 604.99,
+    "salePrice": 846.99,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Memória RAM DDR5 v267",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 819.24,
+    "salePrice": 1146.94,
+    "supplier": "6944681d2f4a287183f26d4e"
+  },
+  {
+    "name": "Placa de Vídeo RTX v268",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4475.59,
+    "salePrice": 6265.83,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v269",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5612.78,
+    "salePrice": 7857.89,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Processador Intel Core i v270",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1667.91,
+    "salePrice": 2335.07,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Placa de Vídeo RTX v271",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5523.14,
+    "salePrice": 7732.4,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v272",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 731.09,
+    "salePrice": 1023.53,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "Processador Intel Core i v273",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1190.66,
+    "salePrice": 1666.92,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v274",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 283.49,
+    "salePrice": 396.89,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v275",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6072.1,
+    "salePrice": 8500.94,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Processador Intel Core i v276",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1649.81,
+    "salePrice": 2309.73,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Placa de Vídeo RTX v277",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5731.64,
+    "salePrice": 8024.3,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Memória RAM DDR5 v278",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 785.98,
+    "salePrice": 1100.37,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Processador Intel Core i v279",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3627.11,
+    "salePrice": 5077.95,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Processador Intel Core i v280",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1324.6,
+    "salePrice": 1854.44,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Processador Intel Core i v281",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3261.93,
+    "salePrice": 4566.7,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Memória RAM DDR5 v282",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 765.32,
+    "salePrice": 1071.45,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Placa de Vídeo RTX v283",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4618.14,
+    "salePrice": 6465.4,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Placa de Vídeo RTX v284",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3275.96,
+    "salePrice": 4586.34,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v285",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6811.99,
+    "salePrice": 9536.79,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "Placa de Vídeo RTX v286",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3918.6,
+    "salePrice": 5486.04,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Memória RAM DDR5 v287",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 584.54,
+    "salePrice": 818.36,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v288",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1930.1,
+    "salePrice": 2702.14,
+    "supplier": "6944681d2f4a287183f26d6a"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v289",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1289.76,
+    "salePrice": 1805.66,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v290",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 467.39,
+    "salePrice": 654.35,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v291",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1418.02,
+    "salePrice": 1985.23,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Processador Intel Core i v292",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1773.05,
+    "salePrice": 2482.27,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Memória RAM DDR5 v293",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 493.75,
+    "salePrice": 691.25,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "Memória RAM DDR5 v294",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 365.6,
+    "salePrice": 511.84,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v295",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1675.29,
+    "salePrice": 2345.41,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v296",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1644.58,
+    "salePrice": 2302.41,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "Memória RAM DDR5 v297",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 439.09,
+    "salePrice": 614.73,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Processador Intel Core i v298",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3442.06,
+    "salePrice": 4818.88,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Processador Intel Core i v299",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 904.82,
+    "salePrice": 1266.75,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Memória RAM DDR5 v300",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 891.74,
+    "salePrice": 1248.44,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v301",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 530.59,
+    "salePrice": 742.83,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Memória RAM DDR5 v302",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1046.55,
+    "salePrice": 1465.17,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Memória RAM DDR5 v303",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 712.13,
+    "salePrice": 996.98,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Memória RAM DDR5 v304",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 821.01,
+    "salePrice": 1149.41,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v305",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1034.78,
+    "salePrice": 1448.69,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Processador Intel Core i v306",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1678.34,
+    "salePrice": 2349.68,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Placa de Vídeo RTX v307",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3074.38,
+    "salePrice": 4304.13,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v308",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3632.09,
+    "salePrice": 5084.93,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v309",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 986.25,
+    "salePrice": 1380.75,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Placa de Vídeo RTX v310",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6881.2,
+    "salePrice": 9633.68,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "Processador Intel Core i v311",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1409.06,
+    "salePrice": 1972.68,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v312",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1771.75,
+    "salePrice": 2480.45,
+    "supplier": "6944681d2f4a287183f26d6a"
+  },
+  {
+    "name": "Memória RAM DDR5 v313",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 464.95,
+    "salePrice": 650.93,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Processador Intel Core i v314",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2685.7,
+    "salePrice": 3759.98,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "Placa de Vídeo RTX v315",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4470.03,
+    "salePrice": 6258.04,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "Memória RAM DDR5 v316",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 898.38,
+    "salePrice": 1257.73,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Processador Intel Core i v317",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3395.22,
+    "salePrice": 4753.31,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v318",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 819.2,
+    "salePrice": 1146.88,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Placa de Vídeo RTX v319",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4993.13,
+    "salePrice": 6990.38,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v320",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 864.87,
+    "salePrice": 1210.82,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v321",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2006.06,
+    "salePrice": 2808.48,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v322",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 698.62,
+    "salePrice": 978.07,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Processador Intel Core i v323",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2169.68,
+    "salePrice": 3037.55,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v324",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7287.12,
+    "salePrice": 10201.97,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Placa de Vídeo RTX v325",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6685.91,
+    "salePrice": 9360.27,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Placa de Vídeo RTX v326",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3881.99,
+    "salePrice": 5434.79,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Memória RAM DDR5 v327",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 360.72,
+    "salePrice": 505.01,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Memória RAM DDR5 v328",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 397.06,
+    "salePrice": 555.88,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Memória RAM DDR5 v329",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 634.75,
+    "salePrice": 888.65,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v330",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1478.65,
+    "salePrice": 2070.11,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v331",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 381.86,
+    "salePrice": 534.6,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Processador Intel Core i v332",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1867.27,
+    "salePrice": 2614.18,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "Processador Intel Core i v333",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1324.3,
+    "salePrice": 1854.02,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Placa de Vídeo RTX v334",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7296.97,
+    "salePrice": 10215.76,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Processador Intel Core i v335",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1508.61,
+    "salePrice": 2112.05,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Processador Intel Core i v336",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2741.26,
+    "salePrice": 3837.76,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v337",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1115.01,
+    "salePrice": 1561.01,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Placa de Vídeo RTX v338",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6395.63,
+    "salePrice": 8953.88,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Processador Intel Core i v339",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2230.45,
+    "salePrice": 3122.63,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Memória RAM DDR5 v340",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 675.54,
+    "salePrice": 945.76,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v341",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2090.27,
+    "salePrice": 2926.38,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v342",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1428.65,
+    "salePrice": 2000.11,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Memória RAM DDR5 v343",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 853.27,
+    "salePrice": 1194.58,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Placa de Vídeo RTX v344",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3065.13,
+    "salePrice": 4291.18,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v345",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2145.74,
+    "salePrice": 3004.04,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Placa de Vídeo RTX v346",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4667.8,
+    "salePrice": 6534.92,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Memória RAM DDR5 v347",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 567.69,
+    "salePrice": 794.77,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Placa de Vídeo RTX v348",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6561.5,
+    "salePrice": 9186.1,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Processador Intel Core i v349",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2246.62,
+    "salePrice": 3145.27,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Placa de Vídeo RTX v350",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3883.44,
+    "salePrice": 5436.82,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v351",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1464.7,
+    "salePrice": 2050.58,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Processador Intel Core i v352",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2269.65,
+    "salePrice": 3177.51,
+    "supplier": "6944681d2f4a287183f26d66"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v353",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 549.3,
+    "salePrice": 769.02,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Memória RAM DDR5 v354",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 669.47,
+    "salePrice": 937.26,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Placa de Vídeo RTX v355",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4726.73,
+    "salePrice": 6617.42,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Memória RAM DDR5 v356",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 579.41,
+    "salePrice": 811.17,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Memória RAM DDR5 v357",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 536.05,
+    "salePrice": 750.47,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Memória RAM DDR5 v358",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 959.36,
+    "salePrice": 1343.1,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Processador Intel Core i v359",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2963.23,
+    "salePrice": 4148.52,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "Placa de Vídeo RTX v360",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5074.75,
+    "salePrice": 7104.65,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Placa de Vídeo RTX v361",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 2518.06,
+    "salePrice": 3525.28,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v362",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 491.04,
+    "salePrice": 687.46,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v363",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 280.77,
+    "salePrice": 393.08,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v364",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 483.2,
+    "salePrice": 676.48,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Memória RAM DDR5 v365",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 886.84,
+    "salePrice": 1241.58,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v366",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 830.75,
+    "salePrice": 1163.05,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Processador Intel Core i v367",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3181.82,
+    "salePrice": 4454.55,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v368",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1716.82,
+    "salePrice": 2403.55,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v369",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1877.59,
+    "salePrice": 2628.63,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Placa de Vídeo RTX v370",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5746.61,
+    "salePrice": 8045.25,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "Placa de Vídeo RTX v371",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4145.71,
+    "salePrice": 5803.99,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Memória RAM DDR5 v372",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1025.8,
+    "salePrice": 1436.12,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v373",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 358.46,
+    "salePrice": 501.84,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Memória RAM DDR5 v374",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 566.38,
+    "salePrice": 792.93,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Memória RAM DDR5 v375",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 659.09,
+    "salePrice": 922.73,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Memória RAM DDR5 v376",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 882.98,
+    "salePrice": 1236.17,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Processador Intel Core i v377",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3546.24,
+    "salePrice": 4964.74,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v378",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1467.17,
+    "salePrice": 2054.04,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v379",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1259.65,
+    "salePrice": 1763.51,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Processador Intel Core i v380",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3346.72,
+    "salePrice": 4685.41,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Memória RAM DDR5 v381",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 708.45,
+    "salePrice": 991.83,
+    "supplier": "6944681d2f4a287183f26d5e"
+  },
+  {
+    "name": "Memória RAM DDR5 v382",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 705.68,
+    "salePrice": 987.95,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v383",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 892.17,
+    "salePrice": 1249.04,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v384",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 299.52,
+    "salePrice": 419.33,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v385",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5029.36,
+    "salePrice": 7041.1,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Processador Intel Core i v386",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1151.33,
+    "salePrice": 1611.86,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v387",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 311.14,
+    "salePrice": 435.6,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Placa de Vídeo RTX v388",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4133.87,
+    "salePrice": 5787.42,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Processador Intel Core i v389",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3382.88,
+    "salePrice": 4736.03,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "Processador Intel Core i v390",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3619.57,
+    "salePrice": 5067.4,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v391",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4171.52,
+    "salePrice": 5840.13,
+    "supplier": "6944681d2f4a287183f26d56"
+  },
+  {
+    "name": "Placa de Vídeo RTX v392",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4256.63,
+    "salePrice": 5959.28,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v393",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2190.66,
+    "salePrice": 3066.92,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Memória RAM DDR5 v394",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 628.43,
+    "salePrice": 879.8,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v395",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 846.81,
+    "salePrice": 1185.53,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Memória RAM DDR5 v396",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1086.07,
+    "salePrice": 1520.5,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Processador Intel Core i v397",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1710.83,
+    "salePrice": 2395.16,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v398",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 376.81,
+    "salePrice": 527.53,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Placa de Vídeo RTX v399",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4454.56,
+    "salePrice": 6236.38,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v400",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 362.6,
+    "salePrice": 507.64,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v401",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1177.94,
+    "salePrice": 1649.12,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Placa de Vídeo RTX v402",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6692.43,
+    "salePrice": 9369.4,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Placa de Vídeo RTX v403",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6394.11,
+    "salePrice": 8951.75,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v404",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 817.69,
+    "salePrice": 1144.77,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v405",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1646.47,
+    "salePrice": 2305.06,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Memória RAM DDR5 v406",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 969.74,
+    "salePrice": 1357.64,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Memória RAM DDR5 v407",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 475.74,
+    "salePrice": 666.04,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Memória RAM DDR5 v408",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 939.39,
+    "salePrice": 1315.15,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v409",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 2022.33,
+    "salePrice": 2831.26,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Memória RAM DDR5 v410",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 804.47,
+    "salePrice": 1126.26,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Memória RAM DDR5 v411",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 375.25,
+    "salePrice": 525.35,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Memória RAM DDR5 v412",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1081.11,
+    "salePrice": 1513.55,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "Placa de Vídeo RTX v413",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7183.61,
+    "salePrice": 10057.05,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Memória RAM DDR5 v414",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 549.83,
+    "salePrice": 769.76,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Placa de Vídeo RTX v415",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7208.32,
+    "salePrice": 10091.65,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Memória RAM DDR5 v416",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 993.03,
+    "salePrice": 1390.24,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Memória RAM DDR5 v417",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 595.04,
+    "salePrice": 833.06,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v418",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 415.11,
+    "salePrice": 581.15,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v419",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 783.88,
+    "salePrice": 1097.43,
+    "supplier": "6944681d2f4a287183f26d49"
+  },
+  {
+    "name": "Memória RAM DDR5 v420",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 742.56,
+    "salePrice": 1039.58,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Placa de Vídeo RTX v421",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 2581.2,
+    "salePrice": 3613.68,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v422",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1339.18,
+    "salePrice": 1874.85,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Placa de Vídeo RTX v423",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4528.92,
+    "salePrice": 6340.49,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "Processador Intel Core i v424",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1963.14,
+    "salePrice": 2748.4,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v425",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 401.68,
+    "salePrice": 562.35,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Placa de Vídeo RTX v426",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6200.55,
+    "salePrice": 8680.77,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v427",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1272.09,
+    "salePrice": 1780.93,
+    "supplier": "6944681d2f4a287183f26d54"
+  },
+  {
+    "name": "Placa de Vídeo RTX v428",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3660.31,
+    "salePrice": 5124.43,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "Memória RAM DDR5 v429",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 809.01,
+    "salePrice": 1132.61,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Placa de Vídeo RTX v430",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4420.2,
+    "salePrice": 6188.28,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v431",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 524.54,
+    "salePrice": 734.36,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Placa de Vídeo RTX v432",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6519.03,
+    "salePrice": 9126.64,
+    "supplier": "6944681d2f4a287183f26d48"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v433",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 859.96,
+    "salePrice": 1203.94,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Memória RAM DDR5 v434",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 991.69,
+    "salePrice": 1388.37,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Processador Intel Core i v435",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 862.03,
+    "salePrice": 1206.84,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "Memória RAM DDR5 v436",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1046.18,
+    "salePrice": 1464.65,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v437",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1974.26,
+    "salePrice": 2763.96,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v438",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1265.89,
+    "salePrice": 1772.25,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Placa de Vídeo RTX v439",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4932.84,
+    "salePrice": 6905.98,
+    "supplier": "6944681d2f4a287183f26d65"
+  },
+  {
+    "name": "Processador Intel Core i v440",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2708.94,
+    "salePrice": 3792.52,
+    "supplier": "6944681d2f4a287183f26d4f"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v441",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 890.08,
+    "salePrice": 1246.11,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v442",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 814.72,
+    "salePrice": 1140.61,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Placa de Vídeo RTX v443",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7649.02,
+    "salePrice": 10708.63,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v444",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 384.86,
+    "salePrice": 538.8,
+    "supplier": "6944681d2f4a287183f26d6d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v445",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 4505.06,
+    "salePrice": 6307.08,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Processador Intel Core i v446",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 917.14,
+    "salePrice": 1284,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v447",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 449.69,
+    "salePrice": 629.57,
+    "supplier": "6944681d2f4a287183f26d67"
+  },
+  {
+    "name": "Memória RAM DDR5 v448",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 685.43,
+    "salePrice": 959.6,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v449",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1365.31,
+    "salePrice": 1911.43,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v450",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 845.39,
+    "salePrice": 1183.55,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Placa de Vídeo RTX v451",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 6709.75,
+    "salePrice": 9393.65,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v452",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 621.22,
+    "salePrice": 869.71,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v453",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 520.98,
+    "salePrice": 729.37,
+    "supplier": "6944681d2f4a287183f26d5a"
+  },
+  {
+    "name": "Processador Intel Core i v454",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3862.68,
+    "salePrice": 5407.75,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v455",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 776.82,
+    "salePrice": 1087.55,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v456",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1351.12,
+    "salePrice": 1891.57,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v457",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1195.37,
+    "salePrice": 1673.52,
+    "supplier": "6944681d2f4a287183f26d64"
+  },
+  {
+    "name": "Processador Intel Core i v458",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3053.76,
+    "salePrice": 4275.26,
+    "supplier": "6944681d2f4a287183f26d61"
+  },
+  {
+    "name": "Processador Intel Core i v459",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1994.74,
+    "salePrice": 2792.64,
+    "supplier": "6944681d2f4a287183f26d60"
+  },
+  {
+    "name": "Memória RAM DDR5 v460",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 752.1,
+    "salePrice": 1052.94,
+    "supplier": "6944681d2f4a287183f26d4d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v461",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1922.7,
+    "salePrice": 2691.78,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v462",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1069.01,
+    "salePrice": 1496.61,
+    "supplier": "6944681d2f4a287183f26d57"
+  },
+  {
+    "name": "Placa de Vídeo RTX v463",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7910.52,
+    "salePrice": 11074.73,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Memória RAM DDR5 v464",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 776.57,
+    "salePrice": 1087.2,
+    "supplier": "6944681d2f4a287183f26d66"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v465",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1780.96,
+    "salePrice": 2493.34,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Processador Intel Core i v466",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2283.94,
+    "salePrice": 3197.52,
+    "supplier": "6944681d2f4a287183f26d6b"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v467",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1695.27,
+    "salePrice": 2373.38,
+    "supplier": "6944681d2f4a287183f26d47"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v468",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1733,
+    "salePrice": 2426.2,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Processador Intel Core i v469",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2456.52,
+    "salePrice": 3439.13,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Processador Intel Core i v470",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3045.05,
+    "salePrice": 4263.07,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Memória RAM DDR5 v471",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 631.46,
+    "salePrice": 884.04,
+    "supplier": "6944681d2f4a287183f26d62"
+  },
+  {
+    "name": "Processador Intel Core i v472",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 815.61,
+    "salePrice": 1141.85,
+    "supplier": "6944681d2f4a287183f26d58"
+  },
+  {
+    "name": "Processador Intel Core i v473",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1487.8,
+    "salePrice": 2082.92,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Memória RAM DDR5 v474",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 1055.6,
+    "salePrice": 1477.84,
+    "supplier": "6944681d2f4a287183f26d6c"
+  },
+  {
+    "name": "Processador Intel Core i v475",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2007.56,
+    "salePrice": 2810.58,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v476",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 847.78,
+    "salePrice": 1186.89,
+    "supplier": "6944681d2f4a287183f26d51"
+  },
+  {
+    "name": "Processador Intel Core i v477",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2473.48,
+    "salePrice": 3462.87,
+    "supplier": "6944681d2f4a287183f26d4b"
+  },
+  {
+    "name": "Placa de Vídeo RTX v478",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7947.45,
+    "salePrice": 11126.43,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Placa de Vídeo RTX v479",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 3364.1,
+    "salePrice": 4709.74,
+    "supplier": "6944681d2f4a287183f26d52"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v480",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 868.9,
+    "salePrice": 1216.46,
+    "supplier": "6944681d2f4a287183f26d4a"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v481",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 854.25,
+    "salePrice": 1195.95,
+    "supplier": "6944681d2f4a287183f26d5b"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v482",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 800.59,
+    "salePrice": 1120.83,
+    "supplier": "6944681d2f4a287183f26d46"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v483",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1328.65,
+    "salePrice": 1860.11,
+    "supplier": "6944681d2f4a287183f26d5d"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v484",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1057.96,
+    "salePrice": 1481.14,
+    "supplier": "6944681d2f4a287183f26d68"
+  },
+  {
+    "name": "Processador Intel Core i v485",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1920.52,
+    "salePrice": 2688.73,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v486",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1719,
+    "salePrice": 2406.6,
+    "supplier": "6944681d2f4a287183f26d63"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v487",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1165.4,
+    "salePrice": 1631.56,
+    "supplier": "6944681d2f4a287183f26d69"
+  },
+  {
+    "name": "Processador Intel Core i v488",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 1816.61,
+    "salePrice": 2543.25,
+    "supplier": "6944681d2f4a287183f26d55"
+  },
+  {
+    "name": "Placa de Vídeo RTX v489",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 7042.27,
+    "salePrice": 9859.18,
+    "supplier": "6944681d2f4a287183f26d6a"
+  },
+  {
+    "name": "Memória RAM DDR5 v490",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 523.46,
+    "salePrice": 732.84,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "SSD NVMe M.2 1TB v491",
+    "description": "Velocidade de leitura até 7500MB/s.",
+    "purchasePrice": 885.87,
+    "salePrice": 1240.22,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Memória RAM DDR5 v492",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 446.85,
+    "salePrice": 625.59,
+    "supplier": "6944681d2f4a287183f26d5c"
+  },
+  {
+    "name": "Placa de Vídeo RTX v493",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5161.46,
+    "salePrice": 7226.04,
+    "supplier": "6944681d2f4a287183f26d59"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v494",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1351.62,
+    "salePrice": 1892.27,
+    "supplier": "6944681d2f4a287183f26d5f"
+  },
+  {
+    "name": "Processador Intel Core i v495",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 3439.06,
+    "salePrice": 4814.68,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Memória RAM DDR5 v496",
+    "description": "Módulo de alta frequência 5600MHz.",
+    "purchasePrice": 823.46,
+    "salePrice": 1152.84,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v497",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 1867.96,
+    "salePrice": 2615.14,
+    "supplier": "6944681d2f4a287183f26d53"
+  },
+  {
+    "name": "Placa de Vídeo RTX v498",
+    "description": "Performance extrema para Ray Tracing.",
+    "purchasePrice": 5572.72,
+    "salePrice": 7801.81,
+    "supplier": "6944681d2f4a287183f26d4c"
+  },
+  {
+    "name": "Monitor Gamer 144Hz v499",
+    "description": "Painel IPS com tempo de resposta de 1ms.",
+    "purchasePrice": 956.52,
+    "salePrice": 1339.13,
+    "supplier": "6944681d2f4a287183f26d50"
+  },
+  {
+    "name": "Processador Intel Core i v500",
+    "description": "Arquitetura híbrida de alto desempenho.",
+    "purchasePrice": 2365.19,
+    "salePrice": 3311.27,
+    "supplier": "6944681d2f4a287183f26d57"
+  }
+]

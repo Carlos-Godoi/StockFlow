@@ -58,3 +58,17 @@ export const deleteProduct = async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Erro interno do servidor.' });
     }
 };
+
+// Upload de Imagem
+export const uploadProductImage = async (req: Request, res: Response) => {
+    // O middleware do multer adiciona o objeto 'file' à requisição
+    if (!req.file) {
+        return res.status(400).json({ message: 'Nenhuma imagem enviada.' });
+    }
+
+    // Constroi a URL relativa que será salva no banco
+    const imageUrl = `/uploads/images/${req.file.filename}`;
+
+    // Retorna a URL para o frontend usar no formulário principal
+    res.json({ imageUrl });
+};

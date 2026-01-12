@@ -22,8 +22,8 @@ import { Alert, Spinner } from 'flowbite-react';
 interface Supplier {
     _id: string;
     name: string;
-    email: string;
-    phone: string;
+    contact: string;
+    address: string;
 }
 
 const SuppliersPage: React.FC = () => {
@@ -111,16 +111,17 @@ const SuppliersPage: React.FC = () => {
                 <Thead>
                     <Tr>
                         <Th>Nome</Th>
-                        <Th>E-mail</Th>
-                        <Th>Telefone</Th>
+                        <Th>Contato</Th>
+                        <Th>Endereço</Th>
                         {hasRole(['admin']) && <Th>Ações</Th>}
                     </Tr>
                 </Thead>
                 <Tbody>
                     {suppliers.map(s => (
                         <Tr key={s._id}>
-                            <Td>{s.email}</Td>
-                            <Td>{s.phone}</Td>
+                            <Td>{s.name}</Td>
+                            <Td>{s.contact}</Td>
+                            <Td>{s.address}</Td>
                             {hasRole(['admin']) && (
                                 <Td>
                                     <IconButton aria-label='Edit' icon={<EditIcon />} mr={2} size='sm' />

@@ -8,6 +8,7 @@ export interface IProduct extends Document {
     stockQuantity: number;
     supplier: Types.ObjectId;
     minimumStock: number;
+    imageUrl?: string;
 }
 
 const ProductSchema: Schema = new Schema({
@@ -17,6 +18,7 @@ const ProductSchema: Schema = new Schema({
     salePrice: { type: Number, required: true, min: 0 },
     stockQuantity: { type: Number, required: true, default: 0, min: 0 },
     minimumStock: { type: Number, required: true, default: 10, min: 0 },
+    imageUrl: { type: String, default: '' },
     supplier: {
         type: Schema.Types.ObjectId,
         ref: 'Supplier', // Referencia o modelo de Fornecedor

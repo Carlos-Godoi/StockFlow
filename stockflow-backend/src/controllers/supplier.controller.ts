@@ -67,3 +67,4 @@ export const deleteSupplier = async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Erro interno do servidor.' });
     }
 };
+
