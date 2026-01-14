@@ -1,5 +1,7 @@
 import mongoose, { Schema, Document, Types } from 'mongoose';
 
+
+
 // Interface para um item dentro da lista de produtos vendidos
 export interface ISaleProduct {
     productId: Types.ObjectId;
