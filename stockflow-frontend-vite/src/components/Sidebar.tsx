@@ -83,6 +83,7 @@ const SidebarContent: React.FC = () => {
         { name: 'Relatórios', icon: FiBarChart2, to: '/reports', roles: ['admin'] },
         { name: 'Fornecedores', icon: FiTruck, to: '/suppliers', roles: ['admin'] },
         { name: 'Usuários', icon: FiUsers, to: '/users', roles: ['admin'] },
+        { name: 'PDV (Vendas)', icon: FiShoppingCart, to: '/pos', roles: ['admin', 'seller'] },
     ];
 
     return (

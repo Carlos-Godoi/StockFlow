@@ -8,6 +8,7 @@ import ProductsPage from './pages/ProductsPage';
 import SalesPage from './pages/SalesPage';
 import SuppliersPage from './pages/SuppliersPage';
 import ReportsPage from './pages/ReportsPage';
+import PosPage from './pages/PosPage';
 
 
 
@@ -64,7 +65,15 @@ const App: React.FC = () => {
               </ProtectedRoute>
             }
           />
-
+          <Route
+            path="/pos"
+            element={
+              <ProtectedRoute>
+                <PosPage />
+              </ProtectedRoute>
+            }
+          />
+          
           {/* Rota Padrão: Redireciona para o Dashboard (se logado) ou login */}
           <Route path='/' element={<Navigate to='/dashboard' replace />} />
 
