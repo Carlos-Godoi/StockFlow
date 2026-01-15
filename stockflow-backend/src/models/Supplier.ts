@@ -2,14 +2,14 @@ import mongoose, { Schema, Document} from 'mongoose';
 
 export interface ISupplier extends Document {
     name: string;
-    contact: string;
-    address?: string;
+    email: string;
+    phone?: string;
 }
 
 const SupplierSchema: Schema = new Schema({
     name: { type: String, required: true, trim: true, unique: true },
-    contact: { type: String, required: true },
-    address: { type: String },
+    email: { type: String, required: true },
+    phone: { type: String },
 }, {
     timestamps: true
 });

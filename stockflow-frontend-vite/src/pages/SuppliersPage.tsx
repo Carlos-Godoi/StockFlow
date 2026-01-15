@@ -18,7 +18,6 @@ import {
 } from '@chakra-ui/react';
 import { DeleteIcon, EditIcon, AddIcon } from '@chakra-ui/icons';
 import { useAuth } from '../context/AuthContext';
-import { AxiosError } from 'axios';
 import { Alert, Spinner } from 'flowbite-react';
 import SupplierModal from '../components/SupplierModal';
 
@@ -42,15 +41,14 @@ const SuppliersPage: React.FC = () => {
         try {
             const response = await api.get('/suppliers');
             setSuppliers(response.data);
-        } catch (error: unknown) {
-            if (error instanceof AxiosError) {
-                toast({
-                    title: 'Erro ao carregar fornecedores',
-                    status: 'error',
-                    duration: 3000,
-                    isClosable: true,
-                });
-            }
+        } catch (error) {
+            console.error('Erro ao carregar fornecedores:', error);
+            toast({
+                title: 'Erro ao carregar fornecedores',
+                status: 'error',
+                duration: 3000,
+                isClosable: true,
+            });
         } finally {
             setLoading(false);
         }
@@ -123,52 +121,52 @@ const SuppliersPage: React.FC = () => {
             )}
 
             <TableContainer bg='white' boxShadow='sm' borderRadius='lg' borderWidth='1px'>
-            <Table variant='simple'>
-                <Thead bg='gray.50'>
-                    <Tr>
-                        <Th>Nome</Th>
-                        <Th>E-mail</Th>
-                        <Th>Telefone</Th>
-                        {hasRole(['admin']) && <Th>Ações</Th>}
-                    </Tr>
-                </Thead>
-                <Tbody>
-                    {suppliers.map(s => (
-                        <Tr key={s._id}>
-                            <Td fontWeight='medium'>{s.name}</Td>
-                            <Td>{s.email}</Td>
-                            <Td>{s.phone}</Td>
-                            {hasRole(['admin']) && (
-                                <Td>
-                                    <IconButton
-                                        aria-label='Edit'
-                                        icon={<EditIcon />}
-                                        mr={2}
-                                        size='sm'
-                                        onClick={() => handleEdit(s)}
-                                    />
-                                    <IconButton
-                                        aria-label='Delete'
-                                        icon={<DeleteIcon />}
-                                        colorScheme='red'
-                                        size='sm'
-                                        onClick={() => handleDelete(s._id)}
-                                    />
-                                </Td>
-                            )}
+                <Table variant='simple'>
+                    <Thead bg='gray.50'>
+                        <Tr>
+                            <Th>Nome</Th>
+                            <Th>E-mail</Th>
+                            <Th>Telefone</Th>
+                            {hasRole(['admin']) && <Th>Ações</Th>}
                         </Tr>
-                    ))}
-                </Tbody>
-            </Table>
-        </TableContainer>
+                    </Thead>
+                    <Tbody>
+                        {suppliers.map(s => (
+                            <Tr key={s._id}>
+                                <Td fontWeight='medium'>{s.name}</Td>
+                                <Td>{s.email}</Td>
+                                <Td>{s.phone}</Td>
+                                {hasRole(['admin']) && (
+                                    <Td>
+                                        <IconButton
+                                            aria-label='Edit'
+                                            icon={<EditIcon />}
+                                            mr={2}
+                                            size='sm'
+                                            onClick={() => handleEdit(s)}
+                                        />
+                                        <IconButton
+                                            aria-label='Delete'
+                                            icon={<DeleteIcon />}
+                                            colorScheme='red'
+                                            size='sm'
+                                            onClick={() => handleDelete(s._id)}
+                                        />
+                                    </Td>
+                                )}
+                            </Tr>
+                        ))}
+                    </Tbody>
+                </Table>
+            </TableContainer>
 
-        {/* Inclusão do Modal */}
-        <SupplierModal
-        isOpen={isOpen}   
-        onClose={onClose}
-        onSuccess={fetchSuppliers}
-        initialData={selectedSupplier}
-        />
+            {/* Inclusão do Modal */}
+            <SupplierModal
+                isOpen={isOpen}
+                onClose={onClose}
+                onSuccess={fetchSuppliers}
+                initialData={selectedSupplier}
+            />
         </Box>
     );
 };

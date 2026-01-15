@@ -12,10 +12,9 @@ import {
     FormLabel,
     Input,
     VStack,
-    useToast  
+    useToast
 } from '@chakra-ui/react';
 import api from '../api/api';
-import { AxiosError } from 'axios';
 
 interface Supplier {
     _id: string;
@@ -70,16 +69,12 @@ const SupplierModal: React.FC<SupplierModalProps> = ({ isOpen, onClose, initialD
             }
             onSuccess();    // Recarrega a lista
             onClose();      // Fecha o modal
-        } catch (error: unknown) {
-            if (error instanceof AxiosError) {
-                console.error('Erro ao tentar salvar fornecedor:', error);
-                toast({
-                    title: 'Erro ao salvar fornecedor.',
-                    status: 'error',
-                    duration: 5000,
-                    isClosable: true,
-                });
-            }
+        } catch {
+            toast({
+                title: 'Erro ao salvar fornecedor.',
+                status: 'error'               
+            });
+
         } finally {
             setIsSubmitting(false);
         }
@@ -119,9 +114,9 @@ const SupplierModal: React.FC<SupplierModalProps> = ({ isOpen, onClose, initialD
                             <FormControl isRequired>
                                 <FormLabel>Telefone</FormLabel>
                                 <Input
-                                value={formData.phone}
-                                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                                placeholder='+55 (xx) 9XXXX-XXXX'
+                                    value={formData.phone}
+                                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                                    placeholder='+55 (xx) 9XXXX-XXXX'
                                 />
                             </FormControl>
                         </VStack>
