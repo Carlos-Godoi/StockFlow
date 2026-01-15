@@ -1,0 +1,821 @@
+[{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d1f"
+  },
+  "name": "Global Tech Components",
+  "email": "vendas@globaltech.com",
+  "phone": "11987654321",
+  "updatedAt": {
+    "$date": "2026-01-15T20:14:06.620Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d20"
+  },
+  "name": "Nexus Hardware Solutions",
+  "email": "contato@nexushw.com.br",
+  "phone": "21976543210"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d21"
+  },
+  "name": "Silicon Valley Imports",
+  "email": "suporte@siliconv.com",
+  "phone": "4733445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d22"
+  },
+  "name": "Mega Chip Atacado",
+  "email": "comercial@megachip.com.br",
+  "phone": "3134567890"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d23"
+  },
+  "name": "Precision Electronics",
+  "email": "financeiro@precisionelec.com",
+  "phone": "5130229988"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d24"
+  },
+  "name": "Master Board Distribuidora",
+  "email": "vendas@masterboard.com",
+  "phone": "1932551122"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d25"
+  },
+  "name": "Cooling Master Systems",
+  "email": "atendimento@coolingmaster.com",
+  "phone": "4133449900"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d26"
+  },
+  "name": "Data Storage Pro",
+  "email": "contato@datastorage.com.br",
+  "phone": "8134556677"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d27"
+  },
+  "name": "Quantum Processors",
+  "email": "supply@quantumproc.com",
+  "phone": "1140028922"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d28"
+  },
+  "name": "Titan GPU Store",
+  "email": "vendas@titangpu.com",
+  "phone": "2733448899"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d29"
+  },
+  "name": "Ultra Led Monitors",
+  "email": "contato@ultraled.com",
+  "phone": "1133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d2a"
+  },
+  "name": "Power Supply Elite",
+  "email": "vendas@powersupply.com",
+  "phone": "2133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d2b"
+  },
+  "name": "Micro Circuit Ltda",
+  "email": "contato@microcircuit.com.br",
+  "phone": "3133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d2c"
+  },
+  "name": "Thermal Paste Masters",
+  "email": "suporte@thermalpaste.com",
+  "phone": "4133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d2d"
+  },
+  "name": "Extreme Overclocking",
+  "email": "vendas@extremeoc.com",
+  "phone": "5133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d2e"
+  },
+  "name": "Rapid SSD Tech",
+  "email": "contato@rapidssd.com",
+  "phone": "6133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d2f"
+  },
+  "name": "Golden RAM Memory",
+  "email": "vendas@goldenram.com",
+  "phone": "7133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d30"
+  },
+  "name": "Silver Case Designs",
+  "email": "contato@silvercase.com",
+  "phone": "8133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d31"
+  },
+  "name": "Blue Fan Cooling",
+  "email": "vendas@bluefan.com",
+  "phone": "9133445566"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d32"
+  },
+  "name": "Red Switch Keyboards",
+  "email": "contato@redswitch.com",
+  "phone": "1122334455"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d33"
+  },
+  "name": "Optical Sensor Mice",
+  "email": "vendas@opticalsensor.com",
+  "phone": "1122334466"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d34"
+  },
+  "name": "Ethernet Cable Corp",
+  "email": "contato@ethernetcorp.com",
+  "phone": "1122334477"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d35"
+  },
+  "name": "Wireless Router Hub",
+  "email": "vendas@routerhub.com",
+  "phone": "1122334488"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d36"
+  },
+  "name": "Fiber Optic Solutions",
+  "email": "contato@fiberoptic.com",
+  "phone": "1122334499"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d37"
+  },
+  "name": "Cloud Server Hardware",
+  "email": "vendas@cloudserverhw.com",
+  "phone": "2233445500"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d38"
+  },
+  "name": "Mining Rig Specialists",
+  "email": "contato@miningrig.com",
+  "phone": "2233445511"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d39"
+  },
+  "name": "Laptop Screen Depot",
+  "email": "vendas@screendepot.com",
+  "phone": "2233445522"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d3a"
+  },
+  "name": "Battery Cell Experts",
+  "email": "contato@batterycell.com",
+  "phone": "2233445533"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d3b"
+  },
+  "name": "Sound Card Audio",
+  "email": "vendas@soundcard.com",
+  "phone": "2233445544"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d3c"
+  },
+  "name": "Internal Cable Supply",
+  "email": "contato@internalcable.com",
+  "phone": "2233445555"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d3d"
+  },
+  "name": "Advanced Chipsets",
+  "email": "vendas@advchipsets.com",
+  "phone": "3344556611",
+  "updatedAt": {
+    "$date": "2026-01-15T20:22:31.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d3e"
+  },
+  "name": "Core Logic Boards",
+  "email": "contato@corelogic.com",
+  "phone": "3344556611"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d3f"
+  },
+  "name": "Speedy Bus Tech",
+  "email": "vendas@speedybus.com",
+  "phone": "3344556622"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d40"
+  },
+  "name": "Prime Power Units",
+  "email": "contato@primepower.com",
+  "phone": "3344556633"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d41"
+  },
+  "name": "Cool Flow Radiators",
+  "email": "vendas@coolflow.radiators.com",
+  "phone": "3344556644"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d42"
+  },
+  "name": "Vertex Solid State",
+  "email": "contato@vertexss.com",
+  "phone": "3344556655"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d43"
+  },
+  "name": "Alpha Numeric Keys",
+  "email": "vendas@alphakeys.com",
+  "phone": "4455667700"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d44"
+  },
+  "name": "Laser Precision Parts",
+  "email": "contato@laserparts.com",
+  "phone": "4455667711"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d45"
+  },
+  "name": "Modular Box Cases",
+  "email": "vendas@modularbox.com",
+  "phone": "4455667722"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d46"
+  },
+  "name": "Voltage Regulators Inc",
+  "email": "contato@voltagereg.com",
+  "phone": "4455667733"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d47"
+  },
+  "name": "Static Shield Bags",
+  "email": "vendas@staticshield.com",
+  "phone": "4455667744"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d48"
+  },
+  "name": "Crystal Clear Panels",
+  "email": "contato@crystalclear.com",
+  "phone": "4455667755"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d49"
+  },
+  "name": "Nano Tech Paste",
+  "email": "vendas@nanotechpaste.com",
+  "phone": "5566778800"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d4a"
+  },
+  "name": "Legacy Port Adapters",
+  "email": "contato@legacyport.com",
+  "phone": "5566778811"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d4b"
+  },
+  "name": "Dual Link DVI Co",
+  "email": "vendas@duallink.com",
+  "phone": "5566778822"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d4c"
+  },
+  "name": "DisplayPort Elite",
+  "email": "contato@displayport.com",
+  "phone": "5566778833"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d4d"
+  },
+  "name": "Thunderbolt Cables",
+  "email": "vendas@thunderbolt.com",
+  "phone": "5566778844"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d4e"
+  },
+  "name": "USB Generation Store",
+  "email": "contato@usbgen.com",
+  "phone": "5566778855"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d4f"
+  },
+  "name": "SATA Connection",
+  "email": "vendas@sataconnect.com",
+  "phone": "6677889900"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d50"
+  },
+  "name": "NVMe Speed Shop",
+  "email": "contato@nvmespeed.com",
+  "phone": "6677889911"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d51"
+  },
+  "name": "PCIe Riser Tech",
+  "email": "vendas@pcietiser.com",
+  "phone": "6677889922"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d52"
+  },
+  "name": "Bios Chip Recovery",
+  "email": "contato@bioschip.com",
+  "phone": "6677889933"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d53"
+  },
+  "name": "CMOS Battery Plus",
+  "email": "vendas@cmosbattery.com",
+  "phone": "6677889944"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d54"
+  },
+  "name": "Socket Pins Repair",
+  "email": "contato@socketpins.com",
+  "phone": "6677889955"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d55"
+  },
+  "name": "Thermal Pad Direct",
+  "email": "vendas@thermalpad.com",
+  "phone": "7788990000"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d56"
+  },
+  "name": "Liquid Nitrogen Gear",
+  "email": "contato@ln2gear.com",
+  "phone": "7788990011"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d57"
+  },
+  "name": "Bench Table Pro",
+  "email": "vendas@benchtable.com",
+  "phone": "7788990022"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d58"
+  },
+  "name": "Macro Pad Factory",
+  "email": "contato@macropad.com",
+  "phone": "7788990033"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d59"
+  },
+  "name": "Coiled Cable Art",
+  "email": "vendas@coiledcable.com",
+  "phone": "7788990044"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d5a"
+  },
+  "name": "Wrist Rest Comfort",
+  "email": "contato@wristrest.com",
+  "phone": "7788990055"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d5b"
+  },
+  "name": "PBT Keycap Set",
+  "email": "vendas@pbtkeycaps.com",
+  "phone": "8899001100"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d5c"
+  },
+  "name": "Linear Switch Lab",
+  "email": "contato@linearswitch.com",
+  "phone": "8899001111"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d5d"
+  },
+  "name": "Tactile Feel Shop",
+  "email": "vendas@tactilefeel.com",
+  "phone": "8899001122"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d5e"
+  },
+  "name": "Clicky Sound Co",
+  "email": "contato@clickysound.com",
+  "phone": "8899001133"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d5f"
+  },
+  "name": "Hot Swap Boards",
+  "email": "vendas@hotswap.com",
+  "phone": "8899001144"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d60"
+  },
+  "name": "Lubed Stabilizers",
+  "email": "contato@lubedstabs.com",
+  "phone": "8899001155"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d61"
+  },
+  "name": "RGB Strip Light",
+  "email": "vendas@rgblight.com",
+  "phone": "9900112200"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d62"
+  },
+  "name": "Controller IC Supply",
+  "email": "contato@controlleric.com",
+  "phone": "9900112211"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d63"
+  },
+  "name": "Resistor Array Ltd",
+  "email": "vendas@resistorarray.com",
+  "phone": "9900112222"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d64"
+  },
+  "name": "Capacitor King",
+  "email": "contato@capking.com",
+  "phone": "9900112233"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d65"
+  },
+  "name": "Inductor Coil Co",
+  "email": "vendas@inductorcoil.com",
+  "phone": "9900112244"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d66"
+  },
+  "name": "Diode Laser Tech",
+  "email": "contato@diodelaser.com",
+  "phone": "9900112255"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d67"
+  },
+  "name": "Transistor World",
+  "email": "vendas@transistorworld.com",
+  "phone": "1234567800"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d68"
+  },
+  "name": "Circuit Trace Pen",
+  "email": "contato@circuitpen.com",
+  "phone": "1234567811"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d69"
+  },
+  "name": "Flux Solder Store",
+  "email": "vendas@fluxsolder.com",
+  "phone": "1234567822"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d6a"
+  },
+  "name": "Heat Shrink Tube",
+  "email": "contato@heatshrink.com",
+  "phone": "1234567833"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d6b"
+  },
+  "name": "Braid Cable Sleeves",
+  "email": "vendas@braidcable.com",
+  "phone": "1234567844"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d6c"
+  },
+  "name": "Kevlar Fiber Tech",
+  "email": "contato@kevlarfiber.com",
+  "phone": "1234567855"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d6d"
+  },
+  "name": "Copper Wire Mill",
+  "email": "vendas@copperwire.com",
+  "phone": "8765432100"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d6e"
+  },
+  "name": "Aluminum Fin Co",
+  "email": "contato@aluminumfin.com",
+  "phone": "8765432111"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d6f"
+  },
+  "name": "Plastic Mold Chassis",
+  "email": "vendas@plasticmold.com",
+  "phone": "8765432122"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d70"
+  },
+  "name": "Glass Side Panels",
+  "email": "contato@glasspanels.com",
+  "phone": "8765432133"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d71"
+  },
+  "name": "Steel Frame PC",
+  "email": "vendas@steelframe.com",
+  "phone": "8765432144"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d72"
+  },
+  "name": "Rubber Damper Kits",
+  "email": "contato@rubberdamper.com",
+  "phone": "8765432155"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d73"
+  },
+  "name": "Fan Grill Design",
+  "email": "vendas@fangrill.com",
+  "phone": "1357924600"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d74"
+  },
+  "name": "Dust Filter Mesh",
+  "email": "contato@dustfilter.com",
+  "phone": "1357924611"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d75"
+  },
+  "name": "Stand Off Screws",
+  "email": "vendas@standoffs.com",
+  "phone": "1357924622"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d76"
+  },
+  "name": "Thumb Screw Direct",
+  "email": "contato@thumbscrew.com",
+  "phone": "1357924633"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d77"
+  },
+  "name": "Hex Bolt Hardware",
+  "email": "vendas@hexbolt.com",
+  "phone": "1357924644"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d78"
+  },
+  "name": "Torx Driver Tools",
+  "email": "contato@torxdriver.com",
+  "phone": "1357924655"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d79"
+  },
+  "name": "Anti Static Mat",
+  "email": "vendas@antistatic.com",
+  "phone": "2468135700"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d7a"
+  },
+  "name": "Grounding Wrist Strap",
+  "email": "contato@grounding.com",
+  "phone": "2468135711"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d7b"
+  },
+  "name": "Magnifying Lamp Co",
+  "email": "vendas@maglamp.com",
+  "phone": "2468135722"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d7c"
+  },
+  "name": "Soldering Iron Pro",
+  "email": "contato@solderingpro.com",
+  "phone": "2468135733"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d7d"
+  },
+  "name": "Desoldering Pump",
+  "email": "vendas@desoldering.com",
+  "phone": "2468135744"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d7e"
+  },
+  "name": "Multimeter Digital",
+  "email": "contato@multimeter.com",
+  "phone": "2468135755"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d7f"
+  },
+  "name": "Oscilloscope Tech",
+  "email": "vendas@oscilloscope.com",
+  "phone": "9876123400"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d80"
+  },
+  "name": "Power Lab Supply",
+  "email": "contato@powerlab.com",
+  "phone": "9876123411"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d81"
+  },
+  "name": "Voltage Tester Inc",
+  "email": "vendas@voltagetester.com",
+  "phone": "9876123422"
+},
+{
+  "_id": {
+    "$oid": "696948c1d812e1c127063d82"
+  },
+  "name": "Network Tester Co",
+  "email": "contato@networktester.com",
+  "phone": "9876123433"
+},
+{
+  "_id": {
+    "$oid": "69694cab0731870247efb4ee"
+  },
+  "name": "Tecnofer",
+  "email": "contato@tecnofer.com",
+  "phone": "7788994455",
+  "createdAt": {
+    "$date": "2026-01-15T20:23:07.734Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-15T20:23:07.734Z"
+  },
+  "__v": 0
+}]
