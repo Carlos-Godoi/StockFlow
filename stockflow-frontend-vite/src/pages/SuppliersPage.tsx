@@ -12,23 +12,28 @@ import {
     useToast,
     IconButton,
     Flex,
-    AlertIcon
+    AlertIcon,
+    useDisclosure,
+    TableContainer
 } from '@chakra-ui/react';
 import { DeleteIcon, EditIcon, AddIcon } from '@chakra-ui/icons';
 import { useAuth } from '../context/AuthContext';
 import { AxiosError } from 'axios';
 import { Alert, Spinner } from 'flowbite-react';
+import SupplierModal from '../components/SupplierModal';
 
 interface Supplier {
     _id: string;
     name: string;
-    contact: string;
-    address: string;
+    email: string;
+    phone: string;
 }
 
 const SuppliersPage: React.FC = () => {
     const [suppliers, setSuppliers] = useState<Supplier[]>([]);
+    const [selectedSupplier, setSelectedSupplier] = useState<Supplier | undefined>(undefined);
     const [loading, setLoading] = useState(true);
+    const { isOpen, onOpen, onClose } = useDisclosure();
     const { hasRole } = useAuth();
     const toast = useToast();
 
@@ -74,8 +79,18 @@ const SuppliersPage: React.FC = () => {
         );
     }
 
+    const handleEdit = (supplier: Supplier) => {
+        setSelectedSupplier(supplier);
+        onOpen();
+    };
+
+    const handleAdd = () => {
+        setSelectedSupplier(undefined);
+        onOpen();
+    };
+
     const handleDelete = async (id: string) => {
-        if (window.confirm('Remover este fornecedor?')) {
+        if (window.confirm('Tem certeza que deseja remover este fornecedor?')) {
             try {
                 await api.delete(`/suppliers/${id}`);
                 toast({
@@ -102,29 +117,36 @@ const SuppliersPage: React.FC = () => {
             <Heading mb={6}>Gestão de Fornecedores</Heading>
 
             {hasRole(['admin']) && (
-                <Button leftIcon={<AddIcon />} colorScheme='blue' mb={4}>
+                <Button leftIcon={<AddIcon />} colorScheme='blue' mb={4} onClick={handleAdd}>
                     Novo Fornecedor
                 </Button>
             )}
 
-            <Table variant='simple' bg='white' boxShadow='sm' borderRadius='lg'>
-                <Thead>
+            <TableContainer bg='white' boxShadow='sm' borderRadius='lg' borderWidth='1px'>
+            <Table variant='simple'>
+                <Thead bg='gray.50'>
                     <Tr>
                         <Th>Nome</Th>
-                        <Th>Contato</Th>
-                        <Th>Endereço</Th>
+                        <Th>E-mail</Th>
+                        <Th>Telefone</Th>
                         {hasRole(['admin']) && <Th>Ações</Th>}
                     </Tr>
                 </Thead>
                 <Tbody>
                     {suppliers.map(s => (
                         <Tr key={s._id}>
-                            <Td>{s.name}</Td>
-                            <Td>{s.contact}</Td>
-                            <Td>{s.address}</Td>
+                            <Td fontWeight='medium'>{s.name}</Td>
+                            <Td>{s.email}</Td>
+                            <Td>{s.phone}</Td>
                             {hasRole(['admin']) && (
                                 <Td>
-                                    <IconButton aria-label='Edit' icon={<EditIcon />} mr={2} size='sm' />
+                                    <IconButton
+                                        aria-label='Edit'
+                                        icon={<EditIcon />}
+                                        mr={2}
+                                        size='sm'
+                                        onClick={() => handleEdit(s)}
+                                    />
                                     <IconButton
                                         aria-label='Delete'
                                         icon={<DeleteIcon />}
@@ -138,6 +160,15 @@ const SuppliersPage: React.FC = () => {
                     ))}
                 </Tbody>
             </Table>
+        </TableContainer>
+
+        {/* Inclusão do Modal */}
+        <SupplierModal
+        isOpen={isOpen}   
+        onClose={onClose}
+        onSuccess={fetchSuppliers}
+        initialData={selectedSupplier}
+        />
         </Box>
     );
 };

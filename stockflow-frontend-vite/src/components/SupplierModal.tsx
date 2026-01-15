@@ -11,65 +11,63 @@ import {
     FormControl,
     FormLabel,
     Input,
-    Select,
     VStack,
-    useToast,
-    InputGroup,
-    InputLeftElement,
-    Flex 
+    useToast  
 } from '@chakra-ui/react';
 import api from '../api/api';
 import { AxiosError } from 'axios';
 
+interface Supplier {
+    _id: string;
+    name: string;
+    email: string;
+    phone: string;
+}
+
 interface SupplierModalProps {
     isOpen: boolean;
     onClose: () => void;
-    initialData: any | null;
-    onSuccess: () => void; // Função carregar lista
+    onSuccess: () => void;
+    initialData?: Supplier;
 }
 
 const SupplierModal: React.FC<SupplierModalProps> = ({ isOpen, onClose, initialData, onSuccess }) => {
-    const [formData, setFormData] = useState(initialData || {});
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: ''
+    });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const toast = useToast();
 
     useEffect(() => {
-        setFormData(initialData || {
-            name: '',
-            contact: '',
-            address: '',
-        });
-    }, [initialData]);
-
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target;
-        // // Converter valores numéricos
-        // setFormData({
-        //     ...formData,
-        // })
-    };
+        if (initialData) {
+            setFormData({
+                name: initialData.name || '',
+                email: initialData.email || '',
+                phone: initialData.phone || ''
+            });
+        } else {
+            setFormData({ name: '', email: '', phone: '' });
+        }
+    }, [initialData, isOpen]);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsSubmitting(true);
 
         try {
-            const isEditing = !!initialData?._id;
-            const endpoint = isEditing ? `/suppliers/${initialData._id}` : '/suppliers';
-
-            // if (isEditing) {
-            //     await api.put(endpoint, dataToSend);
-            // } else {
-            //     await api.post(endpoint, dataToSend);
-            // }
-
-            toast({
-                title: `Fornecedor ${isEditing ? 'atualizado' : 'criado'} com sucesso!`,
-                status: 'success',
-                duration: 3000,
-                isClosable: true,
-            });
-
+            if (initialData?._id) {
+                await api.put(`/suppliers/${initialData._id}`, formData);
+                toast({
+                    title: 'Fornecedor atualizado!',
+                    status: 'success'
+                });
+            } else {
+                // Criar novo
+                await api.post('/suppliers', formData);
+                toast({ title: 'Fornecedor cadastrado!', status: 'success' });
+            }
             onSuccess();    // Recarrega a lista
             onClose();      // Fecha o modal
         } catch (error: unknown) {
@@ -85,11 +83,60 @@ const SupplierModal: React.FC<SupplierModalProps> = ({ isOpen, onClose, initialD
         } finally {
             setIsSubmitting(false);
         }
-    }
+    };
 
+    return (
+        <Modal isOpen={isOpen} onClose={onClose}>
+            <ModalOverlay />
+            <ModalContent>
+                <form onSubmit={handleSubmit}>
+                    <ModalHeader>
+                        {initialData ? 'Editar Fornecedor' : 'Novo Fornecedor'}
+                    </ModalHeader>
+                    <ModalCloseButton />
 
+                    <ModalBody>
+                        <VStack spacing={4}>
+                            <FormControl isRequired>
+                                <FormLabel>Nome da Empresa / Fornecedor</FormLabel>
+                                <Input
+                                    value={formData.name}
+                                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                                    placeholder='Ex: Tech Distribuidora'
+                                />
+                            </FormControl>
 
+                            <FormControl isRequired>
+                                <FormLabel>Email de Contato</FormLabel>
+                                <Input
+                                    type='email'
+                                    value={formData.email}
+                                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                                    placeholder='contato@empresa.com'
+                                />
+                            </FormControl>
 
+                            <FormControl isRequired>
+                                <FormLabel>Telefone</FormLabel>
+                                <Input
+                                value={formData.phone}
+                                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                                placeholder='+55 (xx) 9XXXX-XXXX'
+                                />
+                            </FormControl>
+                        </VStack>
+                    </ModalBody>
 
+                    <ModalFooter>
+                        <Button variant='ghost' mr={3} onClick={onClose}>Cancelar</Button>
+                        <Button colorScheme='blue' type='submit' isLoading={isSubmitting}>
+                            Salvar
+                        </Button>
+                    </ModalFooter>
+                </form>
+            </ModalContent>
+        </Modal>
+    );
+};
 
-}
+export default SupplierModal;

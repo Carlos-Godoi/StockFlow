@@ -1,9 +1,10 @@
 // src/pages/Login.tsx
 
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link as ReactRouterLink } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { Box, Button, FormLabel, Input, Heading, VStack, FormControl, useToast } from '@chakra-ui/react';
+import { Link as ChakraLink, Text, Box, Button, FormLabel, Input, Heading, VStack, FormControl, useToast } from '@chakra-ui/react';
+
 
 
 const LoginPage: React.FC = () => {
@@ -15,16 +16,16 @@ const LoginPage: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Simples validação para garantir que não está enviando vazio
     if (!email || !password) {
-        return toast({
-            title: "Campos obrigatórios",
-            description: "Por favor, preencha e-mail e senha.",
-            status: "warning",
-            duration: 3000,
-            isClosable: true,
-        });
+      return toast({
+        title: "Campos obrigatórios",
+        description: "Por favor, preencha e-mail e senha.",
+        status: "warning",
+        duration: 3000,
+        isClosable: true,
+      });
     }
 
     const success = await login({ email, password });
@@ -55,33 +56,40 @@ const LoginPage: React.FC = () => {
         <VStack spacing={4}>
           <FormControl id="email">
             <FormLabel>E-mail</FormLabel>
-            <Input 
-              type="email" 
-              value={email} 
-              onChange={(e) => setEmail(e.target.value)} 
+            <Input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
             />
           </FormControl>
 
           <FormControl id="password">
             <FormLabel>Senha</FormLabel>
-            <Input 
-              type="password" 
-              value={password} 
-              onChange={(e) => setPassword(e.target.value)} 
+            <Input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               required
             />
           </FormControl>
 
-          <Button 
-            type="submit" 
-            colorScheme="blue" 
-            size="lg" 
-            width="full" 
+          <Button
+            type="submit"
+            colorScheme="blue"
+            size="lg"
+            width="full"
             isLoading={isLoading}
           >
             Entrar
           </Button>
+
+          <Text mt={4}>
+             Ainda não tem conta?{' '}
+            <ChakraLink as={ReactRouterLink} to="/register" color='blue.500' fontWeight='bold'> 
+              Cadastre-se aqui
+            </ChakraLink>
+          </Text>
         </VStack>
       </form>
     </Box>
