@@ -7,11 +7,11 @@ import { EditIcon, DeleteIcon, AddIcon } from '@chakra-ui/icons';
 import { AxiosError } from 'axios';
 import ProductModal from '../components/ProductModal';
 
+
 // Tipagem backend
 interface ISupplier {
     _id: string;
-    name: string;
-    contact: string;
+    name: string;   
 }
 
 interface IProduct {
@@ -175,7 +175,7 @@ const ProductsPage: React.FC = () => {
 
                                     <Td fontWeight='medium'>{product.name}</Td>
                                     <Td fontWeight='medium'>{product.name}</Td>
-                                    <Td>{product.supplier.name}</Td>
+                                    {/* <Td>{product.supplier.name}</Td> */}
                                     <Td isNumeric>R$ {product.salePrice.toFixed(2)}</Td>
                                     <Td isNumeric color={product.stockQuantity <= product.minimumStock ? 'red.500' : 'inherit'}>
                                         {product.stockQuantity}
