@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import User from '../models/User';
 import jwt from 'jsonwebtoken';
+import bcrypt from 'bcryptjs';
 
 // Função auxiliar para gerar o JWT
 const generateToken = (id: string, role: string): string => {
@@ -10,6 +11,37 @@ const generateToken = (id: string, role: string): string => {
         JWT_SECRET, 
         { expiresIn: '1d'}
     );
+};
+
+export const register = async (req: Request, res: Response): Promise<any> => {
+    try {
+        const { name, email, password, taxId, phone, address } = req.body;
+
+        // Verifica se o e-mail já existe
+        const userExists = await User.findOne({ email });
+        if (userExists) {
+            return res.status(400).json({ message: 'E-mail já cadastrado.' });
+        }
+
+        // Hash do password
+        const salt = await bcrypt.genSalt(10);
+        const hashedPassword = await bcrypt.hash(password, salt);
+
+        const newUser = new User({
+            name,
+            email,
+            password: hashedPassword,
+            role: 'customer',
+            taxId,
+            phone,
+            address
+        });
+
+        await newUser.save();
+        res.status(201).json({ message: 'Cliente registrado com sucesso!' });
+    } catch (error) {
+        res.status(500).json({ message: 'Erro ao registrar cliente.' });
+    }
 };
 
 /**

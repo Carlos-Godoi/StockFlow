@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 
-type Role = 'admin' | 'seller' | 'stocker';
+type Role = 'admin' | 'seller' | 'stocker' | 'customer';
 
 /**
  * Middleware de Autorização (Role-Based Access Control).

@@ -75,15 +75,15 @@ const SidebarContent: React.FC = () => {
     const { user, logout, hasRole } = useAuth();
     const bgColor = useColorModeValue('white', 'gray.900');
 
-    
+
     const LinkItems: LinkItemProps[] = [
-        { name: 'Dashboard', icon: FiHome, to: '/dashboard', roles: ['admin', 'seller', 'stocker'] },
+        { name: 'Dashboard', icon: FiHome, to: '/dashboard', roles: ['admin', 'seller', 'stocker', 'customer'] },
         { name: 'Produtos', icon: FiPackage, to: '/products', roles: ['admin', 'seller', 'stocker'] },
         { name: 'Vendas', icon: FiShoppingCart, to: '/sales', roles: ['admin', 'seller'] },
         { name: 'Relatórios', icon: FiBarChart2, to: '/reports', roles: ['admin'] },
         { name: 'Fornecedores', icon: FiTruck, to: '/suppliers', roles: ['admin'] },
         { name: 'Usuários', icon: FiUsers, to: '/users', roles: ['admin'] },
-        { name: 'PDV (Vendas)', icon: FiShoppingCart, to: '/pos', roles: ['admin', 'seller'] },
+        { name: 'PDV (Vendas)', icon: FiShoppingCart, to: '/pos', roles: ['admin', 'seller', 'customer'] },      
     ];
 
     return (
@@ -118,11 +118,11 @@ const SidebarContent: React.FC = () => {
                     Logado como: **{user?.role.toUpperCase()}**
                 </Text>
                 <Button
-                leftIcon={<FiLogOut />}
-                colorScheme='red'
-                variant='outline'
-                w='full'
-                onClick={logout}
+                    leftIcon={<FiLogOut />}
+                    colorScheme='red'
+                    variant='outline'
+                    w='full'
+                    onClick={logout}
                 >
                     Sair
                 </Button>

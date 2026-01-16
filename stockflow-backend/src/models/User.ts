@@ -6,21 +6,27 @@ export interface IUser extends Document {
   name: string;
   email: string;
   password: string;
-  role: 'admin' | 'seller' | 'stocker';
+  role: 'admin' | 'seller' | 'stocker' | 'customer';
+  taxId: string;
+  phone: string;
+  address: string;
   comparePassword(candidatePassword: string): Promise<boolean>;
 }
 
 const UserSchema = new Schema<IUser>({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true, select: false }, // 'select: false' impede que a senha seja retornada em consultas padrão
+  password: { type: String, required: true, select: false }, 
   role: {
     type: String,
-    enum: ['admin', 'seller', 'stocker'],
-    default: 'seller'
-  },
-}, {
-  timestamps: true // Campos createdAt e updatedAt
+    enum: ['admin', 'seller', 'stocker', 'customer'],
+    default: 'customer'  
+}, 
+  taxId: { type: String },
+  phone: { type: String },
+  address: { type: String },
+}, { 
+  timestamps: true 
 });
 
 // Middleware Mongoose: Hashing da senha antes de salvar (pré-save)

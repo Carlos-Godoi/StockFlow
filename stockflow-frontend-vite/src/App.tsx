@@ -9,6 +9,7 @@ import SalesPage from './pages/SalesPage';
 import SuppliersPage from './pages/SuppliersPage';
 import ReportsPage from './pages/ReportsPage';
 import PosPage from './pages/PosPage';
+import RegisterPage from './pages/RegisterPage';
 
 
 
@@ -72,6 +73,10 @@ const App: React.FC = () => {
                 <PosPage />
               </ProtectedRoute>
             }
+          />
+          <Route
+          path='/register'
+          element={<RegisterPage />}
           />
           
           {/* Rota Padrão: Redireciona para o Dashboard (se logado) ou login */}
