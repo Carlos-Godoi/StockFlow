@@ -4,6 +4,13 @@ import { Box, Button, Heading, Text, VStack } from '@chakra-ui/react';
 // 1. IMPORTAÇÃO: Importe o componente que você exportou do outro arquivo.
 import { Sidebar } from 'flowbite-react';
 
+const roleLabels: Record<string, string> = {
+    admin: 'Administrador',
+    seller: 'Vendedor',
+    stocker: 'Estoquista',
+    customer: 'Cliente'
+};
+
 const DashboardPage: React.FC = () => {
     const { user, logout, isAuthenticated } = useAuth();
 
@@ -11,7 +18,9 @@ const DashboardPage: React.FC = () => {
         return <Text>Carregando ou acesso negado...</Text>
     }
 
-    return (
+    const friendLyRole = roleLabels[user.role] || user.role;
+
+      return (
         // 2. FRAGMENTO: Use um Fragmento (<>...</>) para retornar múltiplos elementos.
         <>
             {/* 3. RENDERIZAÇÃO: Renderize a barra de navegação no topo. */}
@@ -20,7 +29,7 @@ const DashboardPage: React.FC = () => {
             <Box p={8}>
                 <VStack spacing={4} align='start'>
                     <Heading>Bem-vindo(a) ao StockFlow, {user.name}!</Heading>
-                    <Text fontSize='xl'>Você está logado como: **{user.role}**</Text>
+                    <Text fontSize='xl'>Você está logado como: **{friendLyRole}**</Text>
                     <Text>Aqui você verá os principais indicadores e atalhos da sua função.</Text>
 
                     <Box pt={4}>
