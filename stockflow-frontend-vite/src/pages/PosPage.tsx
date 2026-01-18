@@ -9,8 +9,11 @@ import {
 } from 'react-icons/fi';
 import api from '../api/api';
 import { AxiosError } from 'axios';
+import { generateReceipt } from '../utils/generateReceipt';
+import { useAuth } from '../context/AuthContext';
 
 // --- INTERFACES ---
+
 interface IProduct {
     _id: string;
     name: string;
@@ -39,11 +42,11 @@ const PosPage: React.FC = () => {
         try {
             const response = await api.get('/products');
             setProducts(response.data);
+
         } catch (error: unknown) {
             const message = error instanceof AxiosError
                 ? error.response?.data?.message
                 : 'Falha de comunicação com a API.';
-
             toast({
                 title: 'Erro ao carregar catálogo.',
                 description: message,
@@ -108,24 +111,56 @@ const PosPage: React.FC = () => {
         [products, searchTerm]
     );
 
+    const { user } = useAuth();
+
     // --- FINALIZAR VENDA ---
     const handleFinalizeSale = async () => {
+        // 1. Abre a janela imediatamente para evitar bloqueio do Firefox
+        const novaJanela = window.open('', '_blank');
+        if (novaJanela) {
+            novaJanela.document.write('<h1>STOCKFLOW</h1><p>Gerando recibo... por favor aguarde.</p>');
+        }
+
         try {
             const items = cart.map(item => ({
                 productId: item._id,
                 quantity: item.quantity
             }));
 
-            await api.post('/sales', { items });
+            // 2. Chamada única à API
+            const response = await api.post('/sales', { items });
+            const saleData = response.data;
 
-            toast({ title: 'Venda finalizada com sucesso!', status: 'success' });
+            toast({
+                title: 'Venda Finalizada!',
+                description: 'O recibo será gerado a seguir.',
+                status: 'success',
+                duration: 3000,
+                isClosable: true,
+            });
+
+            // 3. Chama a função de recibo passando a janela aberta
+            // Certifique-se que as chaves (products, totalAmount) batem com seu Backend
+            generateReceipt({
+                saleId: saleData._id,
+                date: saleData.saleDate || new Date().toISOString(),
+                items: saleData.products || [], // Verifique se o backend retorna 'products'
+                total: saleData.totalAmount,
+                sellerName: user?.name || 'Vendedor'
+            }, novaJanela); // <--- Passamos a janela aqui
+
+            // 4. Limpa o carrinho e atualiza estoque
             setCart([]);
             fetchProducts();
+
         } catch (error: unknown) {
+            // Se der erro, fecha a janela branca aberta
+            novaJanela?.close();
+
             if (error instanceof AxiosError) {
                 toast({
                     title: 'Erro ao concluir venda',
-                    description: error.response?.data?.message || 'Erro desconhecido',
+                    description: error.response?.data?.message || 'Falha na comunicação com servidor.',
                     status: 'error'
                 });
             }
@@ -149,7 +184,6 @@ const PosPage: React.FC = () => {
             {/* SEÇÃO DE PRODUTOS */}
             <Box flex={1} overflowY='auto' pr={2}>
                 <Heading size='md' mb={4}>Catálogo de Produtos</Heading>
-
                 <InputGroup mb={6}>
                     <InputLeftElement pointerEvents='none'>
                         <FiSearch color="gray.300" />
@@ -183,12 +217,14 @@ const PosPage: React.FC = () => {
                                     borderRadius='md'
                                 />
                             </Center>
+
                             <VStack align='start' spacing={1}>
                                 <Text fontWeight='bold' noOfLines={1}>{product.name}</Text>
                                 <Text color='blue.600' fontWeight='bold'>R$ {product.salePrice.toFixed(2)}</Text>
                                 <Badge colorScheme={product.stockQuantity > 5 ? 'green' : 'red'}>
                                     Estoque: {product.stockQuantity}
                                 </Badge>
+
                                 <Button
                                     leftIcon={<FiPlus />}
                                     colorScheme='blue'
@@ -200,6 +236,7 @@ const PosPage: React.FC = () => {
                                 >
                                     Adicionar
                                 </Button>
+
                             </VStack>
                         </Box>
                     ))}
@@ -232,12 +269,14 @@ const PosPage: React.FC = () => {
                                         onClick={() => removeFromCart(item._id)}
                                     />
                                 </Flex>
+
                                 <Flex justify='space-between' align='center' mt={2}>
                                     <HStack spacing={2}>
                                         <IconButton aria-label='dec' icon={<FiMinus />} size='xs' onClick={() => updateQuantity(item._id, -1)} />
                                         <Text fontWeight='bold'>{item.quantity}</Text>
                                         <IconButton aria-label='inc' icon={<FiPlus />} size='xs' onClick={() => updateQuantity(item._id, 1)} />
                                     </HStack>
+
                                     <Text fontSize='sm'>R$ {(item.salePrice * item.quantity).toFixed(2)}</Text>
                                 </Flex>
                             </Box>
@@ -268,4 +307,4 @@ const PosPage: React.FC = () => {
     );
 };
 
-export default PosPage;
+export default PosPage; 
