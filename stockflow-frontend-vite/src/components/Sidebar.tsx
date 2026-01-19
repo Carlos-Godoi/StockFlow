@@ -19,7 +19,8 @@ import {
     FiTruck,
     FiUsers,
     FiLogOut,
-    FiShoppingCart
+    FiShoppingCart,
+    FiFileText
 } from 'react-icons/fi';
 import { IconType } from 'react-icons';
 
@@ -84,6 +85,8 @@ const SidebarContent: React.FC = () => {
         { name: 'Fornecedores', icon: FiTruck, to: '/suppliers', roles: ['admin'] },
         { name: 'Usuários', icon: FiUsers, to: '/users', roles: ['admin'] },
         { name: 'PDV (Vendas)', icon: FiShoppingCart, to: '/pos', roles: ['admin', 'seller', 'customer'] },      
+        { name: 'Minhas Compras', icon: FiFileText, to: '/sales-history', roles: ['admin', 'seller', 'customer'] 
+  },
     ];
 
     return (

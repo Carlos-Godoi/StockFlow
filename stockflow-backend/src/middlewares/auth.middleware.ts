@@ -4,7 +4,20 @@ import jwt from 'jsonwebtoken';
 // Estrutura do payload do JWT (Mantida)
 interface JwtPayload {
     id: string;
-    role: 'admin' | 'seller' | 'stocker';
+    role: 'admin' | 'seller' | 'stocker' | 'customer';
+}
+
+interface UserPayload {
+    id: string;
+    role: "admin" | "seller" | "stocker" | "customer"; // ADICIONE 'customer' AQUI
+}
+
+declare global {
+  namespace Express {
+    interface Request {
+      user?: UserPayload;
+    }
+  }
 }
 
 /**

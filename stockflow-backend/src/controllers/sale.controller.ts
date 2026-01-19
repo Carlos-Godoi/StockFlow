@@ -80,10 +80,14 @@ export const createSale = async (req: Request, res: Response) => {
  */
 export const getSales = async (req: Request, res: Response) => {
     try {
-        // Popula com o nome do vendedor e os nomes dos produtos
+        const { role, id } = (req as any).user;
+
+        // Consulta cliente, filtrar por ID / Se for admin/seller, lista tudo
+        const query = role === 'customer' ? { user: id } : {};
+
         const sales = await Sale.find({})
-            .populate('user', 'name email role')
-            .sort({ saleDate: -1 }); // Ordena pelos mais recentes
+            .populate('user', 'name email')
+            .sort({ createdAt: -1 }); // Ordena pelos mais recentes
 
         res.json(sales);
     } catch (error) {
@@ -91,3 +95,4 @@ export const getSales = async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Erro interno do servidor.' });
     }
 };
+

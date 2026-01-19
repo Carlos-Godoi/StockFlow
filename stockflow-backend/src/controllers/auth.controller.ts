@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
 // Função auxiliar para gerar o JWT
-const generateToken = (id: string, role: string): string => {
+const generateToken = (id: string, role: 'admin' | 'seller' | 'stocker' | 'customer'): string => {
     const JWT_SECRET = process.env.JWT_SECRET || 'OyTuKBeJMg16INIiC+1YApEn/yoJnTXGRepG6Yjiz1UVTG9jmaRQs7s4tWE8gkPnjL3Uri9EHqupMq4MW+vSKQ==';
     return jwt.sign(
         { id, role }, 
@@ -75,7 +75,7 @@ export const registerUser = async (req: Request, res: Response) => {
             password,
             // 🔒 SEGURANÇA: A role é definida como 'seller' (ou 'user') por padrão, 
             // IGNORE qualquer 'role' que tenha vindo no req.body.
-            role: 'seller', 
+            role: 'customer', 
         });
 
         // 3. Responde com sucesso e token (Código mantido)

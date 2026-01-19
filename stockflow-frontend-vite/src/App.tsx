@@ -10,6 +10,7 @@ import SuppliersPage from './pages/SuppliersPage';
 import ReportsPage from './pages/ReportsPage';
 import PosPage from './pages/PosPage';
 import RegisterPage from './pages/RegisterPage';
+import SalesHistoryPage from './pages/SalesHistoryPage';
 
 
 
@@ -75,10 +76,19 @@ const App: React.FC = () => {
             }
           />
           <Route
-          path='/register'
-          element={<RegisterPage />}
+            path='/register'
+            element={<RegisterPage />}
           />
-          
+          <Route
+            path="/sales-history"
+            element={
+              <ProtectedRoute>
+                <SalesHistoryPage />
+              </ProtectedRoute>
+            }
+          />
+
+
           {/* Rota Padrão: Redireciona para o Dashboard (se logado) ou login */}
           <Route path='/' element={<Navigate to='/dashboard' replace />} />
 

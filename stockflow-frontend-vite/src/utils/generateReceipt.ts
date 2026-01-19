@@ -1,14 +1,14 @@
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 
-interface ItemsData {
+export interface ItemsData {
     name: string;
     priceAtSale: number;
     quantity: number;
     subtotal: number;
 }
 
-interface ReceiptData {
+export interface ReceiptData {
     saleId: string;
     date: string;
     items: ItemsData[];
@@ -98,3 +98,4 @@ export const generateReceipt = (data: ReceiptData, existingWindow?: Window | nul
     // Limpeza de memória
     setTimeout(() => URL.revokeObjectURL(url), 5000);
 };
+
