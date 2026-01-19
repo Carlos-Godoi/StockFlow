@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "693dd713d93a269735458bcc"
+  },
+  "name": "Carlos Godoi",
+  "email": "admin@stockflow.com",
+  "password": "$2b$10$M509hKSr1kgSXWvhDPI3EuICUY.UZZbLE1FfMuEFafJ3oyUlkAB2O",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-12-13T21:13:55.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T21:13:55.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693dd753d93a269735458bcf"
+  },
+  "name": "StockFlow",
+  "email": "stockflow@stockflow.com",
+  "password": "$2b$10$MUBY7NFfCZzcDSnHLIH72.JGAkfobtO8bJBk1e3GH.3eQWS.5tiYK",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-12-13T21:14:59.379Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-13T21:14:59.379Z"
+  },
+  "__v": 0
+}]

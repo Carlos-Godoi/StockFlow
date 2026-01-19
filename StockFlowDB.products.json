@@ -1,0 +1,828 @@
+[{
+  "_id": {
+    "$oid": "696953b85b33f56a71d39944"
+  },
+  "name": "Processador Intel Core i9-13900K",
+  "description": "24 núcleos, 32 threads, 5.8GHz Turbo. Ideal para entusiastas e workstations.",
+  "purchasePrice": 3200,
+  "salePrice": 4150.9,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d27"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 12,
+  "updatedAt": {
+    "$date": "2026-01-15T20:59:59.550Z"
+  },
+  "imageUrl": "/uploads/images/82efe04e45e79163a8361335e07d2c4b-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953b85b33f56a71d39945"
+  },
+  "name": "Placa de Vídeo RTX 4090 24GB",
+  "description": "Arquitetura Ada Lovelace com suporte a Ray Tracing e DLSS 3.",
+  "purchasePrice": 8500,
+  "salePrice": 11200,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d28"
+  },
+  "minimumStock": 2,
+  "stockQuantity": 4,
+  "updatedAt": {
+    "$date": "2026-01-15T21:00:35.302Z"
+  },
+  "imageUrl": "/uploads/images/7698be21620565e66329ad8d1cdb7a94-h.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953b85b33f56a71d39946"
+  },
+  "name": "SSD NVMe 2TB Samsung 980 Pro",
+  "description": "Velocidades de leitura de até 7000MB/s via PCIe 4.0.",
+  "purchasePrice": 650,
+  "salePrice": 980,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d2e"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 45,
+  "updatedAt": {
+    "$date": "2026-01-15T21:01:10.177Z"
+  },
+  "imageUrl": "/uploads/images/4f6181c1e459a8dfc233209e6cd9e863-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953b85b33f56a71d39947"
+  },
+  "name": "Memória RAM 32GB DDR5 6000MHz",
+  "description": "Kit Dual Channel (2x16GB) com iluminação RGB e dissipador.",
+  "purchasePrice": 520,
+  "salePrice": 850,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d2f"
+  },
+  "minimumStock": 15,
+  "stockQuantity": 30,
+  "updatedAt": {
+    "$date": "2026-01-15T21:01:50.200Z"
+  },
+  "imageUrl": "/uploads/images/e15d0484f9f578bf961e8b6d7c1c7efd-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953b85b33f56a71d39948"
+  },
+  "name": "Monitor Gamer 27' 144Hz IPS",
+  "description": "Resolução Quad HD (2k), tempo de resposta de 1ms e G-Sync.",
+  "purchasePrice": 1100,
+  "salePrice": 1650,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d29"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 8,
+  "updatedAt": {
+    "$date": "2026-01-15T21:02:27.712Z"
+  },
+  "imageUrl": "/uploads/images/dd587edef1adb41d6c8ec54d682d7dc4-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953b85b33f56a71d39949"
+  },
+  "name": "Fonte 850W 80 Plus Gold Modular",
+  "description": "Proteção total contra surtos e eficiência energética certificada.",
+  "purchasePrice": 450,
+  "salePrice": 720,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d2a"
+  },
+  "minimumStock": 8,
+  "stockQuantity": 20,
+  "updatedAt": {
+    "$date": "2026-01-15T21:03:01.101Z"
+  },
+  "imageUrl": "/uploads/images/434222cd20dab1a78e55d9ca27c27284-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953b85b33f56a71d3994a"
+  },
+  "name": "Water Cooler 360mm RGB",
+  "description": "Sistema de refrigeração líquida com três fans silenciosas.",
+  "purchasePrice": 380,
+  "salePrice": 599,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d25"
+  },
+  "minimumStock": 6,
+  "stockQuantity": 15,
+  "updatedAt": {
+    "$date": "2026-01-15T21:03:25.894Z"
+  },
+  "imageUrl": "/uploads/images/bdbd061e60194e30814c10429144d61b-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953cc5b33f56a71d3994c"
+  },
+  "name": "Switch Gerenciável 24 Portas Gigabit",
+  "description": "Switch L2+ com 4 slots SFP+ 10G. Ideal para expansão de rede corporativa.",
+  "purchasePrice": 1200,
+  "salePrice": 1850,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d35"
+  },
+  "minimumStock": 3,
+  "stockQuantity": 7,
+  "updatedAt": {
+    "$date": "2026-01-15T21:03:59.501Z"
+  },
+  "imageUrl": "/uploads/images/680954d3ff5238b9416fbe259db48f04-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953cc5b33f56a71d3994d"
+  },
+  "name": "Cabo de Rede Cat6 FTP - Bobina 305m",
+  "description": "Cabo blindado contra interferências eletromagnéticas, 100% cobre.",
+  "purchasePrice": 450,
+  "salePrice": 790,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d34"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 25,
+  "updatedAt": {
+    "$date": "2026-01-15T21:04:28.212Z"
+  },
+  "imageUrl": "/uploads/images/624e6b021c3d5fa216bfa8a208dfc43b-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953cc5b33f56a71d3994e"
+  },
+  "name": "Roteador Wi-Fi 6 AX5400 Dual Band",
+  "description": "Tecnologia MU-MIMO e OFDMA para alta densidade de dispositivos.",
+  "purchasePrice": 580,
+  "salePrice": 920,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d35"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 18,
+  "updatedAt": {
+    "$date": "2026-01-15T21:04:57.506Z"
+  },
+  "imageUrl": "/uploads/images/2b8bd8760b55d6cd7e20145245c90b16-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953cc5b33f56a71d3994f"
+  },
+  "name": "Patch Cord Fibra Óptica LC-LC 3m",
+  "description": "Cabo duplex monomodo (SMF) 9/125um para conexões de alta velocidade.",
+  "purchasePrice": 25,
+  "salePrice": 65,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d36"
+  },
+  "minimumStock": 50,
+  "stockQuantity": 120,
+  "updatedAt": {
+    "$date": "2026-01-15T21:05:24.050Z"
+  },
+  "imageUrl": "/uploads/images/c6a38a566611d3acc107a3fb6b83eee0-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953cc5b33f56a71d39951"
+  },
+  "name": "Access Point Corporativo Wi-Fi 6 Long Range",
+  "description": "Suporta mais de 300 conexões simultâneas com gerenciamento centralizado.",
+  "purchasePrice": 750,
+  "salePrice": 1250,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d35"
+  },
+  "minimumStock": 4,
+  "stockQuantity": 10,
+  "updatedAt": {
+    "$date": "2026-01-15T21:06:11.192Z"
+  },
+  "imageUrl": "/uploads/images/655e54b5e27a1bebf9c45dcbf72cd500-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953cc5b33f56a71d39952"
+  },
+  "name": "Conversor de Mídia Gigabit Ethernet para Fibra",
+  "description": "Converte sinal RJ45 para SC monomodo até 20km.",
+  "purchasePrice": 110,
+  "salePrice": 245,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d36"
+  },
+  "minimumStock": 6,
+  "stockQuantity": 14,
+  "updatedAt": {
+    "$date": "2026-01-15T21:06:50.995Z"
+  },
+  "imageUrl": "/uploads/images/145654acbb0e87427903cb9bf8c66d3b-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696953cc5b33f56a71d39953"
+  },
+  "name": "Alicate de Crimpagem Profissional RJ45/RJ11",
+  "description": "Estrutura em aço catracado com decapador e cortador inclusos.",
+  "purchasePrice": 45,
+  "salePrice": 110,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d34"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 30,
+  "updatedAt": {
+    "$date": "2026-01-15T21:07:34.075Z"
+  },
+  "imageUrl": "/uploads/images/262261a6cac150148a0244158d4db201-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d39955"
+  },
+  "name": "Teclado Mecânico 60% RGB Switch Blue",
+  "description": "Formato compacto (60%), switches mecânicos hot-swappable e iluminação RGB programável.",
+  "purchasePrice": 180,
+  "salePrice": 349.9,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d32"
+  },
+  "minimumStock": 15,
+  "stockQuantity": 41,
+  "updatedAt": {
+    "$date": "2026-01-15T21:11:41.623Z"
+  },
+  "imageUrl": "/uploads/images/db45fe482588ff998ba6f5005447eb98-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d39956"
+  },
+  "name": "Mouse Gamer Ultraleve 16000 DPI",
+  "description": "Sensor óptico de alta precisão, 65g de peso e cabo paracord flexível.",
+  "purchasePrice": 120,
+  "salePrice": 259,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d33"
+  },
+  "minimumStock": 20,
+  "stockQuantity": 54,
+  "updatedAt": {
+    "$date": "2026-01-15T21:11:41.642Z"
+  },
+  "imageUrl": "/uploads/images/d98db4589b1e06d739e7ea415ce3ce72-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d39957"
+  },
+  "name": "Kit Keycaps PBT Double Shot - Sunset",
+  "description": "Teclas em PBT de alta durabilidade que não brilham com o tempo. Compatível com padrão ANSI.",
+  "purchasePrice": 85,
+  "salePrice": 189,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d5b"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 12,
+  "updatedAt": {
+    "$date": "2026-01-15T21:08:59.264Z"
+  },
+  "imageUrl": "/uploads/images/d78cf996c480ef923dbb78a7ad6b8c62-Sem tÃ­tulo.jpg"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d39958"
+  },
+  "name": "Fita LED RGB Inteligente 5m Wi-Fi",
+  "description": "Compatível com Alexa e Google Home. 16 milhões de cores e sincronização com música.",
+  "purchasePrice": 45,
+  "salePrice": 129.9,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d61"
+  },
+  "minimumStock": 25,
+  "stockQuantity": 80,
+  "updatedAt": {
+    "$date": "2026-01-15T21:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d39959"
+  },
+  "name": "Mousepad Speed Extra Large (900x400mm)",
+  "description": "Superfície em tecido liso para deslize rápido e bordas costuradas.",
+  "purchasePrice": 35,
+  "salePrice": 95,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d33"
+  },
+  "minimumStock": 30,
+  "stockQuantity": 110,
+  "updatedAt": {
+    "$date": "2026-01-15T21:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1615667390067-55411f32446f?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d3995a"
+  },
+  "name": "Headset Gamer 7.1 Surround Noise Cancelling",
+  "description": "Drivers de 50mm, microfone removível e almofadas de espuma de memória.",
+  "purchasePrice": 210,
+  "salePrice": 420,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d32"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 18,
+  "updatedAt": {
+    "$date": "2026-01-15T21:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426da472b?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d3995b"
+  },
+  "name": "Suporte de Headset com Hub USB 3.0",
+  "description": "Base emborrachada com iluminação RGB e 3 portas USB frontais.",
+  "purchasePrice": 60,
+  "salePrice": 145,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d61"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 15,
+  "updatedAt": {
+    "$date": "2026-01-15T21:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954045b33f56a71d3995c"
+  },
+  "name": "Switch Mecânico Linear (Pacote com 45 unidades)",
+  "description": "Switches pré-lubrificados de fábrica para digitação suave e silenciosa.",
+  "purchasePrice": 70,
+  "salePrice": 135,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d32"
+  },
+  "minimumStock": 8,
+  "stockQuantity": 20,
+  "updatedAt": {
+    "$date": "2026-01-15T21:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1595225476474-87563907a212?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d3995e"
+  },
+  "name": "Monitor UltraWide 34' Curvo 144Hz",
+  "description": "Resolução WQHD (3440x1440p), painel VA com 1500R de curvatura e HDR10. Ideal para multitarefa e imersão.",
+  "purchasePrice": 1850,
+  "salePrice": 2799,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d29"
+  },
+  "minimumStock": 4,
+  "stockQuantity": 10,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d3995f"
+  },
+  "name": "Laptop Workstation i7 32GB RAM RTX A2000",
+  "description": "Tela 15.6' 4K Adobe RGB, SSD 1TB NVMe. Certificado para AutoCAD, Revit e SolidWorks.",
+  "purchasePrice": 7200,
+  "salePrice": 9850,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d1f"
+  },
+  "minimumStock": 2,
+  "stockQuantity": 5,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d39960"
+  },
+  "name": "Painel de Reposição LED 14.0' Slim 30 pinos",
+  "description": "Tela de reposição para notebooks, resolução Full HD (1920x1080) fosca.",
+  "purchasePrice": 280,
+  "salePrice": 540,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d39"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 22,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d39961"
+  },
+  "name": "Monitor Profissional 4K 27' Calibrado",
+  "description": "Painel IPS com 100% sRGB e Delta E < 2. Inclui base ergonômica com ajuste de altura e pivô.",
+  "purchasePrice": 1400,
+  "salePrice": 2150,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d29"
+  },
+  "minimumStock": 3,
+  "stockQuantity": 6,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1547115941-079042097ee2?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d39962"
+  },
+  "name": "Notebook Gamer Ryzen 9 RTX 4070",
+  "description": "Tela 16' QHD 240Hz, 16GB DDR5, teclado RGB por tecla e sistema de refrigeração líquida externa.",
+  "purchasePrice": 8500,
+  "salePrice": 11400,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d20"
+  },
+  "minimumStock": 2,
+  "stockQuantity": 3,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d39963"
+  },
+  "name": "Monitor Portátil 15.6' USB-C",
+  "description": "Monitor secundário leve e fino para viagens. Conexão via cabo único USB-C (DisplayPort Alt Mode).",
+  "purchasePrice": 450,
+  "salePrice": 890,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d29"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 15,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d39964"
+  },
+  "name": "Bateria para Laptop 4 células 52Wh",
+  "description": "Bateria de íons de lítio compatível com modelos das séries corporativas.",
+  "purchasePrice": 120,
+  "salePrice": 320,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d39"
+  },
+  "minimumStock": 8,
+  "stockQuantity": 20,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=400"
+},
+{
+  "_id": {
+    "$oid": "696954385b33f56a71d39965"
+  },
+  "name": "Monitor de Referência OLED 32' 240Hz",
+  "description": "Pretos perfeitos, contraste infinito e tempo de resposta de 0.03ms GtG.",
+  "purchasePrice": 4200,
+  "salePrice": 6100,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d29"
+  },
+  "minimumStock": 1,
+  "stockQuantity": 2,
+  "updatedAt": {
+    "$date": "2026-01-15T21:15:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1551645120-d70bfe84c826?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d39967"
+  },
+  "name": "Gabinete Full Tower Modular E-ATX",
+  "description": "Painéis em vidro temperado de 4mm, suporte para radiadores de até 420mm e sistema de gestão de cabos integrado.",
+  "purchasePrice": 850,
+  "salePrice": 1290,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d45"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 12,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1587202377425-8b90ed50a301?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d39968"
+  },
+  "name": "Air Cooler de Torre Dupla 250W TDP",
+  "description": "Sete heatpipes de cobre, duas ventoinhas de 140mm e compatibilidade com sockets AM5 e LGA1700.",
+  "purchasePrice": 280,
+  "salePrice": 465,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d25"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 25,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1591489378430-ef2f4c626b35?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d39969"
+  },
+  "name": "Massa Térmica de Prata (5g) 12.5 W/mK",
+  "description": "Alta condutividade térmica para overclocking extremo. Não condutiva eletricamente.",
+  "purchasePrice": 25,
+  "salePrice": 89.9,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d2c"
+  },
+  "minimumStock": 50,
+  "stockQuantity": 150,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d3996a"
+  },
+  "name": "Kit 3 Ventoinhas RGB 120mm c/ Controladora",
+  "description": "Fluxo de ar de 65 CFM, rolamento hidráulico silencioso e sincronização com software de motherboard.",
+  "purchasePrice": 110,
+  "salePrice": 249,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d25"
+  },
+  "minimumStock": 15,
+  "stockQuantity": 40,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1587202377425-8b90ed50a301?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d3996b"
+  },
+  "name": "Gabinete Mini-ITX em Alumínio Escovado",
+  "description": "Design minimalista premium, suporte para GPU de 3 slots e painéis laterais perfurados para airflow.",
+  "purchasePrice": 420,
+  "salePrice": 780,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d30"
+  },
+  "minimumStock": 3,
+  "stockQuantity": 8,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d3996c"
+  },
+  "name": "Radiador de Cobre 360mm para Custom Loop",
+  "description": "Aletas de alta densidade otimizadas para ventoinhas de baixa pressão sonora.",
+  "purchasePrice": 320,
+  "salePrice": 590,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d41"
+  },
+  "minimumStock": 4,
+  "stockQuantity": 9,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1591489378430-ef2f4c626b35?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d3996d"
+  },
+  "name": "Cabo Extensor Sleeve Kit - Branco/Preto",
+  "description": "Cabos trançados individualmente para ATX 24-pin, EPS 8-pin e PCIe. Inclui pentes organizadores.",
+  "purchasePrice": 65,
+  "salePrice": 155,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d45"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 30,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969546f5b33f56a71d3996e"
+  },
+  "name": "Bomba/Reservatório Combo PWM 800 L/h",
+  "description": "Bomba D5 integrada com reservatório de 200ml em acrílico de alta resistência.",
+  "purchasePrice": 480,
+  "salePrice": 820,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d41"
+  },
+  "minimumStock": 2,
+  "stockQuantity": 5,
+  "updatedAt": {
+    "$date": "2026-01-15T22:00:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1591489378430-ef2f4c626b35?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39970"
+  },
+  "name": "Windows 11 Pro - Licença OEM 64-bit",
+  "description": "Chave de ativação digital para ambiente corporativo com recursos de segurança BitLocker e Remote Desktop.",
+  "purchasePrice": 420,
+  "salePrice": 859.9,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d1f"
+  },
+  "minimumStock": 50,
+  "stockQuantity": 120,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39971"
+  },
+  "name": "Microsoft 365 Business Standard (Anual)",
+  "description": "Assinatura para 1 usuário, inclui aplicativos Office completos e 1TB de armazenamento em nuvem OneDrive.",
+  "purchasePrice": 380,
+  "salePrice": 649,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d37"
+  },
+  "minimumStock": 100,
+  "stockQuantity": 500,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1633113214144-d2ec05665807?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39972"
+  },
+  "name": "Antivírus Kaspersky Total Security - 3 Dispositivos",
+  "description": "Licença anual com VPN ilimitada, proteção contra ransomware e controle parental.",
+  "purchasePrice": 65,
+  "salePrice": 149,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d20"
+  },
+  "minimumStock": 30,
+  "stockQuantity": 85,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39973"
+  },
+  "name": "Adobe Creative Cloud All Apps - Mensal",
+  "description": "Acesso a mais de 20 aplicativos, incluindo Photoshop, Premiere Pro e Illustrator.",
+  "purchasePrice": 180,
+  "salePrice": 275,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d21"
+  },
+  "minimumStock": 10,
+  "stockQuantity": 40,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39974"
+  },
+  "name": "Windows Server 2022 Standard - 16 Cores",
+  "description": "Licenciamento base para servidores, focado em segurança multi-camadas e modernização de apps.",
+  "purchasePrice": 3200,
+  "salePrice": 5100,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d37"
+  },
+  "minimumStock": 2,
+  "stockQuantity": 5,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39975"
+  },
+  "name": "VMware Workstation Pro - Licença Perpétua",
+  "description": "Software de virtualização para execução de múltiplos sistemas operacionais no mesmo PC.",
+  "purchasePrice": 850,
+  "salePrice": 1290,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d21"
+  },
+  "minimumStock": 5,
+  "stockQuantity": 12,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1607799279861-4dd421837ad1?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39976"
+  },
+  "name": "AutoCAD 2026 - Assinatura 1 Ano",
+  "description": "Software de design auxiliado por computador (CAD) para arquitetura e engenharia.",
+  "purchasePrice": 4500,
+  "salePrice": 6200,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d1f"
+  },
+  "minimumStock": 1,
+  "stockQuantity": 3,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400"
+},
+{
+  "_id": {
+    "$oid": "6969549f5b33f56a71d39977"
+  },
+  "name": "CleanMyMac X - Licença Anual",
+  "description": "Utilitário de limpeza e otimização para sistemas macOS.",
+  "purchasePrice": 95,
+  "salePrice": 199,
+  "supplier": {
+    "$oid": "696948c1d812e1c127063d20"
+  },
+  "minimumStock": 15,
+  "stockQuantity": 45,
+  "updatedAt": {
+    "$date": "2026-01-15T22:30:00.000Z"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400"
+}]
