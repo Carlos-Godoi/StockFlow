@@ -93,7 +93,7 @@ export const generateReceipt = (data: ReceiptData, existingWindow?: Window | nul
     }
 
     // Download automático opcional (Backup)
-    doc.save(`recibo-${data.saleId.substring(0, 8)}.pdf`);
+    // doc.save(`recibo-${data.saleId.substring(0, 8)}.pdf`);
 
     // Limpeza de memória
     setTimeout(() => URL.revokeObjectURL(url), 5000);

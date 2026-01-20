@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fi';
 import api from '../api/api';
 import { AxiosError } from 'axios';
-import { generateReceipt } from '../utils/generateReceipt';
+import { generateReceipt, ItemsData } from '../utils/generateReceipt';
 import { useAuth } from '../context/AuthContext';
 
 // --- INTERFACES ---
@@ -117,10 +117,7 @@ const PosPage: React.FC = () => {
     const handleFinalizeSale = async () => {
         // 1. Abre a janela imediatamente para evitar bloqueio do Firefox
         const novaJanela = window.open('', '_blank');
-        if (novaJanela) {
-            novaJanela.document.write('<h1>STOCKFLOW</h1><p>Gerando recibo... por favor aguarde.</p>');
-        }
-
+    
         try {
             const items = cart.map(item => ({
                 productId: item._id,
@@ -139,15 +136,20 @@ const PosPage: React.FC = () => {
                 isClosable: true,
             });
 
-            // 3. Chama a função de recibo passando a janela aberta
-            // Certifique-se que as chaves (products, totalAmount) batem com seu Backend
-            generateReceipt({
-                saleId: saleData._id,
-                date: saleData.saleDate || new Date().toISOString(),
-                items: saleData.products || [], // Verifique se o backend retorna 'products'
-                total: saleData.totalAmount,
-                sellerName: user?.name || 'Vendedor'
-            }, novaJanela); // <--- Passamos a janela aqui
+            const itemsForReceipt: ItemsData[] = cart.map(item => ({
+                name: String(item.name),
+                priceAtSale: Number(item.quantity),
+                quantity: Number(item.quantity),
+                subtotal: Number(item.salePrice * item.quantity)
+            }));
+            
+            generateReceipt ({
+                saleId: saleData._id || saleData.id,
+                date: saleData.saleDate || saleData.createdAt || new Date().toISOString(),
+                items: itemsForReceipt,
+                total: Number(saleData.totalAmount || total),
+                sellerName: user?.name || 'Vendedor'                
+            }, novaJanela); 
 
             // 4. Limpa o carrinho e atualiza estoque
             setCart([]);
