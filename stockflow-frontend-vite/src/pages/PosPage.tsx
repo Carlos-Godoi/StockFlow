@@ -148,7 +148,8 @@ const PosPage: React.FC = () => {
                 date: saleData.saleDate || saleData.createdAt || new Date().toISOString(),
                 items: itemsForReceipt,
                 total: Number(saleData.totalAmount || total),
-                sellerName: user?.name || 'Vendedor'                
+                sellerName: user?.name || 'Vendedor',
+                userRole: user?.role || 'Cliente'                
             }, novaJanela); 
 
             // 4. Limpa o carrinho e atualiza estoque

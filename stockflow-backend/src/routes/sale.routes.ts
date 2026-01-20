@@ -8,8 +8,8 @@ const router = Router();
 // Todas as rotas de venda requerem autenticação
 router.use(protect);
 
-// POST: Criar venda (Admin e Seller)
-router.post('/', authorize(['admin', 'seller']), saleController.createSale);
+// POST: Criar venda (Admin e Seller, Customer)
+router.post('/', authorize(['admin', 'seller', 'customer']), saleController.createSale);
 
 // GET: Listar vendas (Admin)
 router.get('/', authorize(['admin']), saleController.getSales);

@@ -1,4 +1,4 @@
-export type UserRole = 'admin' | 'seller' | 'stocker';
+export type UserRole = 'admin' | 'seller' | 'stocker' | 'customer';
 
 
 /**

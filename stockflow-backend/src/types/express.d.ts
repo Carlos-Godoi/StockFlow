@@ -4,7 +4,7 @@ import { Request } from 'express';
 // Define a estrutura que queremos adicionar ao Request
 interface UserPayload {
     id: string;
-    role: 'admin' | 'seller' | 'stocker';
+    role: 'admin' | 'seller' | 'stocker' | 'customer';
 }
 
 // Estende a interface Request do Express
