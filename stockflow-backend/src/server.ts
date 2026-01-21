@@ -10,6 +10,7 @@ import supplierRoutes from './routes/supplier.routes';
 import productRoutes from './routes/product.routes';
 import saleRoutes from './routes/sale.routes';
 import reportRoutes from './routes/report.routes';
+import statsRoutes from './routes/stats.routes';
 import cors from 'cors';
 import path from 'path';
 
@@ -80,6 +81,8 @@ app.use('/api/sales', saleRoutes);
 
 // Rotas de Relatórios
 app.use('/api/reports', reportRoutes);
+
+app.use('/api/stats', statsRoutes);
 
 
 const PORT = process.env.PORT || 3000;

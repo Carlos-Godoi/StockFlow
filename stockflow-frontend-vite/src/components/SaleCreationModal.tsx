@@ -44,7 +44,7 @@ interface ProductOption {
 }
 
 // Estado local de um item na venda
-interface SaleItem {
+export interface SaleItem {
     productId: string;
     quantity: number;
     priceAtSale: number;
