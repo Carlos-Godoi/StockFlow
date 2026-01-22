@@ -4,6 +4,7 @@ import { Box, Heading, Text, VStack } from '@chakra-ui/react';
 // 1. IMPORTAÇÃO: Importe o componente que você exportou do outro arquivo.
 import { Sidebar } from 'flowbite-react';
 import DashboardStats from '../components/DashboardStats';
+import SalesChart from '../components/SalesChart';
 
 const roleLabels: Record<string, string> = {
     admin: 'Administrador',
@@ -36,10 +37,15 @@ const DashboardPage: React.FC = () => {
                     {/* Renderiza os cartões dinâmicos */}
                     <DashboardStats />
 
+
                     
-                    <Box mt={10}>                       
-                        {/* Aqui poderia vir o componente de Histórico de Vendas que criamos antes */}
-                    </Box>                   
+
+
+                </VStack>
+            </Box>
+            <Box p={8}>
+                <VStack spacing={6} align='start' mb={6}>
+                    <SalesChart />
                 </VStack>
             </Box>
 
