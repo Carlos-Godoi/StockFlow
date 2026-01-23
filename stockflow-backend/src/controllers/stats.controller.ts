@@ -1,6 +1,8 @@
 import { Request, Response } from 'express';
 import Sale from '../models/Sale';
 import mongoose from 'mongoose';
+import Product from '../models/Product';
+import { AxiosError } from 'axios';
 
 interface CustomRequest extends Request {
     user: {
@@ -11,11 +13,11 @@ interface CustomRequest extends Request {
 
 export const getDashboardSummary = async (req: Request, res: Response) => {
     try {
-        const { role, id } =(req as CustomRequest).user;
+        const { role, id } = (req as CustomRequest).user;
 
         const matchQuery = role === 'customer'
-        ? { user: new mongoose.Types.ObjectId(id) }
-        : {};
+            ? { user: new mongoose.Types.ObjectId(id) }
+            : {};
 
         const stats = await Sale.aggregate([
             { $match: matchQuery },
@@ -23,12 +25,12 @@ export const getDashboardSummary = async (req: Request, res: Response) => {
                 $group: {
                     _id: null,
                     totalValue: { $sum: "$totalAmount" },
-                    count: { $sum: 1 }  
+                    count: { $sum: 1 }
                 }
             }
         ]);
 
-        const result  = stats[0] || { totalValue: 0, count: 0 };
+        const result = stats[0] || { totalValue: 0, count: 0 };
 
         res.json({
             total: result.totalValue,
@@ -42,11 +44,11 @@ export const getDashboardSummary = async (req: Request, res: Response) => {
 
 export const getSalesChartData = async (req: Request, res: Response) => {
     try {
-        const { role, id } =(req as CustomRequest).user;
+        const { role, id } = (req as CustomRequest).user;
 
         const matchQuery = role === 'customer'
-        ? { user: new mongoose.Types.ObjectId(id) }
-        : {};
+            ? { user: new mongoose.Types.ObjectId(id) }
+            : {};
 
         // Agregação para agrupar por dia
         const chartData = await Sale.aggregate([
@@ -55,11 +57,11 @@ export const getSalesChartData = async (req: Request, res: Response) => {
                 $group: {
                     // Formata a data para YYYY-MM-DD
                     _id: { $dateToString: { format: "%y-%m-%d", date: "$createdAt" } },
-                    total: { $sum: "$totalAmount" } 
+                    total: { $sum: "$totalAmount" }
                 }
             },
             { $sort: { "_id": 1 } }, // Ordena por data, da mais antiga para a mais nova
-            { $limit: 7 } 
+            { $limit: 7 }
         ]);
 
         const formattedData = chartData.map(item => ({
@@ -71,4 +73,16 @@ export const getSalesChartData = async (req: Request, res: Response) => {
     } catch (error) {
         res.status(500).json({ message: 'Erro ao gerar dados do gráfico.' });
     }
+};
+
+export const getLowStockAlerts = async (req: Request, res: Response) => {
+  try {
+    const lowStockProducts = await Product.find({
+      $expr: { $lte: ["$stockQuantity", "$minimumStock"] }
+    }).select('name stockQuantity minimumStock');
+
+    res.json(lowStockProducts);
+  } catch (error) {
+    res.status(500).json({ message: 'Erro ao procurar alertas de stock.' });
+  }
 };

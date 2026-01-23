@@ -10,7 +10,6 @@ const SalesChart: React.FC = () => {
     useEffect(() => {
         api.get('/stats/chart')
             .then(res => setData(res.data))
-            .catch(err => console.error('Erro ao buscar stats', err))
             .finally(() => setLoading(false));
     }, []);
 

@@ -9,7 +9,7 @@ interface JwtPayload {
 
 interface UserPayload {
     id: string;
-    role: "admin" | "seller" | "stocker" | "customer"; // ADICIONE 'customer' AQUI
+    role: "admin" | "seller" | "stocker" | "customer"; 
 }
 
 declare global {
@@ -35,14 +35,12 @@ export const protect = async (req: Request, res: Response, next: NextFunction) =
             // ⚠️ CORREÇÃO DE SEGURANÇA: Garante que o segredo JWT exista
             const secret = process.env.JWT_SECRET;
             if (!secret) {
-                // Se o segredo não estiver definido, algo está errado com o ambiente.
                 // Isso deve ser resolvido antes do deploy.
                 console.error('ERRO FATAL: JWT_SECRET não está definido.');
                 return res.status(500).json({ message: 'Erro de configuração do servidor.' });
             }
 
             // 2. Verificar e decodificar o token
-            // A tipagem de 'req.user' agora é resolvida pelo arquivo express.d.ts
             const decoded = jwt.verify(token, secret) as JwtPayload;
 
             // 3. Anexa os dados do usuário (ID e Role)
@@ -60,9 +58,5 @@ export const protect = async (req: Request, res: Response, next: NextFunction) =
     } else {
         // Se o cabeçalho Bearer não estiver presente, ou a autorização estiver faltando
         return res.status(401).json({ message: 'Não autorizado, o token Bearer não foi encontrado.' });
-    }
-    
-    // O último bloco 'if (!token)' não é mais necessário aqui, 
-    // pois ele está coberto pelo 'else' da primeira verificação.
-    // Se o código chegar aqui, é porque a requisição foi tratada.
+    }  
 };
