@@ -2,6 +2,7 @@ import { Router, Request, Response } from 'express';
 import { protect } from '../middlewares/auth.middleware'; 
 import { authorize } from '../middlewares/role.middleware';
 import User from '../models/User'; 
+import { getUsers, updateUserRole } from '../controllers/userController';
 
 const router = Router();
 
@@ -30,5 +31,8 @@ router.get(
         }
     }
 );
+
+router.get('/', getUsers);
+router.put('/:id', updateUserRole);
 
 export default router;

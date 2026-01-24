@@ -83,10 +83,9 @@ const SidebarContent: React.FC = () => {
         { name: 'Vendas', icon: FiShoppingCart, to: '/sales', roles: ['admin', 'seller'] },
         { name: 'Relatórios', icon: FiBarChart2, to: '/reports', roles: ['admin'] },
         { name: 'Fornecedores', icon: FiTruck, to: '/suppliers', roles: ['admin'] },
-        { name: 'Usuários', icon: FiUsers, to: '/users', roles: ['admin'] },
         { name: 'PDV (Vendas)', icon: FiShoppingCart, to: '/pos', roles: ['admin', 'seller', 'customer'] },      
-        { name: 'Minhas Compras', icon: FiFileText, to: '/sales-history', roles: ['admin', 'seller', 'customer'] 
-  },
+        { name: 'Minhas Compras', icon: FiFileText, to: '/sales-history', roles: ['admin', 'seller', 'customer'] },
+        { name: 'Utilizadores', icon:FiUsers, to: '/users', roles: ['admin'] },
     ];
 
     return (

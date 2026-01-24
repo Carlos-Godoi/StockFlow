@@ -7,6 +7,7 @@ export interface IUser extends Document {
   email: string;
   password: string;
   role: 'admin' | 'seller' | 'stocker' | 'customer';
+  isActive: boolean;
   taxId: string;
   phone: string;
   address: string;
@@ -16,17 +17,18 @@ export interface IUser extends Document {
 const UserSchema = new Schema<IUser>({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true, select: false }, 
+  password: { type: String, required: true, select: false },
   role: {
     type: String,
     enum: ['admin', 'seller', 'stocker', 'customer'],
-    default: 'customer'  
-}, 
+    default: 'customer'
+  },
+  isActive: { type: Boolean, default: true },
   taxId: { type: String },
   phone: { type: String },
   address: { type: String },
-}, { 
-  timestamps: true 
+}, {
+  timestamps: true
 });
 
 // Middleware Mongoose: Hashing da senha antes de salvar (pré-save)

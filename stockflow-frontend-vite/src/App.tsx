@@ -11,6 +11,7 @@ import ReportsPage from './pages/ReportsPage';
 import PosPage from './pages/PosPage';
 import RegisterPage from './pages/RegisterPage';
 import SalesHistoryPage from './pages/SalesHistoryPage';
+import UsersPage from './pages/UsersPage';
 
 
 
@@ -84,6 +85,14 @@ const App: React.FC = () => {
             element={
               <ProtectedRoute>
                 <SalesHistoryPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/users"
+            element={
+              <ProtectedRoute>
+                <UsersPage />
               </ProtectedRoute>
             }
           />
