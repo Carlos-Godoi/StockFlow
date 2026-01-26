@@ -12,6 +12,7 @@ import PosPage from './pages/PosPage';
 import RegisterPage from './pages/RegisterPage';
 import SalesHistoryPage from './pages/SalesHistoryPage';
 import UsersPage from './pages/UsersPage';
+import ProfilePage from './pages/ProfilePage';
 
 
 
@@ -96,7 +97,14 @@ const App: React.FC = () => {
               </ProtectedRoute>
             }
           />
-
+          <Route
+            path="/profile"
+            element={
+              <ProtectedRoute>
+                <ProfilePage />
+              </ProtectedRoute>
+            }
+          />
 
           {/* Rota Padrão: Redireciona para o Dashboard (se logado) ou login */}
           <Route path='/' element={<Navigate to='/dashboard' replace />} />

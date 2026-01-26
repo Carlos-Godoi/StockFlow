@@ -2,9 +2,12 @@ import { Router, Request, Response } from 'express';
 import { protect } from '../middlewares/auth.middleware'; 
 import { authorize } from '../middlewares/role.middleware';
 import User from '../models/User'; 
-import { getUsers, updateUserRole } from '../controllers/userController';
+import { getUsers, getMe, updateMe, updateUserRole } from '../controllers/userController';
 
 const router = Router();
+
+//router.use(protect);
+//router.use(authorize(['admin']));
 
 /**
  * @route   GET /api/users
@@ -32,7 +35,11 @@ router.get(
     }
 );
 
-router.get('/', getUsers);
+router.put('/me', protect, updateMe);
+router.get('/me', protect, getMe);
 router.put('/:id', updateUserRole);
+router.get('/:id', getUsers);
+
+
 
 export default router;

@@ -1,4 +1,4 @@
-import mongoose, { Schema, model, Document } from 'mongoose';
+import mongoose, { Schema, Document } from 'mongoose';
 import bcrypt from 'bcryptjs';
 
 // Definição da interface TypeScript para o documento do Usuário
@@ -16,7 +16,7 @@ export interface IUser extends Document {
 
 const UserSchema = new Schema<IUser>({
   name: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
+  email: { type: String, required: true, unique: true, lowercase: true, trim: true },
   password: { type: String, required: true, select: false },
   role: {
     type: String,
@@ -45,5 +45,14 @@ UserSchema.methods.comparePassword = async function (candidatePassword: string):
   return await bcrypt.compare(candidatePassword, this.password);
 };
 
+UserSchema.pre('findOneAndUpdate', async function () {
+  const update: any = this.getUpdate();
+
+  if (update?.password) {
+    const salt = await bcrypt.genSalt(10);
+    update.password = await bcrypt.hash(update.password, salt);
+  }
+});
+
+
 export default mongoose.model<IUser>('User', UserSchema);
-//export default model('User', UserSchema);
