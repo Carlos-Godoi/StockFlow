@@ -79,13 +79,14 @@ export const createSale = async (req: Request, res: Response) => {
  * @access  Private/Admin
  */
 export const getSales = async (req: Request, res: Response) => {
+    const userId = req.user!.id;
     try {
         const { role, id } = (req as any).user;
 
         // Consulta cliente, filtrar por ID / Se for admin/seller, lista tudo
         const query = role === 'customer' ? { user: id } : {};
 
-        const sales = await Sale.find({})
+        const sales = await Sale.find(query)
             .populate('user', 'name email')
             .sort({ createdAt: -1 }); // Ordena pelos mais recentes
 
