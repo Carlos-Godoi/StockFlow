@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 import {
-    Box, Heading, Table, Thead, Tbody, Tr, Th, Td,
+    Box, Heading, Table, Thead, Tbody, Tr, Th, Td, Text,
     Button, useToast, TableContainer, Spinner, Center, Flex
 } from '@chakra-ui/react';
 import { FiFileText, FiRefreshCw } from 'react-icons/fi';
@@ -14,51 +14,73 @@ import { UserRole } from '../types/auth';
 interface Sale {
     _id: string;
     createdAt: string;
-    items: ItemsData [],
+    items: ItemsData[],
     totalAmount: number;
     user?: {
         name: string;
-    };     
+    };
 }
 
 const SalesHistoryPage: React.FC = () => {
-    const { user } = useAuth();
+    const { user, hasRole } = useAuth();
     const [sales, setSales] = useState<Sale[]>([]);
     const [loading, setLoading] = useState(true);
     const toast = useToast();
 
+    const canView = !!user && hasRole(['admin', 'customer', 'seller', 'stocker']);
+
     const fetchSales = useCallback(async () => {
+        if (!canView) {
+            setLoading(false);
+            return;
+        }
+
         setLoading(true);
         try {
-            const res = await api.get('/sales');
-            setSales(res.data);
+            const response = await api.get('/sales');
+            setSales(Array.isArray(response.data) ? response.data : []);
         } catch (error: unknown) {
-            if (error instanceof AxiosError) {
-                toast({ title: 'Erro ao carregar vendas', status: 'error' });
-            }
+            const message = error instanceof AxiosError
+                ? error.response?.data?.message
+                : 'Falha de comunicação com a API.';
+
+            toast({
+                title: 'Erro ao carregar vendas',
+                description: message,
+                status: 'error',
+                duration: 5000,
+                isClosable: true
+            });
         } finally {
             setLoading(false);
         }
-    }, [toast]);
+    }, [canView, toast]);
 
     useEffect(() => {
-        console.log('Usuário logado:', user);
         fetchSales();
-    }, [fetchSales, user]);
+    }, [fetchSales]);
 
     const handlePrint = (sale: Sale) => {
         const currentUserRole = (user?.role as UserRole) || 'customer';
         generateReceipt({
             saleId: sale._id,
             date: sale.createdAt,
-            items: sale.items || [], 
+            items: sale.items || [],
             total: sale.totalAmount,
             sellerName: sale.user?.name || 'Sistema',
             userRole: currentUserRole
         });
     };
 
-    if (loading) return <Center h='60vh'><Spinner size='xl' color='blue.500' /></Center>;
+    if (loading) return <Center h='60vh'><Spinner size='xl' color='blue.500' thickness='4px' /></Center>;
+
+    if (!canView) {
+        return (
+            <Center h='60vh'>
+                <Text color='gray.500'>Você não tem permissão para ver este histórico.</Text>
+            </Center>
+        );
+    }
 
     return (
         <Box p={8}>
@@ -71,7 +93,7 @@ const SalesHistoryPage: React.FC = () => {
                 <Table variant='simple'>
                     <Thead bg='gray.50'>
                         <Tr>
-                            <th>Data</th>
+                            <Th>Data</Th>
                             <Th>ID da Venda</Th>
                             {/* O Admin vê quem comprou, o cliente não precisa ver o próprio nome em todas as linhas */}
                             <Th>Cliente</Th>
@@ -90,7 +112,7 @@ const SalesHistoryPage: React.FC = () => {
                                     <Td>{sale.user?.name || 'N/A'}</Td>
                                     <Td isNumeric fontWeight='bold'>R$ {sale.totalAmount.toFixed(2)}</Td>
                                     <Td>
-                                        
+
                                         <Button
                                             leftIcon={<FiFileText />}
                                             size='sm'
@@ -107,7 +129,7 @@ const SalesHistoryPage: React.FC = () => {
                     </Tbody>
                 </Table>
             </TableContainer>
-        </Box>       
+        </Box>
     );
 };
 

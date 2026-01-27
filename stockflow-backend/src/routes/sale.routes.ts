@@ -12,6 +12,6 @@ router.use(protect);
 router.post('/', authorize(['admin', 'seller', 'customer']), saleController.createSale);
 
 // GET: Listar vendas (Admin)
-router.get('/', authorize(['admin']), saleController.getSales);
+router.get('/', authorize(['admin', 'customer', 'seller', 'stocker']), saleController.getSales);
 
 export default router;

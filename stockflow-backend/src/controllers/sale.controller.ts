@@ -80,21 +80,18 @@ export const createSale = async (req: Request, res: Response) => {
  * @access  Private/Admin
  */
 export const getSales = async (req: Request, res: Response) => {
-    const userId = req.user!.id;
+    
     try {
-        const { role, id } = (req as any).user;
+        let query = {};
 
-        // Consulta cliente, filtrar por ID / Se for admin/seller, lista tudo
-        const query = role === 'customer' ? { user: id } : {};
+        if (req.user?.role === 'customer') {
+            query = { user: req.user.id };
+        }
 
-        const sales = await Sale.find(query)
-            .populate('user', 'name email')
-            .sort({ createdAt: -1 }); // Ordena pelos mais recentes
-
-        res.json(sales);
+        const sales = await Sale.find(query).populate('user', 'name');
+        return res.status(200).json(sales);
     } catch (error) {
-        console.error('Erro ao buscar vendas.', error);
-        res.status(500).json({ message: 'Erro interno do servidor.' });
+        return res.status(500).json({ message: 'Erro interno do servidor.' });
     }
 };
 
