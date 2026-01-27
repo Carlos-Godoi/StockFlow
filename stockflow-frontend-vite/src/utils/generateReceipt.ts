@@ -1,6 +1,8 @@
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 
+export type UserRole = 'customer' | 'seller' | 'stocker' | 'admin';
+
 export interface ItemsData {
     name: string;
     priceAtSale: number;
@@ -14,7 +16,7 @@ export interface ReceiptData {
     items: ItemsData[];
     total: number;
     sellerName: string;
-    userRole: string;
+    userRole: UserRole;
 }
 
 // Interface para evitar o erro 'property lastAutoTable does not exist'

@@ -3,6 +3,7 @@ import * as saleService from '../services/sale.service';
 import Sale from '../models/Sale';
 import axios from 'axios';
 import Product from '../models/Product';
+import { Query } from 'mongoose';
 
 const saleProducts: { 
     productId: any; 

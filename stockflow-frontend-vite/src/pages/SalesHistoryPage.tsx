@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
+import { useAuth } from '../context/AuthContext';
 import {
     Box, Heading, Table, Thead, Tbody, Tr, Th, Td,
     Button, useToast, TableContainer, Spinner, Center, Flex
@@ -7,6 +8,8 @@ import { FiFileText, FiRefreshCw } from 'react-icons/fi';
 import api from '../api/api';
 import { generateReceipt, ItemsData } from '../utils/generateReceipt';
 import { AxiosError } from 'axios';
+import { UserRole } from '../types/auth';
+
 
 interface Sale {
     _id: string;
@@ -19,11 +22,12 @@ interface Sale {
 }
 
 const SalesHistoryPage: React.FC = () => {
+    const { user } = useAuth();
     const [sales, setSales] = useState<Sale[]>([]);
     const [loading, setLoading] = useState(true);
     const toast = useToast();
 
-    const fetchSales = async () => {
+    const fetchSales = useCallback(async () => {
         setLoading(true);
         try {
             const res = await api.get('/sales');
@@ -35,19 +39,22 @@ const SalesHistoryPage: React.FC = () => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [toast]);
 
     useEffect(() => {
+        console.log('Usuário logado:', user);
         fetchSales();
-    }, []);
+    }, [fetchSales, user]);
 
     const handlePrint = (sale: Sale) => {
+        const currentUserRole = (user?.role as UserRole) || 'customer';
         generateReceipt({
             saleId: sale._id,
             date: sale.createdAt,
             items: sale.items || [], 
             total: sale.totalAmount,
-            sellerName: sale.user?.name || 'Cliente'
+            sellerName: sale.user?.name || 'Sistema',
+            userRole: currentUserRole
         });
     };
 
@@ -83,6 +90,7 @@ const SalesHistoryPage: React.FC = () => {
                                     <Td>{sale.user?.name || 'N/A'}</Td>
                                     <Td isNumeric fontWeight='bold'>R$ {sale.totalAmount.toFixed(2)}</Td>
                                     <Td>
+                                        
                                         <Button
                                             leftIcon={<FiFileText />}
                                             size='sm'
@@ -99,7 +107,7 @@ const SalesHistoryPage: React.FC = () => {
                     </Tbody>
                 </Table>
             </TableContainer>
-        </Box>
+        </Box>       
     );
 };
 
