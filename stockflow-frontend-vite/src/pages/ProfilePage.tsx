@@ -1,13 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import {
     Box, Button, FormControl, FormLabel, Input, VStack,
-    Heading, useToast, Container, SimpleGrid
+    Heading, useToast, Container, SimpleGrid,
+    Divider
 } from '@chakra-ui/react';
 import api from '../api/api';
+import { AxiosError } from 'axios';
 
 const ProfilePage: React.FC = () => {
     const [formData, setFormData] = useState({
-        name: '', email: '', taxId: '', phone: '', address: ''
+        name: '',
+        email: '',
+        taxId: '',
+        phone: '',
+        address: ''
+    });
+    const [passwords, setPasswords] = useState({
+        oldPassword: '',
+        newPassword: '',
+        confirmPassword: ''
     });
     const [loading, setLoading] = useState(true);
     const toast = useToast();
@@ -17,12 +28,12 @@ const ProfilePage: React.FC = () => {
             .then(res => {
                 // Filtramos apenas os campos que o formulário utiliza
                 const { name, email, taxId, phone, address } = res.data;
-                setFormData({ 
-                    name: name || '', 
-                    email: email || '', 
-                    taxId: taxId || '', 
-                    phone: phone || '', 
-                    address: address || '' 
+                setFormData({
+                    name: name || '',
+                    email: email || '',
+                    taxId: taxId || '',
+                    phone: phone || '',
+                    address: address || ''
                 });
                 setLoading(false);
             })
@@ -51,6 +62,41 @@ const ProfilePage: React.FC = () => {
                 title: 'Erro ao atualizar perfil',
                 status: 'error'
             });
+        }
+    };
+
+    const handlePasswordChange = async (e: React.FormEvent) => {
+        e.preventDefault();
+
+        if (passwords.newPassword !== passwords.confirmPassword) {
+            return toast({
+                title: 'As senhas novas não coincidem',
+                status: 'error'
+            });
+        }
+
+        setLoading(true);
+        try {
+            await api.put('/users/change-password', {
+                oldPassword: passwords.oldPassword,
+                newPassword: passwords.newPassword
+            });
+            toast({
+                title: 'Senha atualizada!',
+                status: 'success'
+            });
+            setPasswords({ oldPassword: '', newPassword: '', confirmPassword: '' });
+        } catch (error: unknown) {
+            const message = error instanceof AxiosError
+                ? error.response?.data?.message
+                : 'Falha de comunicação com a API.';
+            toast({
+                title: 'Erro',
+                description: message,
+                status: 'error'
+            });
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -86,6 +132,47 @@ const ProfilePage: React.FC = () => {
                         </FormControl>
                         <Button type='submit' colorScheme='blue' size='lg' w='full' mt={4}>
                             Salvar Alterações
+                        </Button>
+                    </VStack>
+                </form>
+            </Box>
+            <Box bg='white' p={8} borderRadius='lg' shadow='md' borderWidth='1px' mt={6}>
+                <Heading size='md' mb={4} color='red.500'>Alterar Senha</Heading>
+                <Divider mb={6} />
+                <form onSubmit={handlePasswordChange}>
+                    <VStack spacing={4}>
+                        <FormControl isRequired>
+                            <FormLabel>Senha Atual</FormLabel>
+                            <Input
+                                type='password'
+                                value={passwords.oldPassword}
+                                onChange={e => setPasswords({ ...passwords, oldPassword: e.target.value })}
+                            />
+                        </FormControl>
+                        <FormControl isRequired>
+                            <FormLabel>Nova Senha</FormLabel>
+                            <Input
+                                type='password'
+                                value={passwords.newPassword}
+                                onChange={e => setPasswords({ ...passwords, newPassword: e.target.value })}
+                            />
+                        </FormControl>
+                        <FormControl isRequired>
+                            <FormLabel>Confirmar Nova Senha</FormLabel>
+                            <Input
+                                type='password'
+                                value={passwords.confirmPassword}
+                                onChange={e => setPasswords({ ...passwords, confirmPassword: e.target.value })}
+                            />
+                        </FormControl>
+                        <Button
+                            type='submit'
+                            colorScheme='red'
+                            variant='outline'
+                            w='full'
+                            isLoading={loading}
+                        >
+                            Atualizar Senha
                         </Button>
                     </VStack>
                 </form>

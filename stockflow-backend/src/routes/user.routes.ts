@@ -2,12 +2,10 @@ import { Router, Request, Response } from 'express';
 import { protect } from '../middlewares/auth.middleware'; 
 import { authorize } from '../middlewares/role.middleware';
 import User from '../models/User'; 
-import { getUsers, getMe, updateMe, updateUserRole } from '../controllers/userController';
+import { getUsers, getMe, updateMe, updateUserRole, changePassword } from '../controllers/userController';
 
 const router = Router();
 
-//router.use(protect);
-//router.use(authorize(['admin']));
 
 /**
  * @route   GET /api/users
@@ -19,6 +17,7 @@ router.get(
     '/',
     protect, // Garante que o usuário está logado
     authorize(['admin']), // Garante que o usuário é 'admin'
+    
     async (req: Request, res: Response) => {
         try {
             // Busca todos os usuários, excluindo o campo de senha
@@ -35,10 +34,14 @@ router.get(
     }
 );
 
+// Rotas estáticas/específicas primeiro
 router.put('/me', protect, updateMe);
 router.get('/me', protect, getMe);
-router.put('/:id', updateUserRole);
-router.get('/:id', getUsers);
+router.put('/change-password', protect, changePassword); 
+
+// Rotas com parâmetros dinâmicos por último
+router.put('/:id', protect, authorize(['admin']), updateUserRole); 
+router.get('/:id', protect, authorize(['admin']), getUsers);
 
 
 

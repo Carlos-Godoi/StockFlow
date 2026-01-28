@@ -1,6 +1,7 @@
 import mongoose, { Schema, Document } from 'mongoose';
 import bcrypt from 'bcryptjs';
 
+
 // Definição da interface TypeScript para o documento do Usuário
 export interface IUser extends Document {
   name: string;
@@ -35,8 +36,12 @@ const UserSchema = new Schema<IUser>({
 UserSchema.pre('save', async function (this: IUser) {
   if (!this.isModified('password')) return;
 
-  const salt = await bcrypt.genSalt(10);
-  this.password = await bcrypt.hash(this.password, salt);
+  try {
+    const salt = await bcrypt.genSalt(10);
+    this.password = await bcrypt.hash(this.password, salt);
+  } catch (error: any) {
+    throw error;
+  }
 });
 
 // Método customizado para comparar a senha fornecida com a senha hasheada
@@ -48,7 +53,7 @@ UserSchema.methods.comparePassword = async function (candidatePassword: string):
 UserSchema.pre('findOneAndUpdate', async function () {
   const update: any = this.getUpdate();
 
-  if (update?.password) {
+  if (update.password) {
     const salt = await bcrypt.genSalt(10);
     update.password = await bcrypt.hash(update.password, salt);
   }

@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import User from '../models/User';
+import bcrypt from 'bcryptjs';
 
 
 export const getUsers = async (req: Request, res: Response) => {
@@ -100,5 +101,36 @@ export const updateMe = async (req: Request, res: Response) => {
 
         console.error(error);
         return res.status(500).json({ message: 'Erro ao atualizar perfil.' });
+    }
+};
+
+// Alterar senha
+export const changePassword = async (req: Request, res: Response): Promise<any> => {
+    try {
+        const { oldPassword, newPassword } = req.body;
+        const user = await User.findById(req.user?.id).select('+password');
+
+        if (!user) return res.status(404).json({ message: 'Usuário não encontrado' });
+
+        const isMatch = await bcrypt.compare(oldPassword, user.password);
+        if (!isMatch) {
+            return res.status(400).json({ message: 'A senha atual está incorreta.' });
+        }
+
+        if (oldPassword === newPassword) {
+            return res.status(400).json({ message: 'A nova senha deve ser diferente da atual.' });
+        }
+
+        user.password = newPassword;
+
+        await user.save();
+
+        res.json({ message: 'Senha alterada com sucesso!' });
+    } catch (error: any) {
+        console.error("ERRO DETALHADO:", error.message); // <--- ISSO VAI APARECER NO SEU TERMINAL
+        res.status(500).json({
+            message: 'Erro ao processar alteração de senha.',
+            debug: error.message // Temporário para teste
+        });
     }
 };

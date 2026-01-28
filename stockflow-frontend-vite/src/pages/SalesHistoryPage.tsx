@@ -85,7 +85,7 @@ const SalesHistoryPage: React.FC = () => {
     return (
         <Box p={8}>
             <Flex justify='space-between' align='center' mb={6}>
-                <Heading size='lg'>Histórico de Vendas</Heading>
+                <Heading size='lg'>Histórico de Compras</Heading>
                 <Button leftIcon={<FiRefreshCw />} onClick={fetchSales} size='sm'>Atualizar</Button>
             </Flex>
 
