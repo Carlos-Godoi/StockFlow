@@ -13,6 +13,7 @@ import RegisterPage from './pages/RegisterPage';
 import SalesHistoryPage from './pages/SalesHistoryPage';
 import UsersPage from './pages/UsersPage';
 import ProfilePage from './pages/ProfilePage';
+import SalesReportPage from './pages/SalesReportPage';
 
 
 
@@ -105,6 +106,23 @@ const App: React.FC = () => {
               </ProtectedRoute>
             }
           />
+          <Route
+            path="/sales/report"
+            element={
+              <ProtectedRoute>
+                <SalesReportPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/reports"
+            element={
+              <ProtectedRoute>
+                <ReportsPage />
+              </ProtectedRoute>
+            }
+          />
+
 
           {/* Rota Padrão: Redireciona para o Dashboard (se logado) ou login */}
           <Route path='/' element={<Navigate to='/dashboard' replace />} />

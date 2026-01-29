@@ -79,14 +79,15 @@ const SidebarContent: React.FC = () => {
 
     const LinkItems: LinkItemProps[] = [
         { name: 'Dashboard', icon: FiHome, to: '/dashboard', roles: ['admin', 'seller', 'stocker', 'customer'] },
-        { name: 'Produtos', icon: FiPackage, to: '/products', roles: ['admin', 'seller', 'stocker'] },
-        { name: 'Vendas', icon: FiShoppingCart, to: '/sales', roles: ['admin', 'seller'] },
-        { name: 'Relatórios', icon: FiBarChart2, to: '/reports', roles: ['admin'] },
-        { name: 'Fornecedores', icon: FiTruck, to: '/suppliers', roles: ['admin'] },
-        { name: 'PDV (Vendas)', icon: FiShoppingCart, to: '/pos', roles: ['admin', 'seller', 'customer'] },      
-        { name: 'Minhas Compras', icon: FiFileText, to: '/sales-history', roles: ['admin', 'seller', 'customer'] },
-        { name: 'Utilizadores', icon:FiUsers, to: '/users', roles: ['admin'] },
         { name: 'Meu Perfil', icon: FiUsers, to: '/profile', roles: ['admin', 'seller', 'stocker', 'customer'] },
+        { name: 'Produtos', icon: FiPackage, to: '/products', roles: ['admin', 'seller', 'stocker'] },
+        { name: 'Fornecedores', icon: FiTruck, to: '/suppliers', roles: ['admin'] },
+        { name: 'Vendas', icon: FiShoppingCart, to: '/sales', roles: ['admin', 'seller'] },
+        { name: 'PDV (Vendas)', icon: FiShoppingCart, to: '/pos', roles: ['admin', 'seller', 'customer'] },      
+        { name: 'Minhas Compras', icon: FiFileText, to: '/sales-history', roles: ['seller', 'customer'] },
+        { name: 'Usuários', icon:FiUsers, to: '/users', roles: ['admin'] },
+        { name: 'Relatório (Vendas)', icon: FiBarChart2, to: '/sales/report', roles: ['admin'] },
+        { name: 'Análises e Relatórios', icon: FiBarChart2, to: '/reports', roles: ['admin'] },
     ];
 
     return (

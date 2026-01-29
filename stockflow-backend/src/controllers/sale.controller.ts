@@ -95,3 +95,32 @@ export const getSales = async (req: Request, res: Response) => {
     }
 };
 
+export const getSalesReport = async (req: Request, res: Response) => {
+    try {
+        const { startDate, endDate } = req.query;
+
+        const query: any = {};
+
+        if (startDate && endDate) {
+            query.createdAt = {
+                $gte: new Date(startDate as string),
+                $lte: new Date(endDate as string + 'T23:59:59.999Z')
+            };
+        }
+
+        const sales = await Sale.find(query)
+            .populate('user', 'name')
+            .sort({ createdAt: -1 });
+
+        // Calcular o total do período
+        const totalRevenue = sales.reduce((acc, sale) => acc + sale.totalAmount, 0);
+
+        res.json({
+            sales, 
+            totalRevenue, 
+            count: sales.length
+        });
+    } catch (error) {
+        return res.status(500).json({ message: 'Erro ao gerar relatório.' });
+    }
+};

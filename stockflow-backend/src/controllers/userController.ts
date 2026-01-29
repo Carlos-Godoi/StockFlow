@@ -126,11 +126,7 @@ export const changePassword = async (req: Request, res: Response): Promise<any> 
         await user.save();
 
         res.json({ message: 'Senha alterada com sucesso!' });
-    } catch (error: any) {
-        console.error("ERRO DETALHADO:", error.message); // <--- ISSO VAI APARECER NO SEU TERMINAL
-        res.status(500).json({
-            message: 'Erro ao processar alteração de senha.',
-            debug: error.message // Temporário para teste
-        });
+    } catch (error) {
+        return res.status(500).json({ message: 'Erro ao processar alteração de senha.' });
     }
 };
