@@ -5,12 +5,6 @@ import axios from 'axios';
 import Product from '../models/Product';
 import { Query } from 'mongoose';
 
-const saleProducts: { 
-    productId: any; 
-    name: string; 
-    quantity: number; 
-    priceAtSale: number; 
-    subtotal: number }[] = [];
 
 /**
  * @desc    Registrar uma nova venda (e deduzir o estoque)
@@ -18,8 +12,17 @@ const saleProducts: {
  * @access  Private/Admin, Seller
  */
 export const createSale = async (req: Request, res: Response) => {
-    const { items } = req.body;
+    const { items, paymentMethod } = req.body;
     const userId = req.user!.id; // ID do usuário autenticado
+
+    // console.log("BODY COMPLETO NO BACKEND:", req.body);
+
+    const saleProducts: { 
+    productId: any; 
+    name: string; 
+    quantity: number; 
+    priceAtSale: number; 
+    subtotal: number }[] = [];
 
     if (!items || items.length === 0) {
         return res.status(400).json({ message: 'A venda deve conter pelo menos um item.' });
@@ -45,7 +48,7 @@ export const createSale = async (req: Request, res: Response) => {
                 name: product.name,
                 quantity: item.quantity,
                 priceAtSale: product.salePrice,
-                subtotal
+                subtotal                
             });
 
             // 2. Atualizar o estoque manualmente
@@ -59,7 +62,8 @@ export const createSale = async (req: Request, res: Response) => {
             products: saleProducts,
             totalAmount,
             status: 'Paid',
-            saleDate: new Date()
+            saleDate: new Date(),
+            paymentMethod,
         });
 
         await newSale.save();

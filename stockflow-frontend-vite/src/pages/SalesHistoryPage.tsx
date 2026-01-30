@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 import {
     Box, Heading, Table, Thead, Tbody, Tr, Th, Td, Text,
-    Button, useToast, TableContainer, Spinner, Center, Flex
+    Button, useToast, TableContainer, Spinner, Center, Flex, Badge,
 } from '@chakra-ui/react';
 import { FiFileText, FiRefreshCw } from 'react-icons/fi';
 import api from '../api/api';
@@ -14,11 +14,14 @@ import { UserRole } from '../types/auth';
 interface Sale {
     _id: string;
     createdAt: string;
-    items: ItemsData[],
+    products?: ItemsData[];
+    items?: ItemsData[];
     totalAmount: number;
     user?: {
         name: string;
+        role: string;
     };
+    paymentMethod: string;
 }
 
 const SalesHistoryPage: React.FC = () => {
@@ -62,14 +65,22 @@ const SalesHistoryPage: React.FC = () => {
 
     const handlePrint = (sale: Sale) => {
         const currentUserRole = (user?.role as UserRole) || 'customer';
+
+        const finalItems = sale.products || sale.items || [];
+
+console.log(sale);
         generateReceipt({
             saleId: sale._id,
             date: sale.createdAt,
-            items: sale.items || [],
+            items: finalItems,
             total: sale.totalAmount,
             sellerName: sale.user?.name || 'Sistema',
-            userRole: currentUserRole
+            paymentMethod: sale.paymentMethod,
+            userRole: currentUserRole,
+            role: currentUserRole
         });
+
+        
     };
 
     if (loading) return <Center h='60vh'><Spinner size='xl' color='blue.500' thickness='4px' /></Center>;
@@ -98,6 +109,7 @@ const SalesHistoryPage: React.FC = () => {
                             {/* O Admin vê quem comprou, o cliente não precisa ver o próprio nome em todas as linhas */}
                             <Th>Cliente</Th>
                             <Th isNumeric>Total</Th>
+                            <Th>Pagamento</Th>
                             <Th>Ações</Th>
                         </Tr>
                     </Thead>
@@ -111,6 +123,14 @@ const SalesHistoryPage: React.FC = () => {
                                     <Td fontSize='xs' color='gray.500'>{sale._id.substring(0, 8)}...</Td>
                                     <Td>{sale.user?.name || 'N/A'}</Td>
                                     <Td isNumeric fontWeight='bold'>R$ {sale.totalAmount.toFixed(2)}</Td>
+                                    <Td>
+                                        <Badge colorScheme={
+                                            sale.paymentMethod === 'Dinheiro' ? 'green' :
+                                            sale.paymentMethod === 'Pix' ? 'cyan' : 'purple'
+                                        }>
+                                            {sale.paymentMethod}
+                                        </Badge>
+                                    </Td>
                                     <Td>
 
                                         <Button

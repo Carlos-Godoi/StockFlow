@@ -17,10 +17,12 @@ export interface ISale extends Document {
     totalAmount: number;
     status: 'Pending' | 'Paid' | 'Canceled';
     saleDate: Date;
+    paymentMethod: 'Dinheiro' | 'Cartão' | 'Pix';
 }
 
+
 const SaleProductSchema: Schema = new Schema({
-    produtcId: { type: Schema.Types.ObjectId, ref: 'Product', required: true },
+    productId: { type: Schema.Types.ObjectId, ref: 'Product', required: true },
     name: { type: String, required: true },
     quantity: { type: Number, required: true, min: 1 },
     priceAtSale: { type: Number, required: true, min: 0 },
@@ -29,13 +31,19 @@ const SaleProductSchema: Schema = new Schema({
 
 const SaleSchema: Schema = new Schema({
     user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
-    product: { type: [SaleProductSchema], required: true },
+    products: { type: [SaleProductSchema], required: true },
     totalAmount: { type: Number, required: true, min: 0 },
     status: { type: String, enum: ['Pending','Paid', 'Canceled'], default: 'Paid' },
     
     saleDate: { 
         type: Date, 
         default: Date.now,
+    },
+
+    paymentMethod: {
+        type: String,
+        enum: ['Dinheiro', 'Cartão', 'Pix'],
+        required: true
     }
 }, {
     timestamps: true

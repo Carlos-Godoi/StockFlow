@@ -17,6 +17,8 @@ export interface ReceiptData {
     total: number;
     sellerName: string;
     userRole: UserRole;
+    role?: string;
+    paymentMethod: string;
 }
 
 // Interface para evitar o erro 'property lastAutoTable does not exist'
@@ -55,6 +57,7 @@ export const generateReceipt = (data: ReceiptData, existingWindow?: Window | nul
     doc.text(`ID da Fatura: ${data.saleId}`, 14, 35);
     doc.text(`Data: ${new Date(data.date).toLocaleString('pt-BR')}`, 14, 42);
     doc.text(`${label}: ${data.sellerName}`, 14, 49);
+    doc.text(`Forma de Pagamento: ${data.paymentMethod}`, 14, 56);
 
     // 3. Tabela de Itens
     const tableColumn = ["Produto", "Preço Unit.", "Qtd", "Subtotal"];
@@ -69,7 +72,7 @@ export const generateReceipt = (data: ReceiptData, existingWindow?: Window | nul
     autoTable(doc, {
         head: [tableColumn],
         body: tableRows,
-        startY: 55,
+        startY: 62,
         theme: 'striped',
         headStyles: { fillColor: [66, 153, 255] },
         styles: { fontSize: 9 }

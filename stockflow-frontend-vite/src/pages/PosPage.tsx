@@ -2,7 +2,8 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import {
     Box, Flex, Heading, Input, SimpleGrid, Text, Image, Button,
     VStack, HStack, Divider, IconButton, useToast, Badge, Icon,
-    InputGroup, InputLeftElement, Center, Spinner
+    InputGroup, InputLeftElement, Center, Spinner, Select,
+    FormLabel
 } from '@chakra-ui/react';
 import {
     FiSearch, FiPlus, FiMinus, FiTrash2, FiShoppingCart
@@ -11,6 +12,7 @@ import api from '../api/api';
 import { AxiosError } from 'axios';
 import { generateReceipt, ItemsData } from '../utils/generateReceipt';
 import { useAuth } from '../context/AuthContext';
+import { UserRole } from '../types/auth';
 
 // --- INTERFACES ---
 
@@ -28,8 +30,10 @@ interface ICartItem extends IProduct {
 
 const PosPage: React.FC = () => {
     // --- ESTADOS ---
+    const { user } = useAuth();
     const [products, setProducts] = useState<IProduct[]>([]);
     const [cart, setCart] = useState<ICartItem[]>([]);
+    const [paymentMethod, setPaymentMethod] = useState<'Dinheiro' | 'Cartão' | 'Pix'>('Dinheiro');
     const [searchTerm, setSearchTerm] = useState('');
     const [loading, setLoading] = useState(true);
     const toast = useToast();
@@ -111,13 +115,13 @@ const PosPage: React.FC = () => {
         [products, searchTerm]
     );
 
-    const { user } = useAuth();
+    // const { user } = useAuth();
 
     // --- FINALIZAR VENDA ---
     const handleFinalizeSale = async () => {
         // 1. Abre a janela imediatamente para evitar bloqueio do Firefox
         const novaJanela = window.open('', '_blank');
-    
+
         try {
             const items = cart.map(item => ({
                 productId: item._id,
@@ -125,7 +129,7 @@ const PosPage: React.FC = () => {
             }));
 
             // 2. Chamada única à API
-            const response = await api.post('/sales', { items });
+            const response = await api.post('/sales', { items, paymentMethod });
             const saleData = response.data;
 
             toast({
@@ -138,19 +142,21 @@ const PosPage: React.FC = () => {
 
             const itemsForReceipt: ItemsData[] = cart.map(item => ({
                 name: String(item.name),
-                priceAtSale: Number(item.quantity),
+                priceAtSale: Number(item.salePrice),
                 quantity: Number(item.quantity),
                 subtotal: Number(item.salePrice * item.quantity)
             }));
-            
-            generateReceipt ({
+
+            generateReceipt({
                 saleId: saleData._id || saleData.id,
                 date: saleData.saleDate || saleData.createdAt || new Date().toISOString(),
                 items: itemsForReceipt,
                 total: Number(saleData.totalAmount || total),
-                sellerName: user?.name || 'Vendedor',
-                userRole: user?.role || 'Cliente'                
-            }, novaJanela); 
+                sellerName: user?.name || 'Vendedor', 
+                userRole: (user?.role as UserRole) || 'customer',
+                role: user?.role || 'Vendedor',
+                paymentMethod: paymentMethod              
+            }, novaJanela);
 
             // 4. Limpa o carrinho e atualiza estoque
             setCart([]);
@@ -294,6 +300,18 @@ const PosPage: React.FC = () => {
                         <Text fontWeight='bold' fontSize='lg'>Total:</Text>
                         <Text fontWeight='bold' fontSize='lg' color='blue.600'>R$ {total.toFixed(2)}</Text>
                     </Flex>
+                    <Box w='full' p={4} bg='gray.50' borderRadius='md' mb={4}>
+                        <FormLabel fontWeight='bold'>Forma de Pagamento</FormLabel>
+                        <Select
+                            bg='white'
+                            value={paymentMethod}
+                            onChange={(e) => setPaymentMethod(e.target.value as 'Dinheiro' | 'Cartão' | 'Pix')}
+                        >
+                            <option value='Dinheiro'>Dinheiro</option>
+                            <option value='Cartão'>Cartão</option>
+                            <option value='Pix'>Pix</option>
+                        </Select>
+                    </Box>
                     <Button
                         colorScheme='green'
                         size='lg'

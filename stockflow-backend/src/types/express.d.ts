@@ -16,3 +16,5 @@ declare global {
         }
     }
 }
+
+export type PaymentMethods = 'Dinheiro' | 'Cartão' | 'Pix';
